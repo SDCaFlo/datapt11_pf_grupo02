@@ -20,6 +20,23 @@ Felipe y Greta lideran el desarrollo de modelos predictivos e implementan soluci
 Juntos, combinamos nuestras habilidades para transformar datos en valor, aportando innovación y resultados efectivos.
 ![image](https://github.com/user-attachments/assets/43d2740c-cf32-41c7-a084-400ddc33db44)
 ![image](https://github.com/user-attachments/assets/90ce882b-4b85-495b-b972-8d3883f69bfa)
+##### Objetivos del Proyecto
+###### Objetivo General
+Elaborar una propuesta de inversión basada en el análisis de información disponible sobre los
+negocios de coffee and tea and breakfast en las plataformas Yelp y Google Maps (pendiente
+incluir si encontramos más información) en Estados Unidos.
+###### Objetivo Específicos:
+1. Realizar un Análisis Exploratorio de los Datos disponibles en Yelp y Google maps (incluir
+aquí la otra fuente de dato si aplica)
+2. Realizar un ETL que permita integrar datos de diversas fuentes y transformarlos en una
+estructura unificada.
+3. Definir el pipeline
+4. Realizar el despliegue de datos en nube que facilite la ingesta de datos y alimentar el
+modelo de machine learning.
+5. Desarrollar un modelo de machine learning para predecir las oportunidades de inversión
+basadas en los KPIs definidos.
+6. Elaborar un dashboard de los KPIs e información clave de consulta.
+
 ![image](https://github.com/user-attachments/assets/75522d77-760b-42c1-ac4b-d091ab9dc7af)
 ![image](https://github.com/user-attachments/assets/14304345-62e7-4e1b-be19-f77f7ce2b86d)
 ![image](https://github.com/user-attachments/assets/9891275d-bc97-4050-b429-66fcd942a958)
