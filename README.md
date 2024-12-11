@@ -1,7 +1,29 @@
+### Proyecto:
+# Análisis de Inversión
+## Coffee & Brunch Bussiness
 ## Descripción General
 
 ### Breve introducción al proyecto:
 "Este repositorio contiene un análisis y predicción de datos de negocios turísticos y de ocio usando datasets de Google y Yelp. Además, se implementan modelos de machine learning para predecir el éxito de un negocio, analizar sentimientos, predecir reseñas futuras y se incluye una muestra de datos con un despliegue en Streamlit."
+#### Equipo de Trabajo:
+Presentación de Nuestro Equipo de Ciencia de Datos
+
+###### Claudia Jara y Saray Pacheco – Analistas de Datos
+Expertas en explorar, interpretar y visualizar los datos, Claudia y Saray son clave para descubrir patrones, generar insights estratégicos y presentar información clara que facilita la toma de decisiones.
+
+###### Diana Moreno y Sergio Castro – Ingenieros de Datos
+Diana y Sergio se especializan en diseñar y mantener la infraestructura de datos, asegurando que la información sea accesible, eficiente y escalable para proyectos de alta complejidad.
+
+###### Felipe Dedes y Greta Combold – Ingenieros de Machine Learning
+Felipe y Greta lideran el desarrollo de modelos predictivos e implementan soluciones de machine learning que automatizan procesos y generan sistemas inteligentes con impacto real.
+
+Juntos, combinamos nuestras habilidades para transformar datos en valor, aportando innovación y resultados efectivos.
+![image](https://github.com/user-attachments/assets/43d2740c-cf32-41c7-a084-400ddc33db44)
+![image](https://github.com/user-attachments/assets/90ce882b-4b85-495b-b972-8d3883f69bfa)
+![image](https://github.com/user-attachments/assets/75522d77-760b-42c1-ac4b-d091ab9dc7af)
+![image](https://github.com/user-attachments/assets/14304345-62e7-4e1b-be19-f77f7ce2b86d)
+![image](https://github.com/user-attachments/assets/9891275d-bc97-4050-b429-66fcd942a958)
+
 Estructura del Proyecto
 El proyecto está organizado en diferentes ramas que abordan análisis, limpieza de datos y machine learning:
 
@@ -149,10 +171,28 @@ Crear un despliegue interactivo de la solución usando Streamlit.
 Proporcionar recursos adicionales como análisis de sentimientos y visualizaciones.
 
 
-### Colaboradores:
-#### Claudia Jara Yañez: Diseño de Presentacion colaboracion en EDA
-#### Saray Pacheco Ramos: Diseño de Presentacion y colabacion en EDA 
+### Contacto:
+#### Claudia Jara Yañez:
+Rol: Data Analyst
+Github:https://github.com/claujara1975
+Linkedin:
+
+#### Saray Pacheco Ramos:
+Rol: Data Analyst  
+Github: https://github.com/ssaraypr
 #### Sergio Castro: Limpieza y análisis del dataset Google.
+Rol: Data Engineer
+Github:https://github.com/SDCaFlo
+LinkedIn: 
 #### Diana Moreno: Limpieza y análisis del dataset Yelp.
+Rol:  Data Engineer
+Github: https://github.com/dianitafeliz
+LinkedIn:
 #### Felipe Dedes : Machine learning y despliegue.
+Rol: Machine Learning Engineer
+Github:https://github.com/DedesF
+LinkedIn:
 #### Greta Combold: Machine Learning y despliegue.
+Rol: Machine Learning Engineer
+Github: https://github.com/PerlaMarGreta
+LinkedIn:
