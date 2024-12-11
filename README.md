@@ -150,7 +150,8 @@ Proporcionar recursos adicionales como análisis de sentimientos y visualizacion
 
 
 ### Colaboradores:
-
+#### Claudia Jara Yañez: Diseño de Presentacion colaboracion en EDA
+#### Saray Pacheco Ramos: Diseño de Presentacion y colabacion en EDA 
 #### Sergio Castro: Limpieza y análisis del dataset Google.
 #### Diana Moreno: Limpieza y análisis del dataset Yelp.
 #### Felipe Dedes : Machine learning y despliegue.
