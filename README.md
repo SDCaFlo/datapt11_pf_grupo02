@@ -5,6 +5,29 @@
 ![image](https://github.com/user-attachments/assets/d281c022-a11c-4a8c-89e9-925a6a622ed7)
 ## Índice
 
+| Sección                         | Enlace                           |
+|--------------------------------|----------------------------------|
+| **Equipo de trabajo**          | [Equipo de trabajo](#equipo-de-trabajo) |
+| **Entendimiento de la situación actual** | [Entendimiento de la situación actual](#entendimiento-de-la-situación-actual) |
+| **Objetivos**                  | [Objetivos](#objetivos)          |
+| **Alcance**                    | [Alcance](#alcance)              |
+| **KPIs**                       | [KPIs](#kpis)                    |
+| **Repositorio GitHub**         | [Repositorio Github](#repositorio-github) |
+| **Hitos**                      |                                  |
+| 3 KPIs                         | [3KPIs](#kpis)                   |
+| Documentar alcance del proyecto| [Alcance](#alcance)              |
+| EDA de los datos               | [EDA de los datos](#stack-tecnológico) |
+| Repositorio GitHub             | [Repositorio Github](#repositorio-github) |
+| Stack Tecnológico              | [Stack Tecnológico](#stack-tecnológico) |
+| Metodología de trabajo         | [Metodología de trabajo](#metodología-de-trabajo) |
+| Diseño detallado               | [Diseño detallado](#diseño-detallado) |
+| Cronograma general Gantt       | [Cronograma general Gantt](#cronograma-general-gantt) |
+| Análisis preliminar de calidad de datos | [Análisis preliminar de calidad de datos](#análisis-preliminar-de-calidad-de-datos) |
+
+---
+
+## Índice
+
 Items que tiene que tener la propuesta:
 - [Equipo de trabajo](#Equipo-de-trabajo)
 - [Entendimiento de la situación actual](#Entendimiento-de-la-situación-actual)
