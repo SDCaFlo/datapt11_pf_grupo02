@@ -149,6 +149,9 @@ gantt
     section Finalización
     Documentación final               :d1, 2024-06-25, 3d
     Presentación del proyecto         :d2, 2024-06-28, 1d
+
+
+
 ---
 
 # Repositorio Github
