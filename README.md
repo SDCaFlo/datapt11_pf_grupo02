@@ -93,7 +93,7 @@ Puntaje promedio = Sumatoria total de los puntajes del periodo / Total usuarios 
 KPI3
 
 
-Estructura del Proyecto
+#Estructura del Proyecto en Github
 El proyecto está organizado en diferentes ramas que abordan análisis, limpieza de datos y machine learning:
 
 ## Rama Principal (main) Sergio Castro
