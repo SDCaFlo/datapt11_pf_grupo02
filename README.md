@@ -1,9 +1,18 @@
 ### Proyecto:
 # Análisis de Inversión
 ## Coffee & Brunch Bussiness
-## Descripción General
-![image](https://github.com/user-attachments/assets/d281c022-a11c-4a8c-89e9-925a6a622ed7)
 
+![image](https://github.com/user-attachments/assets/d281c022-a11c-4a8c-89e9-925a6a622ed7)
+## Índice
+
+- [Introducción](#introducción)
+- [Metodología](#metodología)
+- [Objetivos del proyecto](#objetivos-del-proyecto)
+- [Estructura del repositorio](#estructura-del-repositorio)
+- [Instalación y ejecución](#instalación-y-ejecución)
+- [Stack Tecnológico](#stack-tecnológico)
+
+## Descripción General
 
 ### Breve introducción al proyecto:
 "Este repositorio contiene un análisis y predicción de datos de negocios turísticos y de ocio usando datasets de Google y Yelp. Además, se implementan modelos de machine learning para predecir el éxito de un negocio, analizar sentimientos, predecir reseñas futuras y se incluye una muestra de datos con un despliegue en Streamlit."
@@ -92,7 +101,7 @@ Fórmula:
 
 Puntaje promedio = Sumatoria total de los puntajes del periodo / Total usuarios que dejaron su calificación en el periodo.
 
-# Stack Tecnológico
+## Stack Tecnológico
 ![Imagen de WhatsApp 2024-12-12 a las 15 21 29_82e29ee7](https://github.com/user-attachments/assets/b267e89d-98ee-4e1d-936c-bb9f57ccf953)
 
 
