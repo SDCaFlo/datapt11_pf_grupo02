@@ -7,58 +7,28 @@
 
 | Sección                         | Enlace                           |
 |--------------------------------|----------------------------------|
-| **Equipo de trabajo**          | [Equipo de trabajo](#equipo-de-trabajo) |
-| **Entendimiento de la situación actual** | [Entendimiento de la situación actual](#entendimiento-de-la-situación-actual) |
-| **Objetivos**                  | [Objetivos](#objetivos)          |
-| **Alcance**                    | [Alcance](#alcance)              |
-| **KPIs**                       | [KPIs](#kpis)                    |
-| **Repositorio GitHub**         | [Repositorio Github](#repositorio-github) |
+| **Items que tiene que tener la propuesta**          | [Equipo de trabajo](#equipo-de-trabajo) |
+|                                | [Entendimiento de la situación actual](#entendimiento-de-la-situación-actual) |
+|                                | [Objetivos](#objetivos)          |
+|                                | [Alcance](#alcance)              |
+|                   | [KPIs](#kpis)                    |
+|          | [Repositorio Github](#repositorio-github) |
 | **Hitos**                      |                                  |
-| 3 KPIs                         | [3KPIs](#kpis)                   |
-| Documentar alcance del proyecto| [Alcance](#alcance)              |
-| EDA de los datos               | [EDA de los datos](#stack-tecnológico) |
-| Repositorio GitHub             | [Repositorio Github](#repositorio-github) |
-| Stack Tecnológico              | [Stack Tecnológico](#stack-tecnológico) |
-| Metodología de trabajo         | [Metodología de trabajo](#metodología-de-trabajo) |
-| Diseño detallado               | [Diseño detallado](#diseño-detallado) |
-| Cronograma general Gantt       | [Cronograma general Gantt](#cronograma-general-gantt) |
-| Análisis preliminar de calidad de datos | [Análisis preliminar de calidad de datos](#análisis-preliminar-de-calidad-de-datos) |
+|                         | [3KPIs](#kpis)                   |
+| | [Alcance](#alcance)              |
+|              | [EDA de los datos](#stack-tecnológico) |
+|             | [Repositorio Github](#repositorio-github) |
+|             | [Stack Tecnológico](#stack-tecnológico) |
+|          | [Metodología de trabajo](#metodología-de-trabajo) |
+|                | [Diseño detallado](#diseño-detallado) |
+|        | [Cronograma general Gantt](#cronograma-general-gantt) |
+| | [Análisis preliminar de calidad de datos](#análisis-preliminar-de-calidad-de-datos) |
+| **Documentación:**                      |                                  |
+|                                |     [Stack elegido y fundamentación](#Cronograma-general-Gantt)|
+|                                |    [Flujo de trabajo](#Cronograma-general-Gantt)|
 
 ---
 
-## Índice
-
-Items que tiene que tener la propuesta:
-- [Equipo de trabajo](#Equipo-de-trabajo)
-- [Entendimiento de la situación actual](#Entendimiento-de-la-situación-actual)
-- [Objetivos](#Objetivos)
-- [Alcance](#Alcance)
-- [KPIs](#KPIs)
-- [Repositorio Github](#Repositorio-Github)
-  ## Hitos
-- [3KPIs](#KPIs)
-- [Documentar alcance del proyecto](#Alcance) 
-- [EDA de los datos](#stack-tecnológico)
-- [Repositorio Github](#Repositorio-Github)
-- [Stack Tecnológico](#stack-tecnológico)
-- [Metodología de trabajo](#Metodología-de-trabajo)
-- [Diseño detallado](#Diseño-detallado)
-- [Equipo de trabajo](#Equipo-de-trabajo)
-- [Cronograma general Gantt](#Cronograma-general-Gantt)
-- [Análisis preliminar de calidad de datos](#Análisis-preliminar-de-calidad-de-datos)
-## Entregables 
-
-| Sección         | Descripción                          |
-|-----------------|--------------------------------------|
-| **Introducción** | Breve descripción del proyecto.      |
-| **Metodología** | Explicación del enfoque ágil SCRUM.   |
-
-![Status](https://img.shields.io/badge/Status-Finalizado-brightgreen)
-![Version](https://img.shields.io/badge/Version-1.0-blue)
-
-Documentación:
-- [Stack elegido y fundamentación](#Cronograma-general-Gantt)
-- [Flujo de trabajo](#Cronograma-general-Gantt)
 
 # Equipo de Trabajo:
 Presentación de Nuestro Equipo de Ciencia de Datos
