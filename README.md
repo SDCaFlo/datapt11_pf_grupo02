@@ -138,7 +138,7 @@ gantt
     title Cronograma General del Proyecto
     dateFormat  YYYY-MM-DD
     section Inicio
-    Definición de objetivos           :done, a1, 2024-06-01, 3d
+    Definición de objetivos           :done, b1, 2024-06-01, 3d
     Organización del equipo           :done, a2, 2024-06-04, 2d
     section Análisis
     Análisis preliminar de datos      :active, b1, 2024-06-06, 5d
@@ -149,6 +149,8 @@ gantt
     section Finalización
     Documentación final               :d1, 2024-06-25, 3d
     Presentación del proyecto         :d2, 2024-06-28, 1d
+  style a1 fill:#90EE90,stroke:#2C5F2D,stroke-width:2px
+    style b1 fill:green,stroke:#2C5F2D,stroke-width:2px
 ```
 
 # Repositorio Github
