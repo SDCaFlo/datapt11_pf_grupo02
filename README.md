@@ -28,11 +28,7 @@ Documentación:
   -Stack elegido y fundamentación
   -Flujo de trabajo
 
-## Descripción General
-
-### Breve introducción al proyecto:
-"Este repositorio contiene un análisis y predicción de datos de negocios turísticos y de ocio usando datasets de Google y Yelp. Además, se implementan modelos de machine learning para predecir el éxito de un negocio, analizar sentimientos, predecir reseñas futuras y se incluye una muestra de datos con un despliegue en Streamlit."
-#### Equipo de Trabajo:
+# Equipo de Trabajo:
 Presentación de Nuestro Equipo de Ciencia de Datos
 
 ###### Claudia Jara y Saray Pacheco – Analistas de Datos
@@ -51,7 +47,7 @@ Juntos, combinamos nuestras habilidades para transformar datos en valor, aportan
 ![image](https://github.com/user-attachments/assets/43d2740c-cf32-41c7-a084-400ddc33db44)
 ![image](https://github.com/user-attachments/assets/90ce882b-4b85-495b-b972-8d3883f69bfa)
 ¨
-## Entendimiento de la situación actual
+# Entendimiento de la situación actual
 _"El mercado de cafeterías boutique y brunch está en pleno auge. La creciente demanda por experiencias gastronómicas únicas y la búsqueda de ambientes acogedores lo convierten en un sector atractivo, pero también competitivo.
 Sin embargo, los principales desafíos para la expansión incluyen:
 1- Identificar zonas con alta demanda potencial.
@@ -63,7 +59,7 @@ A partir de estos puntos clave, hemos diseñado un análisis que responde direct
 
 ![image](https://github.com/user-attachments/assets/75522d77-760b-42c1-ac4b-d091ab9dc7af)
 
-##### Objetivos 
+# Objetivos 
 ###### Objetivo General 
 Elaborar una propuesta de inversión basada en el análisis de información disponible sobre los
 negocios de coffee and tea and breakfast en las plataformas Yelp y Google Maps (pendiente
@@ -93,6 +89,7 @@ Este alcance está diseñado para ofrecer resultados accionables y maximizar el 
 ALCANCE Este proyecto incluirá el análisis y limpieza de datos disponibles en Yelp y Google Maps para negocios de cofee and breakfast en Estados Unidos, la elaboración de un dashboard interactivo con la visualización de datos claves y Kpi y la implementación de un modelo de machine learning para predicciones y recomendaciones sobre la expansión de este tipo de negocio.
 Este proyecto no incluye la Integración en tiempo real con las plataformas Yelp o google maps, análisis de información por fuera de Estados Unidos ni tampoco estrategías de marketing de expansión que se puede desarrollar en una siguiente etapa.
 No incluye: Integración en tiempo real con las plataformas Yelp o google maps, analisis de información por fuera de Estados Unidos /ciudad seleecionada ni tampoco estrategías de marketing de expansión.
+
 [⬆️ Volver al índice](#índice)
 ![image](https://github.com/user-attachments/assets/96c02335-0534-4c4b-af18-0a088b12e4d4)
 EDA: Análisis Exploratorio de Datos
