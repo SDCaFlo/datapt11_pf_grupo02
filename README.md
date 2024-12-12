@@ -29,12 +29,6 @@
 
 ---
 
-```mermaid
-graph TD;
-    Inicio --> Tarea1;
-    Tarea1 --> Tarea2;
-    Tarea2 --> Fin;
-
 # Equipo de Trabajo:
 Presentación de Nuestro Equipo de Ciencia de Datos
 
