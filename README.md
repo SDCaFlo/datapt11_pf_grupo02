@@ -29,6 +29,11 @@
 
 ---
 
+```mermaid
+graph TD;
+    Inicio --> Tarea1;
+    Tarea1 --> Tarea2;
+    Tarea2 --> Fin;
 
 # Equipo de Trabajo:
 Presentación de Nuestro Equipo de Ciencia de Datos
@@ -224,10 +229,10 @@ Subcarpetas:
 #### img/
 Almacena imágenes y gráficos generados en el proceso de análisis o despliegue.
 Archivos Clave:
-
+- [Hawaii_predicciones.csv](Hawaii_predicciones.csv)
 #### Hawaii_predicciones.csv
 
-Archivo con las predicciones finales realizadas sobre la muestra de datos de Hawaii.
+Archivo con las predicci-ones finales realizadas sobre la muestra de datos de Hawaii.
 #### Sintetica.csv
 
 Muestra de datos sintéticos creada para pruebas y análisis.
