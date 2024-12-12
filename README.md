@@ -2,6 +2,8 @@
 # Análisis de Inversión
 ## Coffee & Brunch Bussiness
 ## Descripción General
+![image](https://github.com/user-attachments/assets/d281c022-a11c-4a8c-89e9-925a6a622ed7)
+
 
 ### Breve introducción al proyecto:
 "Este repositorio contiene un análisis y predicción de datos de negocios turísticos y de ocio usando datasets de Google y Yelp. Además, se implementan modelos de machine learning para predecir el éxito de un negocio, analizar sentimientos, predecir reseñas futuras y se incluye una muestra de datos con un despliegue en Streamlit."
