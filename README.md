@@ -24,6 +24,7 @@ Items que tiene que tener la propuesta:
 - [Cronograma general Gantt](#Cronograma-general-Gantt)
 - [Análisis preliminar de calidad de datos](#Análisis-preliminar-de-calidad-de-datos)
 ## Entregables 
+![Status](https://img.shields.io/badge/Status-Finalizado-brightgreen)
 ![Version](https://img.shields.io/badge/Version-1.0-blue)
 
 Documentación:
