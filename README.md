@@ -41,7 +41,7 @@ Sin embargo, los principales desafíos para la expansión incluyen:
 3- Reducir riesgos asociados a la competencia y baja afluencia de público.
 A partir de estos puntos clave, hemos diseñado un análisis que responde directamente a estas inquietudes y ofrece una guía estratégica basada en datos."_
 
-
+[⬆️ Volver al índice](#índice)
 
 ![image](https://github.com/user-attachments/assets/75522d77-760b-42c1-ac4b-d091ab9dc7af)
 
