@@ -7,7 +7,7 @@
 
 
 - [Equipo de trabajo](#Equipo-de-trabajo)
-- [Entendimiento de la situación actual](#Entendimiento-de-la-situación-actual) Objetivos
+- [Entendimiento de la situación actual](#Entendimiento-de-la-situación-actual)
 - [Objetivos](#Objetivos)
 - [Alcance](#Alcance)
 - [KPIs](#KPIs)
@@ -67,7 +67,7 @@ modelo de machine learning.
 5. Desarrollar un modelo de machine learning para predecir las oportunidades de inversión
 basadas en los KPIs definidos.
 6. Elaborar un dashboard de los KPIs e información clave de consulta.!
-
+[⬆️ Volver al índice](#índice)
 ![image](https://github.com/user-attachments/assets/58cb17ca-c8f0-401b-8f98-abc8581beb20)
 # Alcance 
 Este proyecto se centra en realizar un análisis integral del mercado para apoyar la expansión estratégica del negocio 'Coffee & Brunch Business'. Consideramos los siguientes puntos clave dentro del alcance:
@@ -81,6 +81,7 @@ Este alcance está diseñado para ofrecer resultados accionables y maximizar el 
 ALCANCE Este proyecto incluirá el análisis y limpieza de datos disponibles en Yelp y Google Maps para negocios de cofee and breakfast en Estados Unidos, la elaboración de un dashboard interactivo con la visualización de datos claves y Kpi y la implementación de un modelo de machine learning para predicciones y recomendaciones sobre la expansión de este tipo de negocio.
 Este proyecto no incluye la Integración en tiempo real con las plataformas Yelp o google maps, análisis de información por fuera de Estados Unidos ni tampoco estrategías de marketing de expansión que se puede desarrollar en una siguiente etapa.
 No incluye: Integración en tiempo real con las plataformas Yelp o google maps, analisis de información por fuera de Estados Unidos /ciudad seleecionada ni tampoco estrategías de marketing de expansión.
+[⬆️ Volver al índice](#índice)
 ![image](https://github.com/user-attachments/assets/96c02335-0534-4c4b-af18-0a088b12e4d4)
 EDA: Análisis Exploratorio de Datos
 "En estas dos primeras semanas, nos enfocamos en recopilar, limpiar y analizar datos de Google Maps y Yelp. Nuestro EDA inicial incluye:
@@ -89,7 +90,7 @@ Tráfico peatonal: Evaluar la afluencia promedio en las áreas seleccionadas.
 Competencia: Mapear la presencia de negocios similares.
 Presentaremos gráficos claros que reflejen tanto los datos generales como los resultados después de la limpieza. Por ejemplo, visualizaremos las áreas con mayor potencial versus las que presentan riesgos asociados a la saturación del mercado."
 
-
+[⬆️ Volver al índice](#índice)
    [image](https://github.com/user-attachments/assets/14304345-62e7-4e1b-be19-f77f7ce2b86d)
 ![image](https://github.com/user-attachments/assets/9891275d-bc97-4050-b429-66fcd942a958)
  # KPIs
@@ -108,12 +109,12 @@ Descripción: Medir la satisfacción de los clientes representada por medio de l
 Fórmula: 
 
 Puntaje promedio = Sumatoria total de los puntajes del periodo / Total usuarios que dejaron su calificación en el periodo.
-
+[⬆️ Volver al índice](#índice)
 ## Stack Tecnológico
 - [Indice](#indice)
 ![Imagen de WhatsApp 2024-12-12 a las 15 21 29_82e29ee7](https://github.com/user-attachments/assets/b267e89d-98ee-4e1d-936c-bb9f57ccf953)
 
-
+[⬆️ Volver al índice](#índice)
 # Estructura del Proyecto en Github
 El proyecto está organizado en diferentes ramas que abordan análisis, limpieza de datos y machine learning:
 
@@ -259,7 +260,7 @@ Realizar un análisis exploratorio y limpieza sobre datos de negocios de Hawaii.
 Desarrollar un modelo de Machine Learning para predecir el éxito de un negocio.
 Crear un despliegue interactivo de la solución usando Streamlit.
 Proporcionar recursos adicionales como análisis de sentimientos y visualizaciones.
-
+[⬆️ Volver al índice](#índice)
 
 ### Contacto:
 #### Claudia Jara Yañez:
@@ -286,3 +287,4 @@ LinkedIn:
 Rol: Machine Learning Engineer
 Github: https://github.com/PerlaMarGreta
 LinkedIn:
+[⬆️ Volver al índice](#índice)
