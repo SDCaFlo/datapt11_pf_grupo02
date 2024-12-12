@@ -128,6 +128,24 @@ Puntaje promedio = Sumatoria total de los puntajes del periodo / Total usuarios 
 ![Imagen de WhatsApp 2024-12-12 a las 15 21 29_82e29ee7](https://github.com/user-attachments/assets/b267e89d-98ee-4e1d-936c-bb9f57ccf953)
 
 [⬆️ Volver al índice](#índice)
+
+```mermaid
+gantt
+    title Cronograma General del Proyecto
+    dateFormat  YYYY-MM-DD
+    section Inicio
+    Definición de objetivos           :done, a1, 2024-06-01, 3d
+    Organización del equipo           :done, a2, 2024-06-04, 2d
+    section Análisis
+    Análisis preliminar de datos      :active, b1, 2024-06-06, 5d
+    Estructura del alcance            :b2, 2024-06-11, 3d
+    section Desarrollo
+    Desarrollo del modelo             :c1, 2024-06-14, 7d
+    Análisis de KPIs                  :c2, 2024-06-21, 4d
+    section Finalización
+    Documentación final               :d1, 2024-06-25, 3d
+    Presentación del proyecto         :d2, 2024-06-28, 1d
+
 # Repositorio Github
 El proyecto está organizado en diferentes ramas que abordan análisis, limpieza de datos y machine learning:
 
