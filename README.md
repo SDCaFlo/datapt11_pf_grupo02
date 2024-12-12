@@ -6,6 +6,7 @@
 ## Índice
 
 - [Introducción](#introducción)
+- [Entendimiento de la situación actual](#Entendimiento-de-la-situación-actual)
 - [Metodología](#metodología)
 - [Objetivos del proyecto](#objetivos-del-proyecto)
 - [Estructura del repositorio](#estructura-del-repositorio)
@@ -31,7 +32,8 @@ Felipe y Greta lideran el desarrollo de modelos predictivos e implementan soluci
 Juntos, combinamos nuestras habilidades para transformar datos en valor, aportando innovación y resultados efectivos.
 ![image](https://github.com/user-attachments/assets/43d2740c-cf32-41c7-a084-400ddc33db44)
 ![image](https://github.com/user-attachments/assets/90ce882b-4b85-495b-b972-8d3883f69bfa)
-
+¨
+## Entendimiento de la situación actual
 _"El mercado de cafeterías boutique y brunch está en pleno auge. La creciente demanda por experiencias gastronómicas únicas y la búsqueda de ambientes acogedores lo convierten en un sector atractivo, pero también competitivo.
 Sin embargo, los principales desafíos para la expansión incluyen:
 1- Identificar zonas con alta demanda potencial.
