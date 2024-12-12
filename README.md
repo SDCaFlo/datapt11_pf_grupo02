@@ -129,7 +129,7 @@ Puntaje promedio = Sumatoria total de los puntajes del periodo / Total usuarios 
 ![Imagen de WhatsApp 2024-12-12 a las 15 21 29_82e29ee7](https://github.com/user-attachments/assets/b267e89d-98ee-4e1d-936c-bb9f57ccf953)
 
 [⬆️ Volver al índice](#índice)
-# Estructura del Proyecto en Github
+# Repositorio Github
 El proyecto está organizado en diferentes ramas que abordan análisis, limpieza de datos y machine learning:
 
 ## Rama Principal (main) Sergio Castro
