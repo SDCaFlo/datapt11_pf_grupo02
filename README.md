@@ -5,13 +5,19 @@
 ![image](https://github.com/user-attachments/assets/d281c022-a11c-4a8c-89e9-925a6a622ed7)
 ## Índice
 
-- [Introducción](#introducción)
-- [Entendimiento de la situación actual](#Entendimiento-de-la-situación-actual)
-- [Metodología](#metodología)
-- [Objetivos del proyecto](#objetivos-del-proyecto)
-- [Estructura del repositorio](#estructura-del-repositorio)
-- [Instalación y ejecución](#instalación-y-ejecución)
+
+- [Equipo de trabajo](#Equipo-de-trabajo)
+- [Entendimiento de la situación actual](#Entendimiento-de-la-situación-actual) Objetivos
+- [Objetivos](#Objetivos)
+- [Alcance](#Alcance)
+- [KPIs](#KPIs)
+- [Repositorio Github](#Repositorio-Github)
 - [Stack Tecnológico](#stack-tecnológico)
+- [Metodología de trabajo](#Metodología-de-trabajo)
+- [Diseño detallado](#Diseño-detallado)
+- [Cronograma general Gantt](#Cronograma-general-Gantt)
+- [Análisis preliminar de calidad de datos](#Análisis-preliminar-de-calidad-de-datos)
+
 
 ## Descripción General
 
@@ -45,8 +51,8 @@ A partir de estos puntos clave, hemos diseñado un análisis que responde direct
 
 ![image](https://github.com/user-attachments/assets/75522d77-760b-42c1-ac4b-d091ab9dc7af)
 
-##### Objetivos del Proyecto
-###### Objetivo General
+##### Objetivos 
+###### Objetivo General 
 Elaborar una propuesta de inversión basada en el análisis de información disponible sobre los
 negocios de coffee and tea and breakfast en las plataformas Yelp y Google Maps (pendiente
 incluir si encontramos más información) en Estados Unidos.
@@ -63,7 +69,7 @@ basadas en los KPIs definidos.
 6. Elaborar un dashboard de los KPIs e información clave de consulta.!
 
 ![image](https://github.com/user-attachments/assets/58cb17ca-c8f0-401b-8f98-abc8581beb20)
-Alcance del Proyecto
+# Alcance 
 Este proyecto se centra en realizar un análisis integral del mercado para apoyar la expansión estratégica del negocio 'Coffee & Brunch Business'. Consideramos los siguientes puntos clave dentro del alcance:
 1. Recopilación y procesamiento de datos provenientes de Yelp, Google Maps y otras fuentes relevantes.
 2. Diseño e implementación de un ETL para integrar y estructurar los datos en un formato unificado.
@@ -86,7 +92,7 @@ Presentaremos gráficos claros que reflejen tanto los datos generales como los r
 
    [image](https://github.com/user-attachments/assets/14304345-62e7-4e1b-be19-f77f7ce2b86d)
 ![image](https://github.com/user-attachments/assets/9891275d-bc97-4050-b429-66fcd942a958)
-KPIS
+ # KPIs
 Los KPIs son indicadores clave que permiten medir el éxito de ciertos objetivos, y en este caso están enfocados en medir aspectos claves para un negocio en crecimiento, como lo son el aumento de comentarios positivos que den visibilidad al negocio y el aumento de la probabilidad de compra.
 
 KPI1:
