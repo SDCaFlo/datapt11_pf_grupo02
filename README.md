@@ -91,6 +91,7 @@ Este proyecto no incluye la Integración en tiempo real con las plataformas Yelp
 No incluye: Integración en tiempo real con las plataformas Yelp o google maps, analisis de información por fuera de Estados Unidos /ciudad seleecionada ni tampoco estrategías de marketing de expansión.
 
 [⬆️ Volver al índice](#índice)
+
 ![image](https://github.com/user-attachments/assets/96c02335-0534-4c4b-af18-0a088b12e4d4)
 EDA: Análisis Exploratorio de Datos
 "En estas dos primeras semanas, nos enfocamos en recopilar, limpiar y analizar datos de Google Maps y Yelp. Nuestro EDA inicial incluye:
