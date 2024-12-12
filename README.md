@@ -25,8 +25,8 @@ Items que tiene que tener la propuesta:
 - [Análisis preliminar de calidad de datos](#Análisis-preliminar-de-calidad-de-datos)
 ## Entregables 
 Documentación:
-  -Stack elegido y fundamentación
-  -Flujo de trabajo
+-Stack elegido y fundamentación
+-Flujo de trabajo
 
 # Equipo de Trabajo:
 Presentación de Nuestro Equipo de Ciencia de Datos
@@ -75,7 +75,9 @@ modelo de machine learning.
 5. Desarrollar un modelo de machine learning para predecir las oportunidades de inversión
 basadas en los KPIs definidos.
 6. Elaborar un dashboard de los KPIs e información clave de consulta.!
+7. 
 [⬆️ Volver al índice](#índice)
+
 ![image](https://github.com/user-attachments/assets/58cb17ca-c8f0-401b-8f98-abc8581beb20)
 # Alcance 
 Este proyecto se centra en realizar un análisis integral del mercado para apoyar la expansión estratégica del negocio 'Coffee & Brunch Business'. Consideramos los siguientes puntos clave dentro del alcance:
