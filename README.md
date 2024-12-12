@@ -148,7 +148,8 @@ gantt
     Análisis de KPIs                  :c2, 2024-06-21, 4d
     section Finalización
     Documentación final               :d1, 2024-06-25, 3d
-    Presentación del proyecto         :d2, 2024-06-28, 1d ```
+    Presentación del proyecto         :d2, 2024-06-28, 1d
+```
 
 # Repositorio Github
 El proyecto está organizado en diferentes ramas que abordan análisis, limpieza de datos y machine learning:
