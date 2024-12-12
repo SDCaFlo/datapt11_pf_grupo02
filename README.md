@@ -130,6 +130,7 @@ Puntaje promedio = Sumatoria total de los puntajes del periodo / Total usuarios 
 [⬆️ Volver al índice](#índice)
 
 ## Cronograma General Gantt
+![gantt](https://github.com/user-attachments/assets/e9c25815-c014-4e27-86af-31defa961134)
 
 El cronograma general del proyecto se detalla a continuación, dividido en secciones como inicio, análisis, desarrollo y finalización. Utilizamos un diagrama de Gantt para visualizar el progreso de cada tarea.
 
