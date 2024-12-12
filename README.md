@@ -24,6 +24,7 @@ Items que tiene que tener la propuesta:
 - [Cronograma general Gantt](#Cronograma-general-Gantt)
 - [Análisis preliminar de calidad de datos](#Análisis-preliminar-de-calidad-de-datos)
 ## Entregables 
+
 Documentación:
 -Stack elegido y fundamentación
 -Flujo de trabajo
