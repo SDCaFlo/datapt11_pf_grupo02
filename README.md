@@ -24,6 +24,12 @@ Items que tiene que tener la propuesta:
 - [Cronograma general Gantt](#Cronograma-general-Gantt)
 - [Análisis preliminar de calidad de datos](#Análisis-preliminar-de-calidad-de-datos)
 ## Entregables 
+
+| Sección         | Descripción                          |
+|-----------------|--------------------------------------|
+| **Introducción** | Breve descripción del proyecto.      |
+| **Metodología** | Explicación del enfoque ágil SCRUM.   |
+
 ![Status](https://img.shields.io/badge/Status-Finalizado-brightgreen)
 ![Version](https://img.shields.io/badge/Version-1.0-blue)
 
