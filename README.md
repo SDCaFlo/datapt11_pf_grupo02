@@ -5,14 +5,19 @@
 ![image](https://github.com/user-attachments/assets/d281c022-a11c-4a8c-89e9-925a6a622ed7)
 ## Índice
 
-
+Items que tiene que tener la propuesta:
 - [Equipo de trabajo](#Equipo-de-trabajo)
 - [Entendimiento de la situación actual](#Entendimiento-de-la-situación-actual)
 - [Objetivos](#Objetivos)
 - [Alcance](#Alcance)
 - [KPIs](#KPIs)
 - [Repositorio Github](#Repositorio-Github)
+  ## Hitos
+- [3KPIs](#KPIs)
+- [Documentar alcance del proyecto](#Alcance) 
+- [EDA de los datos](#stack-tecnológico)
 - [Stack Tecnológico](#stack-tecnológico)
+  
 - [Metodología de trabajo](#Metodología-de-trabajo)
 - [Diseño detallado](#Diseño-detallado)
 - [Cronograma general Gantt](#Cronograma-general-Gantt)
