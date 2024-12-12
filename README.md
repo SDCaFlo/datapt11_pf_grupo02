@@ -16,13 +16,17 @@ Items que tiene que tener la propuesta:
 - [3KPIs](#KPIs)
 - [Documentar alcance del proyecto](#Alcance) 
 - [EDA de los datos](#stack-tecnológico)
+- [Repositorio Github](#Repositorio-Github)
 - [Stack Tecnológico](#stack-tecnológico)
-  
 - [Metodología de trabajo](#Metodología-de-trabajo)
 - [Diseño detallado](#Diseño-detallado)
+- [Equipo de trabajo](#Equipo-de-trabajo)
 - [Cronograma general Gantt](#Cronograma-general-Gantt)
 - [Análisis preliminar de calidad de datos](#Análisis-preliminar-de-calidad-de-datos)
-
+## Entregables 
+Documentación:
+  -Stack elegido y fundamentación
+  -Flujo de trabajo
 
 ## Descripción General
 
@@ -41,6 +45,9 @@ Diana y Sergio se especializan en diseñar y mantener la infraestructura de dato
 Felipe y Greta lideran el desarrollo de modelos predictivos e implementan soluciones de machine learning que automatizan procesos y generan sistemas inteligentes con impacto real.
 
 Juntos, combinamos nuestras habilidades para transformar datos en valor, aportando innovación y resultados efectivos.
+
+[⬆️ Volver al índice](#índice)
+
 ![image](https://github.com/user-attachments/assets/43d2740c-cf32-41c7-a084-400ddc33db44)
 ![image](https://github.com/user-attachments/assets/90ce882b-4b85-495b-b972-8d3883f69bfa)
 ¨
