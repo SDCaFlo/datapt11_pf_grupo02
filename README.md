@@ -24,10 +24,11 @@ Items que tiene que tener la propuesta:
 - [Cronograma general Gantt](#Cronograma-general-Gantt)
 - [Análisis preliminar de calidad de datos](#Análisis-preliminar-de-calidad-de-datos)
 ## Entregables 
+![Version](https://img.shields.io/badge/Version-1.0-blue)
 
 Documentación:
--Stack elegido y fundamentación
--Flujo de trabajo
+- [Stack elegido y fundamentación](#Cronograma-general-Gantt)
+- [Flujo de trabajo](#Cronograma-general-Gantt)
 
 # Equipo de Trabajo:
 Presentación de Nuestro Equipo de Ciencia de Datos
