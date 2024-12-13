@@ -27,29 +27,35 @@
 |                                |    [Flujo de trabajo](#Cronograma-general-Gantt)|
 
 ---
-![grupo](https://github.com/user-attachments/assets/d22aca46-8613-4b40-bb34-3a2b755d7076)
+
 
 
 # Equipo de Trabajo:
+![grupo](https://github.com/user-attachments/assets/d22aca46-8613-4b40-bb34-3a2b755d7076)
 Presentación de Nuestro Equipo de Ciencia de Datos
+## 📊📈 Analistas de Datos
+### Claudia Jara y Saray Pacheco
 ![Claudia y Saray](https://github.com/user-attachments/assets/e24182ce-f116-407d-85f6-e28b149b2f52)
-
-### Claudia Jara y Saray Pacheco – Analistas de Datos
+ 
 Expertas en explorar, interpretar y visualizar los datos, Claudia y Saray son clave para descubrir patrones, generar insights estratégicos y presentar información clara que facilita la toma de decisiones.
-
+*** 
+## 🛠️🗄️Ingenieros de Datos
+### Diana Moreno y Sergio Castro 
 ![Diana y Sergio](https://github.com/user-attachments/assets/c779c3d7-47bb-4c0a-9942-5d8d327701ee)
 
-### Diana Moreno y Sergio Castro – Ingenieros de Datos
 Diana y Sergio se especializan en diseñar y mantener la infraestructura de datos, asegurando que la información sea accesible, eficiente y escalable para proyectos de alta complejidad.
-
+***
+## 🤖🧠 Ingenieros de Machine Learning
+### Felipe Dedes y Greta Combold 
 ![Felipe y Greta](https://github.com/user-attachments/assets/e56af139-909e-48d6-be6b-0313307f840b)
 
-### Felipe Dedes y Greta Combold – Ingenieros de Machine Learning
 Felipe y Greta lideran el desarrollo de modelos predictivos e implementan soluciones de machine learning que automatizan procesos y generan sistemas inteligentes con impacto real.
 
 Juntos, combinamos nuestras habilidades para transformar datos en valor, aportando innovación y resultados efectivos.
 
 [⬆️ Volver al índice](#índice)
+
+*** 
 
 ![image](https://github.com/user-attachments/assets/90ce882b-4b85-495b-b972-8d3883f69bfa)
 ¨
@@ -63,13 +69,9 @@ A partir de estos puntos clave, hemos diseñado un análisis que responde direct
 
 [⬆️ Volver al índice](#índice)
 
+# Objetivos 
 ![image](https://github.com/user-attachments/assets/75522d77-760b-42c1-ac4b-d091ab9dc7af)
 
-# Objetivos 
-###### Objetivo General 
-Elaborar una propuesta de inversión basada en el análisis de información disponible sobre los
-negocios de coffee and tea and breakfast en las plataformas Yelp y Google Maps (pendiente
-incluir si encontramos más información) en Estados Unidos.
 ###### Objetivo Específicos:
 1. Realizar un Análisis Exploratorio de los Datos disponibles en Yelp y Google maps (incluir
 aquí la otra fuente de dato si aplica)
@@ -81,7 +83,7 @@ modelo de machine learning.
 5. Desarrollar un modelo de machine learning para predecir las oportunidades de inversión
 basadas en los KPIs definidos.
 6. Elaborar un dashboard de los KPIs e información clave de consulta.!
-7. 
+
 [⬆️ Volver al índice](#índice)
 
 ![image](https://github.com/user-attachments/assets/58cb17ca-c8f0-401b-8f98-abc8581beb20)
@@ -96,7 +98,6 @@ Este alcance está diseñado para ofrecer resultados accionables y maximizar el 
 
 ALCANCE Este proyecto incluirá el análisis y limpieza de datos disponibles en Yelp y Google Maps para negocios de cofee and breakfast en Estados Unidos, la elaboración de un dashboard interactivo con la visualización de datos claves y Kpi y la implementación de un modelo de machine learning para predicciones y recomendaciones sobre la expansión de este tipo de negocio.
 Este proyecto no incluye la Integración en tiempo real con las plataformas Yelp o google maps, análisis de información por fuera de Estados Unidos ni tampoco estrategías de marketing de expansión que se puede desarrollar en una siguiente etapa.
-No incluye: Integración en tiempo real con las plataformas Yelp o google maps, analisis de información por fuera de Estados Unidos /ciudad seleecionada ni tampoco estrategías de marketing de expansión.
 
 [⬆️ Volver al índice](#índice)
 
