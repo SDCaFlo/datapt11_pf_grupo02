@@ -86,8 +86,11 @@ basadas en los KPIs definidos.
 
 [⬆️ Volver al índice](#índice)
 
-![image](https://github.com/user-attachments/assets/58cb17ca-c8f0-401b-8f98-abc8581beb20)
-# Alcance 
+
+# Alcance
+![image](https://github.com/user-attachments/assets/77078868-bc06-43e7-8441-68e18f3bb3ef)
+
+ 
 Este proyecto se centra en realizar un análisis integral del mercado para apoyar la expansión estratégica del negocio 'Coffee & Brunch Business'. Consideramos los siguientes puntos clave dentro del alcance:
 1. Recopilación y procesamiento de datos provenientes de Yelp, Google Maps y otras fuentes relevantes.
 2. Diseño e implementación de un ETL para integrar y estructurar los datos en un formato unificado.
@@ -100,19 +103,27 @@ ALCANCE Este proyecto incluirá el análisis y limpieza de datos disponibles en 
 Este proyecto no incluye la Integración en tiempo real con las plataformas Yelp o google maps, análisis de información por fuera de Estados Unidos ni tampoco estrategías de marketing de expansión que se puede desarrollar en una siguiente etapa.
 
 [⬆️ Volver al índice](#índice)
+***
+![image](https://github.com/user-attachments/assets/ffc4470f-6ecf-4bfc-93a7-85bf48843901)
 
-![image](https://github.com/user-attachments/assets/96c02335-0534-4c4b-af18-0a088b12e4d4)
 EDA: Análisis Exploratorio de Datos
 "En estas dos primeras semanas, nos enfocamos en recopilar, limpiar y analizar datos de Google Maps y Yelp. Nuestro EDA inicial incluye:
 Demografía y densidad poblacional: Identificar zonas con alta concentración de población objetivo.
 Tráfico peatonal: Evaluar la afluencia promedio en las áreas seleccionadas.
 Competencia: Mapear la presencia de negocios similares.
 Presentaremos gráficos claros que reflejen tanto los datos generales como los resultados después de la limpieza. Por ejemplo, visualizaremos las áreas con mayor potencial versus las que presentan riesgos asociados a la saturación del mercado."
+![image](https://github.com/user-attachments/assets/ed9d7354-6ee9-415d-9fe0-f09b934d5852)
+![image](https://github.com/user-attachments/assets/d1505e48-0341-4e81-9717-a33843231fc7)
+![image](https://github.com/user-attachments/assets/29ff9ab1-5e8d-4b39-b0a1-a97a406a9053)
+![image](https://github.com/user-attachments/assets/f80f2792-daf3-4045-b0ee-c53144117cce)
 
 [⬆️ Volver al índice](#índice)
+***
    [image](https://github.com/user-attachments/assets/14304345-62e7-4e1b-be19-f77f7ce2b86d)
 ![image](https://github.com/user-attachments/assets/9891275d-bc97-4050-b429-66fcd942a958)
  # KPIs
+ ![image](https://github.com/user-attachments/assets/4deac3ae-91b7-4b3b-90d1-95bd26fdfcc2)
+
 Los KPIs son indicadores clave que permiten medir el éxito de ciertos objetivos, y en este caso están enfocados en medir aspectos claves para un negocio en crecimiento, como lo son el aumento de comentarios positivos que den visibilidad al negocio y el aumento de la probabilidad de compra.
 
 KPI1:
@@ -134,8 +145,12 @@ Puntaje promedio = Sumatoria total de los puntajes del periodo / Total usuarios 
 ![Imagen de WhatsApp 2024-12-12 a las 15 21 29_82e29ee7](https://github.com/user-attachments/assets/b267e89d-98ee-4e1d-936c-bb9f57ccf953)
 
 [⬆️ Volver al índice](#índice)
+## Metodologia 
+![image](https://github.com/user-attachments/assets/06a7dbf2-a68d-4d93-9506-f11b931324e6)
 
 ## Cronograma General Gantt
+![image](https://github.com/user-attachments/assets/168deebf-1e27-404d-83bc-728ebc353a4b)
+
 ![gantt](https://github.com/user-attachments/assets/e9c25815-c014-4e27-86af-31defa961134)
 
 El cronograma general del proyecto se detalla a continuación, dividido en secciones como inicio, análisis, desarrollo y finalización. Utilizamos un diagrama de Gantt para visualizar el progreso de cada tarea.
