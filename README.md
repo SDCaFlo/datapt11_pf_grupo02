@@ -24,7 +24,7 @@
 | | [Análisis preliminar de calidad de datos](#análisis-preliminar-de-calidad-de-datos) |
 | **Documentación:**                      |                                  |
 |                                |     [Stack elegido y fundamentación](#Cronograma-general-Gantt)|
-|                                |    [Flujo de trabajo](#Cronograma-general-Gantt)|
+|                                |    [Flujo de trabajo](#Pipeline)|
 
 ---
 
@@ -198,6 +198,9 @@ Una vez diseñada la app de streamlit, esta se conteinerizará con Docker para q
 Se hará uso de tecnologías de cloud como, Cloud Container Registry, y Cloud Run para poder guardar y deployar el container.
 
 [⬆️ Volver al índice](#índice)
+
+# Flujo de Trabajo
+# Pipeline 
 
 ## 📝🧩 Metodología de trabajo
 ![image](https://github.com/user-attachments/assets/06a7dbf2-a68d-4d93-9506-f11b931324e6)
