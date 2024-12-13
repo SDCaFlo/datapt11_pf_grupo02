@@ -24,7 +24,7 @@
 | | [Análisis preliminar de calidad de datos](#análisis-preliminar-de-calidad-de-datos) |
 | **Documentación:**                      |                                  |
 |                                |     [Stack elegido y fundamentación](#Cronograma-general-Gantt)|
-|                                |    [Flujo de trabajo](#Pipeline)|
+|                                |    [Flujo de trabajo](#Flujo-de-trabajo)|
 
 ---
 
