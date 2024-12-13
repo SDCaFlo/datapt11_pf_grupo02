@@ -31,25 +31,12 @@
 
 
 # Equipo de Trabajo:
-![grupo](https://github.com/user-attachments/assets/d22aca46-8613-4b40-bb34-3a2b755d7076)
+
 Presentación de Nuestro Equipo de Ciencia de Datos
-## 📊📈 Analistas de Datos
-### Claudia Jara y Saray Pacheco
-![Claudia y Saray](https://github.com/user-attachments/assets/e24182ce-f116-407d-85f6-e28b149b2f52)
- 
-Expertas en explorar, interpretar y visualizar los datos, Claudia y Saray son clave para descubrir patrones, generar insights estratégicos y presentar información clara que facilita la toma de decisiones.
-*** 
-## 🛠️🗄️Ingenieros de Datos
-### Diana Moreno y Sergio Castro 
-![Diana y Sergio](https://github.com/user-attachments/assets/c779c3d7-47bb-4c0a-9942-5d8d327701ee)
-
-Diana y Sergio se especializan en diseñar y mantener la infraestructura de datos, asegurando que la información sea accesible, eficiente y escalable para proyectos de alta complejidad.
-***
-## 🤖🧠 Ingenieros de Machine Learning
-### Felipe Dedes y Greta Combold 
-![Felipe y Greta](https://github.com/user-attachments/assets/e56af139-909e-48d6-be6b-0313307f840b)
-
-Felipe y Greta lideran el desarrollo de modelos predictivos e implementan soluciones de machine learning que automatizan procesos y generan sistemas inteligentes con impacto real.
+| 📊 **Analistas de Datos** | 🛠️ **Ingenieros de Datos** | 🤖 **Ingenieros de Machine Learning** |
+|---------------------------|---------------------------|--------------------------------------|
+| ![Claudia y Saray](https://github.com/user-attachments/assets/e24182ce-f116-407d-85f6-e28b149b2f52) | ![Diana y Sergio](https://github.com/user-attachments/assets/c779c3d7-47bb-4c0a-9942-5d8d327701ee) | ![Felipe y Greta](https://github.com/user-attachments/assets/e56af139-909e-48d6-be6b-0313307f840b) |
+| **Claudia Jara y Saray Pacheco** <br> Expertas en explorar, interpretar y visualizar los datos, Claudia y Saray son clave para descubrir patrones, generar insights estratégicos y presentar información clara que facilita la toma de decisiones. | **Diana Moreno y Sergio Castro** <br> Diana y Sergio se especializan en diseñar y mantener la infraestructura de datos, asegurando que la información sea accesible, eficiente y escalable para proyectos de alta complejidad. | **Felipe Dedes y Greta Combold** <br> Felipe y Greta lideran el desarrollo de modelos predictivos e implementan soluciones de machine learning que automatizan procesos y generan sistemas inteligentes con impacto real. |
 
 Juntos, combinamos nuestras habilidades para transformar datos en valor, aportando innovación y resultados efectivos.
 
