@@ -249,7 +249,7 @@ gantt
 ```
 [⬆️ Volver al índice](#índice)
 
-# 🔗📂 Repositorio Github
+# 🔗📂Repositorio Github
 El proyecto está organizado en diferentes ramas que abordan análisis, limpieza de datos y machine learning:
 
 ## Rama Principal (main) Sergio Castro
