@@ -2,7 +2,6 @@
 # 📊 Análisis de Inversión
 ## 🥐 Coffee & Brunch Bussiness
 
-![image](https://github.com/user-attachments/assets/d281c022-a11c-4a8c-89e9-925a6a622ed7)
 ## 📚Índice
 
 | Sección                         | Enlace                           |
@@ -31,10 +30,13 @@
 
 # Equipo de Trabajo:
 Presentación de Nuestro Equipo de Ciencia de Datos
-
+| ![Alt Imagen 1](ruta_de_la_imagen1.png) | ![Alt Imagen 2](ruta_de_la_imagen2.png) |
 ###### Claudia Jara y Saray Pacheco – Analistas de Datos
 Expertas en explorar, interpretar y visualizar los datos, Claudia y Saray son clave para descubrir patrones, generar insights estratégicos y presentar información clara que facilita la toma de decisiones.
 
+<img src="https://github.com/user-attachments/assets/275cf028-832c-45aa-afbd-2e258e734b3)" width="200px">
+
+| ![DianaMoreno]()) | ![SergioCastro](https://github.com/user-attachments/assets/31f40a87-c03f-4e5d-8d5b-d6a115dc915d) |
 ###### Diana Moreno y Sergio Castro – Ingenieros de Datos
 Diana y Sergio se especializan en diseñar y mantener la infraestructura de datos, asegurando que la información sea accesible, eficiente y escalable para proyectos de alta complejidad.
 
