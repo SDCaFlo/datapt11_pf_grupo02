@@ -175,7 +175,9 @@ Descripción:  Medir el crecimiento de la cantidad de clientes que están dejand
 Fórmula: % de crecimiento de comentarios de las calificaciones = [(Total comentarios periodo actual - Total comentarios periodo anterior) / Total de comentarios periodo anterior] * 100
 
 Puntaje promedio = Sumatoria total de los puntajes del periodo / Total usuarios que dejaron su calificación en el periodo.
+
 [⬆️ Volver al índice](#índice)
+
 ## 🛠️💻Stack Tecnológico
 ![Imagen de WhatsApp 2024-12-12 a las 15 21 29_82e29ee7](https://github.com/user-attachments/assets/b267e89d-98ee-4e1d-936c-bb9f57ccf953)
 Para garantizar que estas métricas se capturen, transformen y analicen eficientemente, implementaremos una arquitectura robusta de Data Warehouse y Machine Learning divididas en cuatro módulos, la extracción, transformación, data warehouse y visualización y machine learning
@@ -196,10 +198,12 @@ Una vez diseñada la app de streamlit, esta se conteinerizará con Docker para q
 Se hará uso de tecnologías de cloud como, Cloud Container Registry, y Cloud Run para poder guardar y deployar el container.
 
 [⬆️ Volver al índice](#índice)
+
 ## 📝🧩 Metodología de trabajo
 ![image](https://github.com/user-attachments/assets/06a7dbf2-a68d-4d93-9506-f11b931324e6)
 
 "Para organizar nuestro trabajo y dirigir nuestros esfuerzos hacia nuestras metas, hemos elegido trabajar con metodologías ágiles bajo el marco de trabajo SCRUM. Este enfoque nos va a permitir mejorar la organización de tareas, fomentar la colaboración entre los integrantes del equipo y adaptarnos rápidamente a los cambios, asegurando entregas continuas y alineadas con nuestros objetivos."
+[⬆️ Volver al índice](#índice)
 
 ## ⏳📅Cronograma General Gantt
 ![image](https://github.com/user-attachments/assets/168deebf-1e27-404d-83bc-728ebc353a4b)
@@ -243,6 +247,7 @@ gantt
     Presentación del proyecto         :d2, 2024-06-28, 1d
 
 ```
+[⬆️ Volver al índice](#índice)
 
 # 🔗📂 Repositorio Github
 El proyecto está organizado en diferentes ramas que abordan análisis, limpieza de datos y machine learning:
@@ -324,4 +329,5 @@ LinkedIn:
 Rol: Machine Learning Engineer
 Github: https://github.com/PerlaMarGreta
 LinkedIn:
+
 [⬆️ Volver al índice](#índice)
