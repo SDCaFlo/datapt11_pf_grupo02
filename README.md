@@ -1,9 +1,9 @@
-### Proyecto:
-# Análisis de Inversión
-## Coffee & Brunch Bussiness
+### ☕Proyecto:
+# 📊 Análisis de Inversión
+## 🥐 Coffee & Brunch Bussiness
 
 ![image](https://github.com/user-attachments/assets/d281c022-a11c-4a8c-89e9-925a6a622ed7)
-## Índice
+## 📚 Índice
 
 | Sección                         | Enlace                           |
 |--------------------------------|----------------------------------|
