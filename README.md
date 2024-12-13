@@ -27,27 +27,30 @@
 |                                |    [Flujo de trabajo](#Cronograma-general-Gantt)|
 
 ---
+![grupo](https://github.com/user-attachments/assets/d22aca46-8613-4b40-bb34-3a2b755d7076)
+
 
 # Equipo de Trabajo:
 Presentación de Nuestro Equipo de Ciencia de Datos
-| ![Alt Imagen 1](ruta_de_la_imagen1.png) | ![Alt Imagen 2](ruta_de_la_imagen2.png) |
-###### Claudia Jara y Saray Pacheco – Analistas de Datos
+![Claudia y Saray](https://github.com/user-attachments/assets/e24182ce-f116-407d-85f6-e28b149b2f52)
+
+### Claudia Jara y Saray Pacheco – Analistas de Datos
 Expertas en explorar, interpretar y visualizar los datos, Claudia y Saray son clave para descubrir patrones, generar insights estratégicos y presentar información clara que facilita la toma de decisiones.
 
-<img src="https://github.com/user-attachments/assets/275cf028-832c-45aa-afbd-2e258e734b3)" width="200px">
+![Diana y Sergio](https://github.com/user-attachments/assets/c779c3d7-47bb-4c0a-9942-5d8d327701ee)
 
-| ![DianaMoreno]()) | ![SergioCastro](https://github.com/user-attachments/assets/31f40a87-c03f-4e5d-8d5b-d6a115dc915d) |
-###### Diana Moreno y Sergio Castro – Ingenieros de Datos
+### Diana Moreno y Sergio Castro – Ingenieros de Datos
 Diana y Sergio se especializan en diseñar y mantener la infraestructura de datos, asegurando que la información sea accesible, eficiente y escalable para proyectos de alta complejidad.
 
-###### Felipe Dedes y Greta Combold – Ingenieros de Machine Learning
+![Felipe y Greta](https://github.com/user-attachments/assets/e56af139-909e-48d6-be6b-0313307f840b)
+
+### Felipe Dedes y Greta Combold – Ingenieros de Machine Learning
 Felipe y Greta lideran el desarrollo de modelos predictivos e implementan soluciones de machine learning que automatizan procesos y generan sistemas inteligentes con impacto real.
 
 Juntos, combinamos nuestras habilidades para transformar datos en valor, aportando innovación y resultados efectivos.
 
 [⬆️ Volver al índice](#índice)
 
-![image](https://github.com/user-attachments/assets/43d2740c-cf32-41c7-a084-400ddc33db44)
 ![image](https://github.com/user-attachments/assets/90ce882b-4b85-495b-b972-8d3883f69bfa)
 ¨
 # Entendimiento de la situación actual
