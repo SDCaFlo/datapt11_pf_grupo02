@@ -49,9 +49,13 @@ Juntos, combinamos nuestras habilidades para transformar datos en valor, aportan
 # 🔍📊Entendimiento de la situación actual
 _"El mercado de cafeterías boutique y brunch está en pleno auge. La creciente demanda por experiencias gastronómicas únicas y la búsqueda de ambientes acogedores lo convierten en un sector atractivo, pero también competitivo.
 Sin embargo, los principales desafíos para la expansión incluyen:
+
 1- Identificar zonas con alta demanda potencial.
+
 2- Evaluar la rentabilidad proyectada en cada ubicación.
+
 3- Reducir riesgos asociados a la competencia y baja afluencia de público.
+
 A partir de estos puntos clave, hemos diseñado un análisis que responde directamente a estas inquietudes y ofrece una guía estratégica basada en datos."_
 
 [⬆️ Volver al índice](#índice)
@@ -223,19 +227,28 @@ El cronograma general del proyecto se detalla a continuación, dividido en secci
 gantt
     title Cronograma General del Proyecto
     dateFormat  YYYY-MM-DD
-    section Inicio
-    Definición de objetivos           :done, b1, 2024-06-01, 3d
-    Organización del equipo           :done, a2, 2024-06-04, 2d
-    section Análisis
-    Análisis preliminar de datos      :active, b1, 2024-06-06, 5d
-    Estructura del alcance            :b2, 2024-06-11, 3d
-    section Desarrollo
-    Desarrollo del modelo             :c1, 2024-06-14, 7d
-    Análisis de KPIs                  :c2, 2024-06-21, 4d
-    section Finalización
-    Documentación final               :d1, 2024-06-25, 3d
-    Presentación del proyecto         :d2, 2024-06-28, 1d
-
+    section Sprint 1
+    Contextualizar la problemática    :done, b1, 2024-12-02, 2d
+    Definiciones de objetivos y alcance  :done, a2, 2024-12-04, 1d
+    Comprender los datos disponibles  :done, a2, 2024-12-04, 2d
+    Definición de Stack Tecnológico  :done, a2, 2024-12-05, 3d
+    EDA y ETL inicial  :done, a2, 2024-12-05, 6d
+    Definición y KPIs  :done, a2, 2024-12-10, 3d
+    Preparación y ensayo de presentación :done, a2, 2024-12-10, 4d
+    section Sprint 2 
+    ETL completo      :active, b1, 2024-12-06, 5d
+    Pipeline y automatización            :b2, 2024-12-11, 3d
+    Diseño del Datawarehouse          :b2, 2024-12-11, 3d
+    Diseño del modelo ER          :b2, 2024-12-11, 3d
+    MVP Machine Learning         :b2, 2024-12-11, 3d
+    Documentación        :b2, 2024-12-11, 3d
+    Preparación y Ensayo   :b2, 2024-12-11, 3d
+    section Sprint 3 
+    Diseño de Reportes/Dashboards           :c1, 2024-12-14, 7d
+    KPIs                  :c2, 2024-12-21, 4d
+    Modelo de Machine Learning  :c2, 2024-12-21, 4d
+    Documentación               :d1, 2024-12-25, 3d
+    Preparación y ensayo de presentación       :d2, 2024-12-28, 1d
 ```
 [⬆️ Volver al índice](#índice)
 
@@ -298,26 +311,32 @@ Hoy le presentamos los primeros resultados de este proceso. A medida que avancem
 #### Claudia Jara Yañez:
 Rol: Data Analyst
 Github:https://github.com/claujara1975
+
 Linkedin:
 
 #### Saray Pacheco Ramos:
 Rol: Data Analyst  
 Github: https://github.com/ssaraypr
+
 #### Sergio Castro: Limpieza y análisis del dataset Google.
 Rol: Data Engineer
 Github:https://github.com/SDCaFlo
+
 LinkedIn: 
 #### Diana Moreno: Limpieza y análisis del dataset Yelp.
 Rol:  Data Engineer
 Github: https://github.com/dianitafeliz
+
 LinkedIn:
 #### Felipe Dedes : Machine learning y despliegue.
 Rol: Machine Learning Engineer
 Github:https://github.com/DedesF
+
 LinkedIn:
 #### Greta Combold: Machine Learning y despliegue.
 Rol: Machine Learning Engineer
 Github: https://github.com/PerlaMarGreta
+
 LinkedIn:
 
 [⬆️ Volver al índice](#índice)
