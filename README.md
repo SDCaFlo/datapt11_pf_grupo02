@@ -247,22 +247,23 @@ gantt
     Comprender los datos disponibles  :done, a2, 2024-12-04, 2d
     Definición de Stack Tecnológico  :done, a2, 2024-12-05, 3d
     EDA y ETL inicial  :done, a2, 2024-12-05, 6d
-    Definición y KPIs  :done, a2, 2024-12-10, 3d
-    Preparación y ensayo de presentación :done, a2, 2024-12-10, 4d
+    Definición y KPIs  :done, a2, 2024-12-10, 1d
+    Preparación y ensayo de presentación :crit, a2, 2024-12-10, 4d
     section Sprint 2 
-    ETL completo      :active, b1, 2024-12-06, 5d
-    Pipeline y automatización            :b2, 2024-12-11, 3d
-    Diseño del Datawarehouse          :b2, 2024-12-11, 3d
-    Diseño del modelo ER          :b2, 2024-12-11, 3d
-    MVP Machine Learning         :b2, 2024-12-11, 3d
-    Documentación        :b2, 2024-12-11, 3d
-    Preparación y Ensayo   :b2, 2024-12-11, 3d
+    ETL completo      :b1, 2024-12-16, 3d
+    Pipeline y automatización            :b2, 2024-12-18, 3d
+    Diseño del Datawarehouse         :b2, 2024-12-18, 5d
+    Diseño del modelo ER          :b2, 2024-12-22, 1d
+    MVP Machine Learning         :b2, 2025-01-06, 3d
+    Documentación        :b2, 2025-01-06, 4d
+    Preparación y Ensayo   :b2, 2025-01-09, 2d
     section Sprint 3 
-    Diseño de Reportes/Dashboards           :c1, 2024-12-14, 7d
-    KPIs                  :c2, 2024-12-21, 4d
-    Modelo de Machine Learning  :c2, 2024-12-21, 4d
-    Documentación               :d1, 2024-12-25, 3d
-    Preparación y ensayo de presentación       :d2, 2024-12-28, 1d
+    Diseño de Reportes/Dashboards           :c1, 2025-01-13, 5d
+    KPIs                  :c2, 2025-01-16, 1d
+    Modelo de Machine Learning  :c2, 2025-01-13, 7d
+    Documentación               :d1, 2025-01-18, 5d
+    Preparación y ensayo de presentación       :d2, 2025-01-22, 4d
+
 ```
 [⬆️ Volver al índice](#índice)
 
