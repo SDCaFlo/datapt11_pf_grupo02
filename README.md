@@ -31,6 +31,10 @@
 
 
 # Equipo de Trabajo:
+# ¿Quienes Somos? 
+
+"Buenos días. Somos Datanova, un equipo especializado en transformar datos en soluciones estratégicas. Hoy queremos presentar nuestra propuesta para apoyar la expansión de su empresa, un negocio consolidado en el rubro de 'Coffee & Brunch Business'. Sabemos que desea abrir nuevos locales y confiamos en que este proyecto será clave para identificar las mejores oportunidades, minimizando riesgos y maximizando el retorno de su inversión.
+Nuestro objetivo es simple: utilizar datos para transformar su visión en una estrategia ganadora."
 
 Presentación de Nuestro Equipo de Ciencia de Datos
 | 📊 **Analistas de Datos** | 🛠️ **Ingenieros de Datos** | 🤖 **Ingenieros de Machine Learning** |
