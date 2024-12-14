@@ -1,9 +1,9 @@
-### ☕Proyecto:
-# 📊 Análisis de Inversión
-## 🥐 Coffee & Brunch Bussiness
+### <p align="center">  ☕Proyecto: </p>
+# <p align="center"> 📊 Análisis de Inversión </p>
+## <p align="center"> 🥐 Coffee & Brunch Bussiness </p>
 
 ## 📚Índice
-
+ 
 | Sección                         | Enlace                           |
 |--------------------------------|----------------------------------|
 | **Items que tiene que tener la propuesta**          | [Equipo de trabajo](#equipo-de-trabajo) |
@@ -25,7 +25,7 @@
 | **Documentación:**                      |                                  |
 |                                |     [Stack elegido y fundamentación](#Cronograma-general-Gantt)|
 |                                |    [Flujo de trabajo](#Flujo-de-trabajo)|
-
+ 
 ---
 
 
@@ -38,7 +38,8 @@ Presentación de Nuestro Equipo de Ciencia de Datos
 | ![Claudia y Saray](https://github.com/user-attachments/assets/e24182ce-f116-407d-85f6-e28b149b2f52) | ![Diana y Sergio](https://github.com/user-attachments/assets/c779c3d7-47bb-4c0a-9942-5d8d327701ee) | ![Felipe y Greta](https://github.com/user-attachments/assets/e56af139-909e-48d6-be6b-0313307f840b) |
 | **Claudia Jara y Saray Pacheco** <br> Expertas en explorar, interpretar y visualizar los datos, Claudia y Saray son clave para descubrir patrones, generar insights estratégicos y presentar información clara que facilita la toma de decisiones. | **Diana Moreno y Sergio Castro** <br> Diana y Sergio se especializan en diseñar y mantener la infraestructura de datos, asegurando que la información sea accesible, eficiente y escalable para proyectos de alta complejidad. | **Felipe Dedes y Greta Combold** <br> Felipe y Greta lideran el desarrollo de modelos predictivos e implementan soluciones de machine learning que automatizan procesos y generan sistemas inteligentes con impacto real. |
 
-Juntos, combinamos nuestras habilidades para transformar datos en valor, aportando innovación y resultados efectivos.
+## Juntos, combinamos nuestras habilidades para transformar datos en valor, aportando innovación y resultados efectivos.
+***
 
 [⬆️ Volver al índice](#índice)
 
@@ -64,16 +65,16 @@ A partir de estos puntos clave, hemos diseñado un análisis que responde direct
 ![image](https://github.com/user-attachments/assets/75522d77-760b-42c1-ac4b-d091ab9dc7af)
 
 ###### Objetivo Específicos:
-1. Realizar un Análisis Exploratorio de los Datos disponibles en Yelp y Google maps (incluir
-aquí la otra fuente de dato si aplica)
-2. Realizar un ETL que permita integrar datos de diversas fuentes y transformarlos en una
-estructura unificada.
-3. Definir el pipeline
-4. Realizar el despliegue de datos en nube que facilite la ingesta de datos y alimentar el
-modelo de machine learning.
-5. Desarrollar un modelo de machine learning para predecir las oportunidades de inversión
-basadas en los KPIs definidos.
-6. Elaborar un dashboard de los KPIs e información clave de consulta.!
+1. **Realizar un Análisis Exploratorio de los Datos disponibles en Yelp y Google maps (incluir
+aquí la otra fuente de dato si aplica)**
+2. **Realizar un ETL que permita integrar datos de diversas fuentes y transformarlos en una
+estructura unificada.**
+3. **Definir el pipeline**
+4. **Realizar el despliegue de datos en nube que facilite la ingesta de datos y alimentar el
+modelo de machine learning.**
+5. **Desarrollar un modelo de machine learning para predecir las oportunidades de inversión
+basadas en los KPIs definidos.**
+6. **Elaborar un dashboard de los KPIs e información clave de consulta.**
 
 [⬆️ Volver al índice](#índice)
 
