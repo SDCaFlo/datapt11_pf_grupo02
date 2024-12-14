@@ -209,18 +209,26 @@ Se hará uso de tecnologías de cloud como, Cloud Container Registry, y Cloud Ru
 ![image](https://github.com/user-attachments/assets/168deebf-1e27-404d-83bc-728ebc353a4b)
 
 Cronograma General: Hitos y Entregables
+
 "El proyecto está diseñado para ser entregado en seis semanas, con presentaciones cada dos semanas.
+
 Semana 1-2:
+
 EDA inicial con datos de Google Maps y Yelp.
 Gráficos que muestren la información limpia y general.
 Definición de KPIs y fórmulas, junto con las metas iniciales.
+
 Semana 3-4:
+
 Implementación de un modelo predictivo para analizar la rentabilidad de las zonas priorizadas.
 Mapas interactivos que representen el análisis geoespacial.
+
 Semana 5-6:
 Finalización del dashboard interactivo.
 Presentación de recomendaciones finales y conclusiones basadas en los KPIs.
+
 Hitos:
+
 Desarrollo de herramientas visuales.
 Documentación clara del análisis.
 Recomendaciones estratégicas accionables."
