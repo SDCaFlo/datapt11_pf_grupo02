@@ -102,7 +102,7 @@ Este proyecto no incluye la Integración en tiempo real con las plataformas Yelp
 ***
 ![image](https://github.com/user-attachments/assets/ffc4470f-6ecf-4bfc-93a7-85bf48843901)
 
-# 📈🔎 EDA
+# 📈🔎EDA
 # Análisis Exploratorio de Datos
 "En estas dos primeras semanas, nos enfocamos en recopilar, limpiar y analizar datos de Google Maps y Yelp. Nuestro EDA inicial incluye:
 Demografía y densidad poblacional: Identificar zonas con alta concentración de población objetivo.
