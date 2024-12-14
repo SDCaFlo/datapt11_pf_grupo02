@@ -15,7 +15,7 @@
 | **Hitos**                      |                                  |
 |                         | [3KPIs](#kpis)                   |
 | | [Alcance](#alcance)              |
-|              | [EDA de los datos](#stack-tecnológico) |
+|              | [EDA de los datos](#eda) |
 |             | [Repositorio Github](#repositorio-github) |
 |             | [Stack Tecnológico](#stack-tecnológico) |
 |          | [Metodología de trabajo](#metodología-de-trabajo) |
@@ -39,7 +39,7 @@ Nuestro objetivo es simple: utilizar datos para transformar su visión en una es
 Presentación de Nuestro Equipo de Ciencia de Datos
 | 📊 **Analistas de Datos** | 🛠️ **Ingenieros de Datos** | 🤖 **Ingenieros de Machine Learning** |
 |---------------------------|---------------------------|--------------------------------------|
-| ![Claudia y Saray](https://github.com/user-attachments/assets/e24182ce-f116-407d-85f6-e28b149b2f52) | ![Diana y Sergio](https://github.com/user-attachments/assets/c779c3d7-47bb-4c0a-9942-5d8d327701ee) | ![Felipe y Greta](https://github.com/user-attachments/assets/e56af139-909e-48d6-be6b-0313307f840b) |
+| ![Claudia y Saray](https://github.com/user-attachments/assets/a0d06cbe-f168-4d52-bb97-f430dd914db7) | ![Diana y Sergio](https://github.com/user-attachments/assets/c779c3d7-47bb-4c0a-9942-5d8d327701ee) | ![Felipe y Greta](https://github.com/user-attachments/assets/e56af139-909e-48d6-be6b-0313307f840b) |
 | **Claudia Jara y Saray Pacheco** <br> Expertas en explorar, interpretar y visualizar los datos, Claudia y Saray son clave para descubrir patrones, generar insights estratégicos y presentar información clara que facilita la toma de decisiones. | **Diana Moreno y Sergio Castro** <br> Diana y Sergio se especializan en diseñar y mantener la infraestructura de datos, asegurando que la información sea accesible, eficiente y escalable para proyectos de alta complejidad. | **Felipe Dedes y Greta Combold** <br> Felipe y Greta lideran el desarrollo de modelos predictivos e implementan soluciones de machine learning que automatizan procesos y generan sistemas inteligentes con impacto real. |
 
 ## Juntos, combinamos nuestras habilidades para transformar datos en valor, aportando innovación y resultados efectivos.
@@ -102,7 +102,8 @@ Este proyecto no incluye la Integración en tiempo real con las plataformas Yelp
 ***
 ![image](https://github.com/user-attachments/assets/ffc4470f-6ecf-4bfc-93a7-85bf48843901)
 
-# 📈🔎 EDA: Análisis Exploratorio de Datos
+# 📈🔎 EDA
+# Análisis Exploratorio de Datos
 "En estas dos primeras semanas, nos enfocamos en recopilar, limpiar y analizar datos de Google Maps y Yelp. Nuestro EDA inicial incluye:
 Demografía y densidad poblacional: Identificar zonas con alta concentración de población objetivo.
 Tráfico peatonal: Evaluar la afluencia promedio en las áreas seleccionadas.
@@ -122,18 +123,25 @@ Tenemos 574.000 usuarios con reseñas en las 616 ciudades, mostrando la mayor co
 Mostrando a Philadelphia como un gran destino para este tipo de negocios.
 
 ![image](https://github.com/user-attachments/assets/29ff9ab1-5e8d-4b39-b0a1-a97a406a9053)
-![image](https://github.com/user-attachments/assets/f80f2792-daf3-4045-b0ee-c53144117cce)
+
 Para el dataset de google se analizaron un total 2,9 millones de negocios y 89.9 millones de reviews para el periodo de tiempo que conlleva desde abril-2002 hasta septiembre-2021.
 
 Se identificaron un total de 4461 categorías distintas, de las cuales se tomaron las 50 categorías de comida más relevantes, que representan más del 90% de los reviews totales asociados a establecimientos de comida.
 
 Wordcloud: Se extrajo las palabras con mayor aparición dentro de las 50 categorías top y se produjo el siguiente wordcloud. Aquí logramos identificar que las palabras más relevantes son:  "fast," "food", "takeout”, “pizza”, “coffee”, ‘cafe’.
 
-Rating Medio Categorías: Teniendo en cuenta esto, calculamos el rating promedio de las categorías y observamos que los establecimientos asociados a Coffee presentan un rating mucho más elevado, en contraste con los locales de comida rápida, que se encuentran entre los peores calificados.
+![image](https://github.com/user-attachments/assets/f80f2792-daf3-4045-b0ee-c53144117cce)
+
+
+## Rating Medio Categorías:
+
+Teniendo en cuenta esto, calculamos el rating promedio de las categorías y observamos que los establecimientos asociados a Coffee presentan un rating mucho más elevado, en contraste con los locales de comida rápida, que se encuentran entre los peores calificados.
 
 Establecimientos Unicos por Periodo: Despues de acotar nuestro locales a categorias asociadas a Coffee shops, evaluamos la presencia de establecimientos dentro de los reviews con una frecuencia trimestral. De esta manera, observamos que el sector se encuentra en crecimiento, a excepción de un periodo de decaída posiblemente asociado a la pandemia.
 
-Rating promedio por periodo: A pesar de esta caída, notamos que el rating promedio de estos establecimientos ha ido en alza, lo que puede ser un indicador tanto de una mejora constante en el servicio debido a la competencia del sector, así como también una mejor aceptación del público a este tipo de establecimientos.
+## Rating promedio por periodo:
+
+A pesar de esta caída, notamos que el rating promedio de estos establecimientos ha ido en alza, lo que puede ser un indicador tanto de una mejora constante en el servicio debido a la competencia del sector, así como también una mejor aceptación del público a este tipo de establecimientos.
 
 
 Conclusión: "Coffee" y "shop" son términos destacados, lo que indica la popularidad de cafeterías y lugares donde los consumidores buscan bebidas rápidas y espacios para socializar o trabajar. Esto es consistente con la cultura estadounidense, donde el café ocupa un lugar central.
@@ -206,32 +214,6 @@ Se hará uso de tecnologías de cloud como, Cloud Container Registry, y Cloud Ru
 [⬆️ Volver al índice](#índice)
 
 ## ⏳📅Cronograma General Gantt
-![image](https://github.com/user-attachments/assets/168deebf-1e27-404d-83bc-728ebc353a4b)
-
-Cronograma General: Hitos y Entregables
-
-"El proyecto está diseñado para ser entregado en seis semanas, con presentaciones cada dos semanas.
-
-Semana 1-2:
-
-EDA inicial con datos de Google Maps y Yelp.
-Gráficos que muestren la información limpia y general.
-Definición de KPIs y fórmulas, junto con las metas iniciales.
-
-Semana 3-4:
-
-Implementación de un modelo predictivo para analizar la rentabilidad de las zonas priorizadas.
-Mapas interactivos que representen el análisis geoespacial.
-
-Semana 5-6:
-Finalización del dashboard interactivo.
-Presentación de recomendaciones finales y conclusiones basadas en los KPIs.
-
-Hitos:
-
-Desarrollo de herramientas visuales.
-Documentación clara del análisis.
-Recomendaciones estratégicas accionables."
 
 ![gantt](https://github.com/user-attachments/assets/e9c25815-c014-4e27-86af-31defa961134)
 
@@ -241,7 +223,9 @@ El cronograma general del proyecto se detalla a continuación, dividido en secci
 gantt
     title Cronograma General del Proyecto
     dateFormat  YYYY-MM-DD
-    section Sprint 1
+    axisFormat  %d-%b
+
+    section Sprint 1 📝
     Contextualizar la problemática    :done, b1, 2024-12-02, 2d
     Definiciones de objetivos y alcance  :done, a2, 2024-12-04, 1d
     Comprender los datos disponibles  :done, a2, 2024-12-04, 2d
@@ -249,15 +233,15 @@ gantt
     EDA y ETL inicial  :done, a2, 2024-12-05, 6d
     Definición y KPIs  :done, a2, 2024-12-10, 1d
     Preparación y ensayo de presentación :crit, a2, 2024-12-10, 4d
-    section Sprint 2 
-    ETL completo      :b1, 2024-12-16, 3d
-    Pipeline y automatización            :b2, 2024-12-18, 3d
-    Diseño del Datawarehouse         :b2, 2024-12-18, 5d
-    Diseño del modelo ER          :b2, 2024-12-22, 1d
-    MVP Machine Learning         :b2, 2025-01-06, 3d
-    Documentación        :b2, 2025-01-06, 4d
-    Preparación y Ensayo   :b2, 2025-01-09, 2d
-    section Sprint 3 
+    section Sprint 2 🚀
+    ETL completo  (16-19 Dic)    :b1, 2024-12-16, 3d
+    Pipeline y automatización (18-21 Dic)           :b2, 2024-12-18, 3d
+    Diseño del Datawarehouse (18-22 Dic)        :b2, 2024-12-18, 5d
+    Diseño del modelo ER (22 Dic)         :b2, 2024-12-22, 1d
+    MVP Machine Learning  (06-09 Ene)       :b2, 2025-01-06, 3d
+    Documentación (06-10 Ene)       :b2, 2025-01-06, 4d
+    Preparación y Ensayo(09-11 Ene)   :b2, 2025-01-09, 2d
+    section Sprint 3 🎯
     Diseño de Reportes/Dashboards           :c1, 2025-01-13, 5d
     KPIs                  :c2, 2025-01-16, 1d
     Modelo de Machine Learning  :c2, 2025-01-13, 7d
@@ -265,20 +249,55 @@ gantt
     Preparación y ensayo de presentación       :d2, 2025-01-22, 4d
 
 ```
+
+**Cronograma General: Hitos y Entregables**
+
+"El proyecto está diseñado para ser entregado en seis semanas, con presentaciones cada dos semanas.
+
+**Semana 1-2:**
+
+EDA inicial con datos de Google Maps y Yelp.
+Gráficos que muestren la información limpia y general.
+Definición de KPIs y fórmulas, junto con las metas iniciales.
+
+**Semana 3-4:**
+
+Implementación de un modelo predictivo para analizar la rentabilidad de las zonas priorizadas.
+Mapas interactivos que representen el análisis geoespacial.
+
+**Semana 5-6:**
+Finalización del dashboard interactivo.
+Presentación de recomendaciones finales y conclusiones basadas en los KPIs.
+
+**Hitos:**
+
+Desarrollo de herramientas visuales.
+Documentación clara del análisis.
+Recomendaciones estratégicas accionables."
+
 [⬆️ Volver al índice](#índice)
 
 # 🔗📂Repositorio Github
   📂EDA
       ---Analisis Preliminar Google  
+      
       --- EDA Google
+      
       ---Analisis Preliminar Yelp 
+      
       --- EDA Yelp 
+      
   📂ETL
+  
       --- ETL Google 
+      
       --- ETL Yelp 
   📂Data
-      --- Google  
+  
+      --- Google
+      
       --- Yelp
+      
       --- Census
       
   -- READ.ME
