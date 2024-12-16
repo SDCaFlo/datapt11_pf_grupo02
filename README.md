@@ -138,7 +138,8 @@ Y, por último, tenemos un gráfico que nos muestra la cantidad de usuarios que 
 Tenemos 574.000 usuarios con reseñas en las 616 ciudades, mostrando la mayor concentración de estos en Philadelphia, seguido por Tampa, New Orleans e Indianapolis.
 Mostrando a Philadelphia como un gran destino para este tipo de negocios.
 
-![image](https://github.com/user-attachments/assets/29ff9ab1-5e8d-4b39-b0a1-a97a406a9053)
+![eda3](https://github.com/user-attachments/assets/4de48cd3-e333-4d91-94a9-bcab47b04063)
+
 
 Para el dataset de google se analizaron un total 2,9 millones de negocios y 89.9 millones de reviews para el periodo de tiempo que conlleva desde abril-2002 hasta septiembre-2021.
 
@@ -146,7 +147,9 @@ Se identificaron un total de 4461 categorías distintas, de las cuales se tomaro
 
 Wordcloud: Se extrajo las palabras con mayor aparición dentro de las 50 categorías top y se produjo el siguiente wordcloud. Aquí logramos identificar que las palabras más relevantes son:  "fast," "food", "takeout”, “pizza”, “coffee”, ‘cafe’.
 
-![image](https://github.com/user-attachments/assets/f80f2792-daf3-4045-b0ee-c53144117cce)
+![eda4](https://github.com/user-attachments/assets/676e4b8b-4fae-489f-922b-60995a8297c8)
+
+![eda5](https://github.com/user-attachments/assets/4bfc5e7e-a217-452b-8ef3-c58ec0847875)
 
 
 ## Rating Medio Categorías:
