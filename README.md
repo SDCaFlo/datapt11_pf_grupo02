@@ -158,7 +158,8 @@ Conclusión: "Coffee" y "shop" son términos destacados, lo que indica la popula
 ***
 
  # 📊📏KPIs
- ![image](https://github.com/user-attachments/assets/4deac3ae-91b7-4b3b-90d1-95bd26fdfcc2)
+![kpis](https://github.com/user-attachments/assets/f8e74e2b-6de7-46e1-aba1-1cf048d2f2ef)
+
 
 En un mercado competitivo, el crecimiento y la salud de un negocio dependen de decisiones fundamentadas en datos. Por ello, hemos diseñado un sistema de medición basado en indicadores clave de desempeño (KPIs) que nos permitirán rastrear y optimizar aspectos esenciales como la satisfacción del cliente, la visibilidad del negocio y la conversión hacia compras efectivas. Este enfoque, sustentado por tecnología avanzada, buscará garantizar una gestión estratégica y escalable. 
 proponer objetivo de crecimiento y cuanto tiempo
