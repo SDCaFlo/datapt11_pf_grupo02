@@ -265,22 +265,6 @@ El pipeline cubre desde la ingestón de datos hasta la visualización, automatiz
 - **Git / GitHub** 💼: Versionado y CI/CD.
 - **APIs**: Google Map Places 📍, Yelp Fusion 🔎.
 
----
-
-### 💻 **Ejecución del Proyecto**
-1. **Clona el repositorio**:
-   ```bash
-   git clone https://github.com/usuario/repo_pipeline.git
-   ```
-2. **Instala las dependencias**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. **Configura las claves de las APIs**.
-4. **Ejecuta el pipeline** localmente:
-   ```bash
-   python main.py
-   ```
 
 ---
 
