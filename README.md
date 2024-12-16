@@ -185,8 +185,70 @@ Puntaje promedio = Sumatoria total de los puntajes del periodo / Total usuarios 
 # Flujo de Trabajo
 # Pipeline 
 
-## 🛠️💻Stack Tecnológico
-![Imagen de WhatsApp 2024-12-12 a las 15 21 29_82e29ee7](https://github.com/user-attachments/assets/b267e89d-98ee-4e1d-936c-bb9f57ccf953)
+![Imagen de WhatsApp 2024-12-16 a las 00 10 42_c2174330](https://github.com/user-attachments/assets/d193f302-c148-41db-a7ef-e711f56f9faa)
+
+## 🚀 Pipeline del Proyecto
+
+### **1. Data Source**
+- Los datos se obtienen desde diversas fuentes:
+   - **APIs**: Extracción automatizada desde Yelp y Google Maps.
+   - **Web Scraping**: Obtención de datos adicionales mediante scripts automatizados.
+   - **Carga Manual**: Archivos CSV subidos manualmente.
+
+- **Herramientas utilizadas**:
+   - **Python**, **Cloud Functions** y **Cloud Scheduler**.
+
+---
+
+### **2. Transform**
+- **Objetivos**:
+   - Limpieza de datos: Eliminación de valores duplicados y nulos.
+   - Cálculo de KPIs: Generación de métricas como **tasa de crecimiento de comentarios** y **puntuación promedio**.
+   - Procesamiento de datos en tiempo real y batch.
+
+- **Herramientas utilizadas**:
+   - **Pandas**: Transformación y análisis de datos.
+   - **Apache Spark**: Procesamiento eficiente de grandes volúmenes de información.
+   - **BigQuery**: Procesamiento SQL a gran escala.
+   - **Cloud Dataflow**: Procesamiento automatizado y en tiempo real de flujos complejos.
+
+---
+
+### **3. Warehouse**
+- Los datos limpios y procesados se almacenan en un Data Warehouse:
+   - **BigQuery**: Herramienta principal para el almacenamiento y consultas analíticas optimizadas.
+
+---
+
+### **4. Machine Learning**
+- Implementación de modelos para predecir oportunidades de expansión y rentabilidad de nuevas ubicaciones:
+   - **Scikit-Learn**: Modelos de regresión y clasificación.
+   - **TensorFlow**: Implementación de redes neuronales avanzadas.
+   - **Python**: Scripts para desarrollo, validación y ajuste de los modelos.
+
+- **Resultados**:  
+   - Los modelos generan predicciones basadas en las métricas clave y los datos geoespaciales procesados.
+
+---
+
+### **5. Visualization**
+- Creación de dashboards interactivos y gráficos para comunicar insights y resultados:
+   - **Matplotlib y Seaborn**: Visualización durante el Análisis Exploratorio de Datos (EDA).
+   - **Power BI**: Dashboards avanzados para visualizar KPIs y análisis interactivos.
+   - **Streamlit**: Desarrollo de un dashboard interactivo y dinámico para mostrar predicciones y visualizaciones clave.
+
+- **Despliegue**:
+   - **Docker**: Contenerización de la aplicación Streamlit.
+   - **Cloud Run**: Despliegue escalable en la nube.
+   - **Container Registry**: Gestión y almacenamiento de las imágenes Docker.
+
+---
+
+### 🔗 **Resumen del Pipeline**
+**Flujo Completo**:  
+**Data Source → Transform → Warehouse → Machine Learning → Visualization → Despliegue**.
+
+
 
 Para garantizar que estas métricas se capturen, transformen y analicen eficientemente, implementaremos una arquitectura robusta de Data Warehouse y Machine Learning divididas en cuatro módulos, la extracción, transformación, data warehouse y visualización y machine learning
 
@@ -209,6 +271,45 @@ Se hará uso de tecnologías de cloud como, Cloud Container Registry, y Cloud Ru
 
 [⬆️ Volver al índice](#índice)
 
+## 🛠️💻Stack Tecnológico
+![Imagen de WhatsApp 2024-12-16 a las 00 10 03_fe20ce49](https://github.com/user-attachments/assets/af9c2744-54a6-4e46-8c52-76dd7cdc3892)
+## 🛠️ Stack Tecnológico
+
+### **1. Data Source**
+- **Python**: Lenguaje base para extracción y procesamiento de datos.
+- **Cloud Functions**: Automatización de la extracción desde APIs y scripts de scraping.
+- **Cloud Scheduler**: Programación de tareas periódicas.
+- **APIs y Web Scraping**: Extracción automatizada de datos desde fuentes como Yelp y Google Maps.
+
+---
+
+### **2. Transform**
+- **Pandas**: Limpieza, manipulación e integración de datos en Python.
+- **Apache Spark**: Procesamiento eficiente de grandes volúmenes de datos.
+- **BigQuery**: Transformación y procesamiento de datos estructurados mediante SQL.
+- **Cloud Dataflow**: Procesamiento de flujos de datos en tiempo real y batch.
+
+---
+
+### **3. Warehouse**
+- **BigQuery**: Data Warehouse centralizado para el almacenamiento y análisis de datos a gran escala.
+
+---
+
+### **4. Machine Learning**
+- **Scikit-Learn**: Implementación de modelos de regresión y clasificación.
+- **TensorFlow**: Creación de modelos avanzados con redes neuronales y deep learning.
+- **Python**: Lenguaje base para el desarrollo de modelos predictivos.
+
+---
+
+### **5. Visualization**
+- **Matplotlib y Seaborn**: Visualización gráfica durante el análisis exploratorio (EDA).
+- **Power BI**: Generación de informes interactivos y análisis de KPIs.
+- **Streamlit**: Creación de un dashboard interactivo para mostrar predicciones y resultados.
+- **Docker**: Contenerización de la aplicación para despliegue.
+- **Cloud Run**: Despliegue de la aplicación en la nube.
+- **Container Registry**: Almacenamiento y control de versiones de las imágenes Docker.
 
 
 ## 📝🧩 Metodología de trabajo
@@ -282,27 +383,33 @@ Recomendaciones estratégicas accionables."
 [⬆️ Volver al índice](#índice)
 
 # 🔗📂Repositorio Github
+
   📂EDA
-      ---Analisis Preliminar Google  
+   
+   Analisis Preliminar Google:  
       
-      --- EDA Google
+   EDA Google: 
       
-      ---Analisis Preliminar Yelp 
+   Analisis Preliminar Yelp: 
       
-      --- EDA Yelp 
+   EDA Yelp:
       
   📂ETL
   
-      --- ETL Google 
+    ETL Google 
       
-      --- ETL Yelp 
-  📂Data
+    ETL Yelp 
+    
+ 📂Data
   
-      --- Google
-      
-      --- Yelp
-      
-      --- Census
+Google: 
+ [Data Google]([https://docs.github.com](https://drive.google.com/drive/folders/1r-C75XM0gNzKiJPa97j-8HIiqtOzaz42))
+     
+Yelp: 
+[Data Yelp]([https://docs.github.com](https://usantotomaseduco-my.sharepoint.com/personal/dianamorenoa_usantotomas_edu_co/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fdianamorenoa%5Fusantotomas%5Fedu%5Fco%2FDocuments%2FYELP%2Ddatasets&ga=1))
+
+         
+Census
       
   -- READ.ME
 
