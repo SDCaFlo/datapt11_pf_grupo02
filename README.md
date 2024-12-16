@@ -168,40 +168,64 @@ Conclusión: "Coffee" y "shop" son términos destacados, lo que indica la popula
  # 📊📏KPIs
 ![kpis](https://github.com/user-attachments/assets/f8e74e2b-6de7-46e1-aba1-1cf048d2f2ef)
 
+# 📊 **Indicadores Clave de Desempeño (KPIs)**  
 
-En un mercado competitivo, el crecimiento y la salud de un negocio dependen de decisiones fundamentadas en datos. Por ello, hemos diseñado un sistema de medición basado en indicadores clave de desempeño (KPIs) que nos permitirán rastrear y optimizar aspectos esenciales como la satisfacción del cliente, la visibilidad del negocio y la conversión hacia compras efectivas. Este enfoque, sustentado por tecnología avanzada, buscará garantizar una gestión estratégica y escalable. 
-proponer objetivo de crecimiento y cuanto tiempo
-**KPI1:**
+En un **mercado competitivo**, el éxito y crecimiento de un negocio dependen de **decisiones fundamentadas en datos**. Por ello, hemos diseñado un sistema de medición basado en **Indicadores Clave de Desempeño (KPIs)** que permiten **rastrear y optimizar** aspectos esenciales como:  
+
+- 📈 **Satisfacción del cliente**  
+- 🔍 **Visibilidad del negocio**  
+- 🛒 **Conversión hacia compras efectivas**  
+
+Este enfoque, sustentado en **tecnología avanzada**, asegura una gestión **estratégica y escalable**.
+
+## ✨ **KPIs Definidos**  
+
+ 
+
 ![kpi1](https://github.com/user-attachments/assets/8c79eaa8-553e-400d-9008-ec2b9709c575)
+### 📌 **KPI 1: Sentimiento** 
 
-Nombre:Tasa de crecimiento de comentarios positivos
-Objetivo: Monitorear la satisfacción de los clientes y la salud de la marca.
-Métrica: ¿Está creciendo el volumen de opiniones positivas sobre nuestro negocio?
-Descripción: mide el porcentaje de crecimiento de la cantidad total de puntuaciones positivas con respecto al periodo inmediatamente anterior
- 
-_Fórmula: % de crecimiento de comentarios positivos = [(Total comentarios positivos periodo actual - Total comentarios positivos periodo anterior) / Total de comentarios positivos periodo anterior] * 100_
- 
+- **Descripción**:  
+   Monitorea el **sentimiento de los comentarios** para conocer la **opinión del consumidor**. Se calcula como el **porcentaje de comentarios positivos** respecto al total de comentarios del periodo.  
+- **Fórmula**:  
+   \[
+   \text{Porcentaje de crecimiento de comentarios positivos} = \frac{\text{(Total comentarios positivos periodo actual - Total comentarios positivos periodo anterior)}}{\text{Total comentarios positivos periodo anterior}} \times 100
+   \]  
+- **Meta**: ✅ **75%**  
+
+---
+
 **KPI2:**
 ![kpi2](https://github.com/user-attachments/assets/540812b7-faa7-4730-bf84-3c2c9baa3663)
+### ⭐ **KPI 2: Puntuación Promedio**  
+- **Descripción**:  
+   Mide el **promedio de las calificaciones** dejadas por los usuarios durante un periodo, reflejando la **satisfacción del cliente** de manera cuantitativa.  
+- **Fórmula**:  
+   \[
+   \text{Puntaje promedio} = \frac{\text{Sumatoria total de puntajes del periodo}}{\text{Total de usuarios que dejaron calificación}}
+   \]  
+- **Meta**: ✅ **3.8**  
 
-Nombre: Puntuación promedio
-Objetivo: Representar de forma cuantitativa la experiencia del cliente.
-Métrica: Promedio de calificaciones otorgadas por los usuarios.
-Descripción: Mide la satisfacción de los clientes representada por medio de la  puntuación que registran los usuarios para el negocio.
-
-_Fórmula: Puntaje promedio = Sumatoria total de los puntajes del periodo / Total usuarios que dejaron su calificación en el periodo._
+---
  
 **KPI3**
 ![kpi3](https://github.com/user-attachments/assets/8aff3c10-9e5f-4ffb-a9bd-1734c2339acc)
 
-Nombre: Tasa de crecimiento de las calificaciones
-Objetivo: Incrementar la visibilidad del negocio atrayendo a más clientes a dejar reseñas.
-Métrica: ¿Cuánto crecen las reseñas en cada periodo?
-Descripción:  Medir el crecimiento de la cantidad de clientes que están dejando reseñas, lo que refleja la visibilidad del negocio.
+### 🚀 **KPI 3: Tasa de Crecimiento de las Calificaciones**  
+- **Descripción**:  
+   Monitorea el **crecimiento de la visibilidad** del negocio basado en el **número de reseñas** recibidas en el periodo.  
+- **Fórmula**:  
+   \[
+   \text{Porcentaje de crecimiento de calificaciones} = \frac{\text{(Total comentarios periodo actual - Total comentarios periodo anterior)}}{\text{Total comentarios periodo anterior}} \times 100
+   \]  
+- **Meta**: ✅ **2%**
+- ---
 
-_Fórmula: % de crecimiento de comentarios de las calificaciones = [(Total comentarios periodo actual - Total comentarios periodo anterior) / Total de comentarios periodo anterior] * 100_
+---
 
-Puntaje promedio = Sumatoria total de los puntajes del periodo / Total usuarios que dejaron su calificación en el periodo.
+## 🎯 **Resumen**  
+Estos **KPIs** nos permitirán analizar y mejorar continuamente el desempeño del negocio, asegurando una **mejor experiencia del cliente**, mayor visibilidad y un crecimiento sostenible. 🚀 
+
 
 [⬆️ Volver al índice](#índice)
 # Flujo de Trabajo
