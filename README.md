@@ -36,9 +36,17 @@
 # 🚀Equipo de Trabajo:
 # ¿Quienes Somos? 
 ![portada1](https://github.com/user-attachments/assets/f587c76e-ae57-41ea-8a08-d16770a91945)
-"Buenos días. Somos Datanova, un equipo especializado en transformar datos en soluciones estratégicas. Hoy queremos presentar nuestra propuesta para apoyar la expansión de su empresa, un negocio consolidado en el rubro de 'Coffee & Brunch Business'. Sabemos que desea abrir nuevos locales y confiamos en que este proyecto será clave para identificar las mejores oportunidades, minimizando riesgos y maximizando el retorno de su inversión.
-Nuestro objetivo es simple: utilizar datos para transformar su visión en una estrategia ganadora."
 
+# ☕ **Datanova: Datos que Impulsan Decisiones Estratégicas**  
+
+En **Datanova**, convertimos datos en herramientas clave para el crecimiento y la innovación. Nos complace presentar nuestra propuesta para **apoyar la expansión de su negocio**, un referente en el sector **Coffee & Brunch Business**.  
+
+Nuestro enfoque está centrado en ayudarle a **identificar las mejores ubicaciones** para sus nuevos locales, reduciendo riesgos y maximizando el **potencial de retorno**.  
+
+### 🎯 **Nuestra misión**  
+Transformar sus objetivos en resultados concretos, aprovechando el poder de los datos para diseñar una **estrategia exitosa y sostenible**.
+
+---
 Presentación de Nuestro Equipo de Ciencia de Datos
 | 📊 **Analistas de Datos** | 🛠️ **Ingenieros de Datos** | 🤖 **Ingenieros de Machine Learning** |
 |---------------------------|---------------------------|--------------------------------------|
