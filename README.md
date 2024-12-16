@@ -247,30 +247,119 @@ Los datos reafirman a **Philadelphia** como un destino **clave y estratégico** 
 
 ![eda3](https://github.com/user-attachments/assets/4de48cd3-e333-4d91-94a9-bcab47b04063)
 
+---
 
-Para el dataset de google se analizaron un total 2,9 millones de negocios y 89.9 millones de reviews para el periodo de tiempo que conlleva desde abril-2002 hasta septiembre-2021.
+## 🗂️ **Análisis del Dataset de Google**  
 
-Se identificaron un total de 4461 categorías distintas, de las cuales se tomaron las 50 categorías de comida más relevantes, que representan más del 90% de los reviews totales asociados a establecimientos de comida.
+Para el dataset de **Google**, se analizaron:  
+- 📊 **2.9 millones de negocios**  
+- 📝 **89.9 millones de reviews**  
+- 📅 Periodo: **Abril 2002 - Septiembre 2021**  
 
-Wordcloud: Se extrajo las palabras con mayor aparición dentro de las 50 categorías top y se produjo el siguiente wordcloud. Aquí logramos identificar que las palabras más relevantes son:  "fast," "food", "takeout”, “pizza”, “coffee”, ‘cafe’.
+---
+
+### 📑 **Categorías de Análisis**  
+- Se identificaron **4,461 categorías distintas**.  
+- Seleccionamos las **50 categorías de comida más relevantes**, las cuales representan **más del 90%** de los reviews totales asociados a establecimientos de comida.  
+
+---
+
+### ☁️ **Wordcloud: Palabras Más Relevantes**  
+A partir de las **50 categorías principales**, extrajimos las palabras con mayor aparición y generamos la siguiente **nube de palabras** (Wordcloud).  
+
+🔍 Las palabras más relevantes identificadas fueron:  
+- **"fast"**, **"food"**, **"takeout"**, **"pizza"**, **"coffee"**, **"cafe"**  
+
+📝 **Interpretación**:  
+Esto sugiere que la categoría **coffee** tiene una **fuerte presencia** en el mercado de comida estadounidense.  
+
+---
+
+### ⭐ **Rating Medio por Categoría**  
+Al calcular el **rating promedio** de las categorías, observamos lo siguiente:  
+- ☕ Los establecimientos asociados a **Coffee** presentan un **rating elevado**, lo que indica una **alta satisfacción del cliente**.  
+- 🍟 En contraste, los locales de **comida rápida** (Fast Food) se encuentran entre los **peores calificados**.  
+
+---
+
+## 🎯 **Conclusión**  
+El análisis destaca que los negocios de **Coffee** no solo tienen una **fuerte presencia en el mercado**, sino que también son percibidos con **alta calidad** por parte de los consumidores. En comparación, los negocios de **comida rápida** muestran una menor calificación promedio, lo que refleja oportunidades para mejorar en este segmento.  
+
+---
 
 ![eda4](https://github.com/user-attachments/assets/676e4b8b-4fae-489f-922b-60995a8297c8)
 
+## 📊 **Análisis de Tendencias en Coffee Shops**  
+
+### 🗓️ **Establecimientos Únicos por Periodo**  
+Tras filtrar los locales a categorías asociadas a **Coffee Shops**, evaluamos la **frecuencia trimestral** de establecimientos presentes en los reviews.  
+
+🔍 **Hallazgos**:  
+- El sector muestra una **tendencia de crecimiento constante**.  
+- 📉 Se identificó un periodo de **decaída** que podría estar asociado a la **pandemia**, reflejando su impacto temporal en el sector.  
+
+---
+
+### ⭐ **Rating Promedio por Periodo**  
+A pesar de la caída en la cantidad de establecimientos durante la pandemia:  
+- 📈 El **rating promedio** de los coffee shops ha mostrado un **aumento constante** a lo largo del tiempo.  
+
+### 🔎 **Posible Interpretación**:  
+- **Competencia del sector**: La mejora en el **servicio y calidad** como respuesta a un mercado más exigente.  
+- ☕ **Aceptación del público**: Mayor preferencia por este tipo de establecimientos, donde el café y el ambiente social juegan un papel importante.  
+
+---
+
+### 📌 **Conclusión General**  
+Los términos **"coffee"** y **"shop"** destacan en el análisis, lo cual refleja:  
+- ☕ La **popularidad** de las cafeterías como espacios clave para **socializar** y **trabajar**.  
+- 🇺🇸 Una consistencia con la **cultura estadounidense**, donde el café ocupa un lugar **central** en la rutina diaria.  
+
+---
+
+## 🎯 **Relevancia para el Negocio**  
+El crecimiento sostenido y la alta aceptación del público por los **coffee shops** los posicionan como una **oportunidad estratégica** para nuevos emprendimientos en el sector.  
+
+--- 
+
 ![eda5](https://github.com/user-attachments/assets/4bfc5e7e-a217-452b-8ef3-c58ec0847875)
+---
 
+## 🗺️ **Relación entre Coffee-Shops y Densidad Poblacional**  
 
-## Rating Medio Categorías:
+### 🔥 **Mapa de Calor: Distribución de Coffee-Shops**  
+En el **mapa de calor** (izquierda), podemos observar la **concentración de establecimientos de coffee-shops** en Estados Unidos:  
+- 📍 Mayor densidad en las **costas este y oeste**, destacando a **New York** como el estado con mayor presencia.  
+- 🏜️ Menor densidad en la zona **central** del país, especialmente en estados como **Nevada**, **Wyoming** y **Montana**.  
 
-Teniendo en cuenta esto, calculamos el rating promedio de las categorías y observamos que los establecimientos asociados a Coffee presentan un rating mucho más elevado, en contraste con los locales de comida rápida, que se encuentran entre los peores calificados.
+---
 
-Establecimientos Unicos por Periodo: Despues de acotar nuestro locales a categorias asociadas a Coffee shops, evaluamos la presencia de establecimientos dentro de los reviews con una frecuencia trimestral. De esta manera, observamos que el sector se encuentra en crecimiento, a excepción de un periodo de decaída posiblemente asociado a la pandemia.
+### 🗺️ **Mapa Coroplético: Densidad Poblacional**  
+El **mapa coroplético** (derecha), generado con datos del **United States Census Bureau**, muestra la **densidad poblacional** por condado.  
 
-## Rating promedio por periodo:
+### 🔎 **Comparación Visual**  
+Al comparar ambos mapas:  
+- Se observa una **relación directa** entre la **densidad poblacional** y la **cantidad de coffee-shops**.  
+- 📈 Las zonas con **mayor densidad de población** tienden a tener una **mayor concentración** de establecimientos.  
 
-A pesar de esta caída, notamos que el rating promedio de estos establecimientos ha ido en alza, lo que puede ser un indicador tanto de una mejora constante en el servicio debido a la competencia del sector, así como también una mejor aceptación del público a este tipo de establecimientos.
+---
 
+### 📉 **Análisis de Correlación**  
+- El cálculo de correlación lineal arroja un valor de **0.45**, lo que indica una **relación moderada** entre ambos factores.  
+- Sin embargo, esta correlación **no es lo suficientemente fuerte** como para ser un **predictor confiable** por sí sola.  
 
-Conclusión: "Coffee" y "shop" son términos destacados, lo que indica la popularidad de cafeterías y lugares donde los consumidores buscan bebidas rápidas y espacios para socializar o trabajar. Esto es consistente con la cultura estadounidense, donde el café ocupa un lugar central.
+---
+
+## 🎯 **Conclusión Estratégica**  
+Para el negocio de **coffee shops**:  
+- La **densidad poblacional** es un factor **importante**, pero **no definitivo**.  
+- Es crucial analizar otros factores que podrían influir en la **presencia** y el **éxito** del rubro, como:  
+   - 📍 **Ubicación y accesibilidad**  
+   - 👥 **Perfil demográfico del consumidor**  
+   - 🛠️ **Nivel de competencia local**  
+   - 💼 **Tendencias de consumo y hábitos de los usuarios**  
+
+---
 
 [⬆️ Volver al índice](#índice)
 ***
