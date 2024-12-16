@@ -183,139 +183,169 @@ Puntaje promedio = Sumatoria total de los puntajes del periodo / Total usuarios 
 
 [⬆️ Volver al índice](#índice)
 # Flujo de Trabajo
-# Pipeline 
+# 🚀Pipeline 
 
 ![Imagen de WhatsApp 2024-12-16 a las 00 10 42_c2174330](https://github.com/user-attachments/assets/d193f302-c148-41db-a7ef-e711f56f9faa)
 
-## 🚀 Pipeline del Proyecto
-
-### **1. Data Source**
-- Los datos se obtienen desde diversas fuentes:
-   - **APIs**: Extracción automatizada desde Yelp y Google Maps.
-   - **Web Scraping**: Obtención de datos adicionales mediante scripts automatizados.
-   - **Carga Manual**: Archivos CSV subidos manualmente.
-
-- **Herramientas utilizadas**:
-   - **Python**, **Cloud Functions** y **Cloud Scheduler**.
-
----
-
-### **2. Transform**
-- **Objetivos**:
-   - Limpieza de datos: Eliminación de valores duplicados y nulos.
-   - Cálculo de KPIs: Generación de métricas como **tasa de crecimiento de comentarios** y **puntuación promedio**.
-   - Procesamiento de datos en tiempo real y batch.
-
-- **Herramientas utilizadas**:
-   - **Pandas**: Transformación y análisis de datos.
-   - **Apache Spark**: Procesamiento eficiente de grandes volúmenes de información.
-   - **BigQuery**: Procesamiento SQL a gran escala.
-   - **Cloud Dataflow**: Procesamiento automatizado y en tiempo real de flujos complejos.
-
----
-
-### **3. Warehouse**
-- Los datos limpios y procesados se almacenan en un Data Warehouse:
-   - **BigQuery**: Herramienta principal para el almacenamiento y consultas analíticas optimizadas.
-
----
-
-### **4. Machine Learning**
-- Implementación de modelos para predecir oportunidades de expansión y rentabilidad de nuevas ubicaciones:
-   - **Scikit-Learn**: Modelos de regresión y clasificación.
-   - **TensorFlow**: Implementación de redes neuronales avanzadas.
-   - **Python**: Scripts para desarrollo, validación y ajuste de los modelos.
-
-- **Resultados**:  
-   - Los modelos generan predicciones basadas en las métricas clave y los datos geoespaciales procesados.
-
----
-
-### **5. Visualization**
-- Creación de dashboards interactivos y gráficos para comunicar insights y resultados:
-   - **Matplotlib y Seaborn**: Visualización durante el Análisis Exploratorio de Datos (EDA).
-   - **Power BI**: Dashboards avanzados para visualizar KPIs y análisis interactivos.
-   - **Streamlit**: Desarrollo de un dashboard interactivo y dinámico para mostrar predicciones y visualizaciones clave.
-
-- **Despliegue**:
-   - **Docker**: Contenerización de la aplicación Streamlit.
-   - **Cloud Run**: Despliegue escalable en la nube.
-   - **Container Registry**: Gestión y almacenamiento de las imágenes Docker.
+### 🌟 **Introducción**
+Este proyecto implementa un pipeline de datos **robusto y escalable** que permite la **ingestión**, **transformación**, **almacenamiento** y **visualización** de datos. Además, incluye la integración de modelos de **Machine Learning** y **control de versiones** para garantizar calidad y reproducibilidad.
 
 ---
 
 ### 🔗 **Resumen del Pipeline**
 **Flujo Completo**:  
-**Data Source → Transform → Warehouse → Machine Learning → Visualization → Despliegue**.
+**Data Source → Transform → Warehouse → Machine Learning → Visualization.
+
+El pipeline cubre desde la ingestón de datos hasta la visualización, automatizando tareas y garantizando eficiencia.
+
+---
+
+### 🛠️ **Arquitectura del Pipeline**
+
+1. **🛠️ Local Transform (Procesamiento Local)**:
+   - Herramientas: **Apache Spark**, **Python** *(pandas, matplotlib, numpy)*.
+   - Actividades: Exploratory Data Analysis (**EDA**), limpieza y transformaciones iniciales.
+
+2. **💾 Data Source (Origen de Datos)**:
+   - Fuentes de datos:
+     - **APIs**: Google Map Places 📍, Yelp Fusion 🔎.
+     - Subida manual: Archivos **CSV**, **JSON**.
+
+3. **📈 Transform (Transformación de Datos)**:
+   - **BigQuery** 📂: Almacenamiento y consulta SQL.
+   - **Cloud Dataflow** 🛠️: Procesamiento escalable y en streaming.
+   - **Cloud Functions** ⚙️: Automatización de tareas adicionales con Python.
+   - **Cloud Scheduler** ⏰: Programación de tareas recurrentes.
+
+4. **🏛️ Warehouse (Almacén de Datos)**:
+   - **BigQuery** 📁: Actúa como **Data Warehouse** central.
+
+5. **🤖 Machine Learning**:
+   - Modelado con:
+     - **TensorFlow** 💡 y **Scikit-learn** 🔬.
+   - Despliegue con **Streamlit** 📺 para interfaces interactivas.
+
+6. **📊 Visualization (Visualización de Datos)**:
+   - Herramienta: **Power BI** 🔍.
+   - Propósito: Dashboards interactivos para el análisis y presentación de resultados.
+
+7. **🔒 Version Control (Control de Versiones)**:
+   - **Git** ⚒️ y **GitHub** 💼: Control de versiones y colaboración.
+   - **GitHub Actions** ⏳: Automatización de CI/CD.
+
+---
+
+### 🔄 **Flujo del Pipeline**
+1. **💡 Ingestión de Datos**:
+   - Datos obtenidos de **APIs** o subida manual.
+2. **🛠️ Transformación Local**:
+   - EDA y limpieza con **Apache Spark** y **Python**.
+3. **💾 Carga a la Nube**:
+   - Datos subidos a **BigQuery**.
+4. **🛠️ Transformación en la Nube**:
+   - Procesamiento con **Cloud Dataflow** y automatización con **Cloud Functions** y **Scheduler**.
+5. **📁 Almacenamiento**:
+   - Datos transformados almacenados en **BigQuery**.
+6. **🤖 Machine Learning**:
+   - Entrenamiento de modelos con **TensorFlow/Scikit-learn**.
+   - Visualización de resultados con **Streamlit**.
+7. **📊 Visualización Final**:
+   - Dashboards interactivos con **Power BI**.
+8. **⚒️ Control de Versiones**:
+   - Automatización y control con **Git**, **GitHub** y **GitHub Actions**.
+
+---
+
+### 🧰 **Tecnologías Principales**
+- **BigQuery** 📂: Almacenamiento y consulta de datos.
+- **Cloud Dataflow** 🛠️: Procesamiento escalable.
+- **TensorFlow / Scikit-learn** 🤖: Modelado de datos.
+- **Streamlit** 📺: Interfaces interactivas.
+- **Power BI** 🔍: Visualización de resultados.
+- **Git / GitHub** 💼: Versionado y CI/CD.
+- **APIs**: Google Map Places 📍, Yelp Fusion 🔎.
+
+---
+
+### 💻 **Ejecución del Proyecto**
+1. **Clona el repositorio**:
+   ```bash
+   git clone https://github.com/usuario/repo_pipeline.git
+   ```
+2. **Instala las dependencias**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Configura las claves de las APIs**.
+4. **Ejecuta el pipeline** localmente:
+   ```bash
+   python main.py
+   ```
+
+---
 
 
 
-Para garantizar que estas métricas se capturen, transformen y analicen eficientemente, implementaremos una arquitectura robusta de Data Warehouse y Machine Learning divididas en cuatro módulos, la extracción, transformación, data warehouse y visualización y machine learning
+### 🚀 **Este pipeline está diseñado para ser escalable, automatizado y fácil de usar**. 🚀
 
-## Extracción: 
-Se considerará la extracción de datos de diversas fuentes, y se realizará carga de forma local, así como también extracción via web scrapping y APIs de ser necesario. (Por definir).
 
-## Transformación:
-Cloud Scheduler: Las tareas de extracción se automatizarán utilizando.
-Cloud Functions: Programar scripts de transformación simples, que no requieran mucho poder de procesamiento y sean rápidos. Así como también activar los procesos BigQuery y DataFlow.
-BigQuery: Se encargará de realizar transformaciones de fuentes de datos de mayor tamaño usando queries SQL.
-DataFlow: Se encargará de procesar data que no pueda transformarse usando SQL especialmente la que se usará para el modelo de machine learning
-
-## Datawarehouse:
-BigQuery: Se usará BigQuery también como almacén de datos. Ventajas: Se evita cargar datos desde google cloud storage e incurrir en gastos de transferencia. Data lista para ser procesada por otras herramientas después del ETL.
-
-## Visualización y ML
-Streamlit: Se hará uso de streamlit para generar un dashboard interactivo, así como también para realizar el deploy del modelo de ML.
-Una vez diseñada la app de streamlit, esta se conteinerizará con Docker para que pueda ser deployada en la nube de GCloud.
-Se hará uso de tecnologías de cloud como, Cloud Container Registry, y Cloud Run para poder guardar y deployar el container.
 
 [⬆️ Volver al índice](#índice)
 
-## 🛠️💻Stack Tecnológico
+## 🛠️🧩💻**Stack Tecnológico**
 ![Imagen de WhatsApp 2024-12-16 a las 00 10 03_fe20ce49](https://github.com/user-attachments/assets/af9c2744-54a6-4e46-8c52-76dd7cdc3892)
-## 🛠️ Stack Tecnológico
 
-### **1. Data Source**
-- **Python**: Lenguaje base para extracción y procesamiento de datos.
-- **Cloud Functions**: Automatización de la extracción desde APIs y scripts de scraping.
-- **Cloud Scheduler**: Programación de tareas periódicas.
-- **APIs y Web Scraping**: Extracción automatizada de datos desde fuentes como Yelp y Google Maps.
+El pipeline utiliza un **stack de herramientas escalable** y eficiente:
+
+### ⚙️ **Procesamiento de Datos**:
+- **Apache Spark** 🛠️: Procesamiento distribuido.
+- **Python** ✨: Lenguaje principal.
+   - Bibliotecas: **pandas**, **numpy**, **matplotlib**.
+
+### 📂 **Almacenamiento en la Nube**:
+- **BigQuery**: Data Warehouse.
+- **Cloud Dataflow**: Procesamiento escalable.
+- **Cloud Functions**: Automatización.
+- **Cloud Scheduler**: Programación de tareas.
+
+### 🤖 **Machine Learning**:
+- **TensorFlow / Scikit-learn**: Desarrollo y evaluación de modelos.
+- **Streamlit**: Interfaces interactivas.
+
+### 📊 **Visualización**:
+- **Power BI**: Dashboards y análisis.
+
+### ⚒️ **Control de Versiones**:
+- **Git y GitHub**: Versionado del código.
+- **GitHub Actions**: Automatización CI/CD.
+
+### 💾 **Ingestión de Datos**:
+- **APIs**: Google Map Places, Yelp Fusion.
 
 ---
 
-### **2. Transform**
-- **Pandas**: Limpieza, manipulación e integración de datos en Python.
-- **Apache Spark**: Procesamiento eficiente de grandes volúmenes de datos.
-- **BigQuery**: Transformación y procesamiento de datos estructurados mediante SQL.
-- **Cloud Dataflow**: Procesamiento de flujos de datos en tiempo real y batch.
+### 🎯 **Beneficios del Stack**
+- ✨ **Escalabilidad**: Manejo eficiente de grandes volúmenes.
+- 🔄 **Automatización**: Menos procesos manuales.
+- 🔒 **Reproducibilidad**: Versionado con Git/GitHub.
+- 📺 **Interactividad**: Visualización clara con Streamlit y Power BI.
 
 ---
-
-### **3. Warehouse**
-- **BigQuery**: Data Warehouse centralizado para el almacenamiento y análisis de datos a gran escala.
-
----
-
-### **4. Machine Learning**
-- **Scikit-Learn**: Implementación de modelos de regresión y clasificación.
-- **TensorFlow**: Creación de modelos avanzados con redes neuronales y deep learning.
-- **Python**: Lenguaje base para el desarrollo de modelos predictivos.
-
----
-
-### **5. Visualization**
-- **Matplotlib y Seaborn**: Visualización gráfica durante el análisis exploratorio (EDA).
-- **Power BI**: Generación de informes interactivos y análisis de KPIs.
-- **Streamlit**: Creación de un dashboard interactivo para mostrar predicciones y resultados.
-- **Docker**: Contenerización de la aplicación para despliegue.
-- **Cloud Run**: Despliegue de la aplicación en la nube.
-- **Container Registry**: Almacenamiento y control de versiones de las imágenes Docker.
-
 
 ## 📝🧩 Metodología de trabajo
 ![image](https://github.com/user-attachments/assets/06a7dbf2-a68d-4d93-9506-f11b931324e6)
 
-"Para organizar nuestro trabajo y dirigir nuestros esfuerzos hacia nuestras metas, hemos elegido trabajar con metodologías ágiles bajo el marco de trabajo SCRUM. Este enfoque nos va a permitir mejorar la organización de tareas, fomentar la colaboración entre los integrantes del equipo y adaptarnos rápidamente a los cambios, asegurando entregas continuas y alineadas con nuestros objetivos."
+Para **organizar nuestro trabajo** y **dirigir nuestros esfuerzos** hacia nuestras metas, hemos elegido trabajar con **metodologías ágiles** bajo el marco de trabajo **SCRUM** 🚀.
+
+Este enfoque nos permite:
+
+- ✅ **Mejorar la organización de tareas**: Asignando responsabilidades claras y manejando tiempos eficientemente.  
+- 🤝 **Fomentar la colaboración**: Promoviendo la comunicación constante y el trabajo en equipo.  
+- 🔄 **Adaptarnos rápidamente a los cambios**: Flexibilidad ante nuevas necesidades o retos del proyecto.  
+- 📦 **Asegurar entregas continuas**: Iteraciones incrementales que mantienen el producto alineado con nuestros objetivos.\n\nTrabajar bajo **SCRUM** nos garantiza un flujo de trabajo **transparente**, **eficiente** y **enfocado en la entrega de valor**, permitiendo la mejora continua durante todo el desarrollo.
+
+---
+
 [⬆️ Volver al índice](#índice)
 
 ## ⏳📅Cronograma General Gantt
