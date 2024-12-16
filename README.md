@@ -420,10 +420,10 @@ Recomendaciones estratégicas accionables."
  📂Data
   
 Google: 
- [Data Google]([https://docs.github.com](https://drive.google.com/drive/folders/1r-C75XM0gNzKiJPa97j-8HIiqtOzaz42))
+ [Data Google](https://drive.google.com/drive/folders/1r-C75XM0gNzKiJPa97j-8HIiqtOzaz42)
      
 Yelp: 
-[Data Yelp]([https://docs.github.com](https://usantotomaseduco-my.sharepoint.com/personal/dianamorenoa_usantotomas_edu_co/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fdianamorenoa%5Fusantotomas%5Fedu%5Fco%2FDocuments%2FYELP%2Ddatasets&ga=1))
+[Data Yelp](https://usantotomaseduco-my.sharepoint.com/personal/dianamorenoa_usantotomas_edu_co/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fdianamorenoa%5Fusantotomas%5Fedu%5Fco%2FDocuments%2FYELP%2Ddatasets&ga=1)
 
          
 Census
