@@ -105,6 +105,7 @@ Este proyecto no incluye la Integración en tiempo real con las plataformas Yelp
 ***
 ![EDA](https://github.com/user-attachments/assets/43d31db9-18b7-4a81-b84e-ba1980002b48)
 
+
 # 📈🔎EDA
 # Análisis Exploratorio de Datos
 "En estas dos primeras semanas, nos enfocamos en recopilar, limpiar y analizar datos de Google Maps y Yelp. Nuestro EDA inicial incluye:
@@ -112,12 +113,16 @@ Demografía y densidad poblacional: Identificar zonas con alta concentración de
 Tráfico peatonal: Evaluar la afluencia promedio en las áreas seleccionadas.
 Competencia: Mapear la presencia de negocios similares.
 Presentaremos gráficos claros que reflejen tanto los datos generales como los resultados después de la limpieza. Por ejemplo, visualizaremos las áreas con mayor potencial versus las que presentan riesgos asociados a la saturación del mercado."
-![image](https://github.com/user-attachments/assets/ed9d7354-6ee9-415d-9fe0-f09b934d5852)
+
+![GraficosEda1](https://github.com/user-attachments/assets/67284533-1197-48ba-bf6d-ae42bc510718)
+
+
 Para la base de datos de YELP encontramos alrededor de 150 mil comercios, los cuales se encuentran ubicados en 1416 ciudades de estados unidos, y como nos muestra el primer gráfico se encuentran mayormente concentrados en la ciudad de philadelphia con un 9.7%, Tucson con un 6.15% y tampa con un 6%.
 
 Como el negocio objetivo del cliente son los negocios dedicados al comercio de Coffee & Tea y Breakfast and brunch, el segundo gráfico nos muestra la cantidad de negocios en estas categorías.Para este caso contamos con 11.758 negocios de estas categorías ubicados en un total de 616 ciudades de Estados Unidos, y como podemos observar, la mayor parte de estos negocios los podemos encontrar, en philadelphia, tampa, new Orleans, Tucson y Nashville. Siento Philadelphia la ciudad con más negocios de este tipo en Estados Unidos.
 
-![image](https://github.com/user-attachments/assets/d1505e48-0341-4e81-9717-a33843231fc7)
+![GraficosEda2](https://github.com/user-attachments/assets/3312d2bc-cd62-4a3c-ab32-930f2de2148b)
+
 En los datos de YELP también encontramos un poco más de 7 millones de reseñas escritas por los usuarios, de las cuales 1.147.000 corresponden a reseñas de la categoría Coffee and Breakfast.
 En el gráfico de color azul, podemos ver la concentración de estas reseñas por ciudades, mostrando que en Philadelphia y New Orleans se encuentran la mayor cantidad de reseñas del todo el dataset.
 
