@@ -164,6 +164,7 @@ Conclusión: "Coffee" y "shop" son términos destacados, lo que indica la popula
 En un mercado competitivo, el crecimiento y la salud de un negocio dependen de decisiones fundamentadas en datos. Por ello, hemos diseñado un sistema de medición basado en indicadores clave de desempeño (KPIs) que nos permitirán rastrear y optimizar aspectos esenciales como la satisfacción del cliente, la visibilidad del negocio y la conversión hacia compras efectivas. Este enfoque, sustentado por tecnología avanzada, buscará garantizar una gestión estratégica y escalable. 
 proponer objetivo de crecimiento y cuanto tiempo
 **KPI1:**
+![kpi1](https://github.com/user-attachments/assets/8c79eaa8-553e-400d-9008-ec2b9709c575)
 
 Nombre:Tasa de crecimiento de comentarios positivos
 Objetivo: Monitorear la satisfacción de los clientes y la salud de la marca.
@@ -173,6 +174,8 @@ Descripción: mide el porcentaje de crecimiento de la cantidad total de puntuaci
 _Fórmula: % de crecimiento de comentarios positivos = [(Total comentarios positivos periodo actual - Total comentarios positivos periodo anterior) / Total de comentarios positivos periodo anterior] * 100_
  
 **KPI2:**
+![kpi2](https://github.com/user-attachments/assets/540812b7-faa7-4730-bf84-3c2c9baa3663)
+
 Nombre: Puntuación promedio
 Objetivo: Representar de forma cuantitativa la experiencia del cliente.
 Métrica: Promedio de calificaciones otorgadas por los usuarios.
@@ -181,6 +184,8 @@ Descripción: Mide la satisfacción de los clientes representada por medio de la
 _Fórmula: Puntaje promedio = Sumatoria total de los puntajes del periodo / Total usuarios que dejaron su calificación en el periodo._
  
 **KPI3**
+![kpi3](https://github.com/user-attachments/assets/8aff3c10-9e5f-4ffb-a9bd-1734c2339acc)
+
 Nombre: Tasa de crecimiento de las calificaciones
 Objetivo: Incrementar la visibilidad del negocio atrayendo a más clientes a dejar reseñas.
 Métrica: ¿Cuánto crecen las reseñas en cada periodo?
