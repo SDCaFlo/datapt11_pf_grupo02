@@ -182,30 +182,33 @@ _Fórmula: % de crecimiento de comentarios de las calificaciones = [(Total comen
 Puntaje promedio = Sumatoria total de los puntajes del periodo / Total usuarios que dejaron su calificación en el periodo.
 
 [⬆️ Volver al índice](#índice)
-
+# Flujo de Trabajo
+# Pipeline 
 ## 🛠️💻Stack Tecnológico
 ![Imagen de WhatsApp 2024-12-12 a las 15 21 29_82e29ee7](https://github.com/user-attachments/assets/b267e89d-98ee-4e1d-936c-bb9f57ccf953)
+
 Para garantizar que estas métricas se capturen, transformen y analicen eficientemente, implementaremos una arquitectura robusta de Data Warehouse y Machine Learning divididas en cuatro módulos, la extracción, transformación, data warehouse y visualización y machine learning
-Extracción: 
+
+## Extracción: 
 Se considerará la extracción de datos de diversas fuentes, y se realizará carga de forma local, así como también extracción via web scrapping y APIs de ser necesario. (Por definir).
-Transformación:
+
+## Transformación:
 Cloud Scheduler: Las tareas de extracción se automatizarán utilizando.
 Cloud Functions: Programar scripts de transformación simples, que no requieran mucho poder de procesamiento y sean rápidos. Así como también activar los procesos BigQuery y DataFlow.
 BigQuery: Se encargará de realizar transformaciones de fuentes de datos de mayor tamaño usando queries SQL.
 DataFlow: Se encargará de procesar data que no pueda transformarse usando SQL especialmente la que se usará para el modelo de machine learning
 
-Datawarehouse:
+## Datawarehouse:
 BigQuery: Se usará BigQuery también como almacén de datos. Ventajas: Se evita cargar datos desde google cloud storage e incurrir en gastos de transferencia. Data lista para ser procesada por otras herramientas después del ETL.
 
-Visualización y ML
+## Visualización y ML
 Streamlit: Se hará uso de streamlit para generar un dashboard interactivo, así como también para realizar el deploy del modelo de ML.
 Una vez diseñada la app de streamlit, esta se conteinerizará con Docker para que pueda ser deployada en la nube de GCloud.
 Se hará uso de tecnologías de cloud como, Cloud Container Registry, y Cloud Run para poder guardar y deployar el container.
 
 [⬆️ Volver al índice](#índice)
 
-# Flujo de Trabajo
-# Pipeline 
+
 
 ## 📝🧩 Metodología de trabajo
 ![image](https://github.com/user-attachments/assets/06a7dbf2-a68d-4d93-9506-f11b931324e6)
