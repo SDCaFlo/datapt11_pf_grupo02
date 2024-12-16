@@ -116,27 +116,134 @@ Este proyecto no incluye la Integración en tiempo real con las plataformas Yelp
 
 # 📈🔎EDA
 # Análisis Exploratorio de Datos
-"En estas dos primeras semanas, nos enfocamos en recopilar, limpiar y analizar datos de Google Maps y Yelp. Nuestro EDA inicial incluye:
-Demografía y densidad poblacional: Identificar zonas con alta concentración de población objetivo.
-Tráfico peatonal: Evaluar la afluencia promedio en las áreas seleccionadas.
-Competencia: Mapear la presencia de negocios similares.
-Presentaremos gráficos claros que reflejen tanto los datos generales como los resultados después de la limpieza. Por ejemplo, visualizaremos las áreas con mayor potencial versus las que presentan riesgos asociados a la saturación del mercado."
+ 
+Durante las primeras dos semanas, nos enfocamos en la **recopilación**, **limpieza** y **análisis de datos** provenientes de **Google Maps** y **Yelp**.  
+
+El objetivo principal de este **Análisis Exploratorio de Datos (EDA)** fue identificar **oportunidades estratégicas** para su negocio a través de los siguientes enfoques clave:  
+
+---
+
+### 🚀 **1. Crecimiento**  
+- Identificar **zonas** con alta concentración de la **población objetivo** y **potencial de expansión**.  
+
+---
+
+### 🗺️ **2. Competencia**  
+- Mapear la **presencia** y **distribución** de negocios similares para evaluar la **densidad competitiva**.
+
+---
+
+### ⭐ **3. Factores Clave de Éxito**  
+- Detectar **atributos comunes** en los negocios más exitosos, tales como:  
+   - 📍 **Ubicación estratégica**  
+   - 🛎️ **Características del servicio**  
+   - 😊 **Nivel de satisfacción del cliente**  
+
+---
+
+## 📈 **Resultados y Visualizaciones**  
+
+Presentaremos **visualizaciones claras y precisas** que mostrarán:  
+1. 🗂️ Los **datos brutos** recopilados.  
+2. 🧹 Los resultados tras la **limpieza y análisis**.  
+
+Por ejemplo, destacaremos:  
+- 🌟 Áreas con **mayor potencial de crecimiento**.  
+- ⚠️ Zonas que presentan **riesgos** debido a la **saturación del mercado**.  
+
+---
+
+## 🎯 **Conclusión**  
+Estas conclusiones servirán como base para **identificar las mejores oportunidades de negocio**, facilitando la toma de decisiones **estratégicas** y **rentables**. 🚀  
+
+---
 
 ![GraficosEda1](https://github.com/user-attachments/assets/67284533-1197-48ba-bf6d-ae42bc510718)
 
+---
 
-Para la base de datos de YELP encontramos alrededor de 150 mil comercios, los cuales se encuentran ubicados en 1416 ciudades de estados unidos, y como nos muestra el primer gráfico se encuentran mayormente concentrados en la ciudad de philadelphia con un 9.7%, Tucson con un 6.15% y tampa con un 6%.
+## 📊 **Análisis de la Base de Datos de Yelp**  
 
-Como el negocio objetivo del cliente son los negocios dedicados al comercio de Coffee & Tea y Breakfast and brunch, el segundo gráfico nos muestra la cantidad de negocios en estas categorías.Para este caso contamos con 11.758 negocios de estas categorías ubicados en un total de 616 ciudades de Estados Unidos, y como podemos observar, la mayor parte de estos negocios los podemos encontrar, en philadelphia, tampa, new Orleans, Tucson y Nashville. Siento Philadelphia la ciudad con más negocios de este tipo en Estados Unidos.
+### 🗺️ **Distribución General de Comercios**  
+En la base de datos de **Yelp**, identificamos aproximadamente **150,000 comercios** ubicados en **1,416 ciudades** de **Estados Unidos**.  
+
+🔍 Como lo muestra el **primer gráfico**, las ciudades con mayor concentración de negocios son:  
+- **🏙️ Philadelphia**: 9.7%  
+- **🌵 Tucson**: 6.15%  
+- **🌴 Tampa**: 6%  
+
+---
+
+### ☕ **Negocios en las Categorías Objetivo**  
+Dado que el foco del cliente está en negocios de **Coffee & Tea** y **Breakfast & Brunch**, analizamos estas categorías en detalle.  
+
+📊 El **segundo gráfico** revela:  
+- **Total de negocios**: **11,758**  
+- **Ciudades analizadas**: **616 ciudades** de Estados Unidos  
+
+### 🌟 **Ciudades con Mayor Concentración**  
+Los negocios de **Coffee & Tea** y **Breakfast & Brunch** se encuentran mayormente en:  
+- 🏙️ **Philadelphia**  
+- 🌴 **Tampa**  
+- 🎷 **New Orleans**  
+- 🌵 **Tucson**  
+- 🎸 **Nashville**  
+
+🔝 **Philadelphia** se destaca como la ciudad con la **mayor cantidad de negocios** en estas categorías en todo Estados Unidos.  
+
+---
+
+## 🎯 **Conclusión**  
+El análisis de la base de datos de **Yelp** permite identificar ciudades estratégicas para la expansión del negocio, destacando **Philadelphia** como la ciudad líder en este segmento.  
+
+--- 
+
 
 ![GraficosEda2](https://github.com/user-attachments/assets/3312d2bc-cd62-4a3c-ab32-930f2de2148b)
 
-En los datos de YELP también encontramos un poco más de 7 millones de reseñas escritas por los usuarios, de las cuales 1.147.000 corresponden a reseñas de la categoría Coffee and Breakfast.
-En el gráfico de color azul, podemos ver la concentración de estas reseñas por ciudades, mostrando que en Philadelphia y New Orleans se encuentran la mayor cantidad de reseñas del todo el dataset.
+## 📝 **Análisis de Reseñas de la Base de Datos de Yelp**  
 
-Y, por último, tenemos un gráfico que nos muestra la cantidad de usuarios que han dejado reseñas en este tipo de comercios. 
-Tenemos 574.000 usuarios con reseñas en las 616 ciudades, mostrando la mayor concentración de estos en Philadelphia, seguido por Tampa, New Orleans e Indianapolis.
-Mostrando a Philadelphia como un gran destino para este tipo de negocios.
+### 🔎 **Resumen General de Reseñas**  
+En la base de datos de **Yelp**, encontramos:  
+- **7 millones de reseñas** escritas por los usuarios.  
+- **1,147,000 reseñas** corresponden a la categoría **Coffee & Breakfast**.  
+
+---
+
+### 📊 **Distribución de Reseñas por Ciudades**  
+El **gráfico azul** revela la concentración de reseñas por ciudad, destacando:  
+- 🏙️ **Philadelphia**  
+- 🎷 **New Orleans**  
+
+Estas dos ciudades concentran la **mayor cantidad de reseñas** del dataset, lo que indica un **alto interés del público** en estos negocios en dichas ubicaciones.  
+
+---
+
+### 👥 **Cantidad de Usuarios con Reseñas**  
+En cuanto a los **usuarios** que han dejado reseñas en negocios de **Coffee & Breakfast**, identificamos:  
+- **574,000 usuarios** activos.  
+- Distribuidos en **616 ciudades**.  
+
+Las ciudades con **mayor cantidad de usuarios** son:  
+- 🏙️ **Philadelphia**  
+- 🌴 **Tampa**  
+- 🎷 **New Orleans**  
+- 🏁 **Indianápolis**  
+
+---
+
+## 🌟 **Conclusión**  
+Los datos reafirman a **Philadelphia** como un destino **clave y estratégico** para este tipo de negocios, al concentrar tanto la **mayor cantidad de reseñas** como de **usuarios activos**.  
+
+---
+
+### 📌 **Puntos Destacados**  
+- **Reseñas Totales**: **7M**  
+- **Reseñas Coffee & Breakfast**: **1.1M**  
+- **Usuarios con Reseñas**: **574K**  
+- **Liderazgo por Ciudad**: 🏙️ **Philadelphia**  
+
+---
 
 ![eda3](https://github.com/user-attachments/assets/4de48cd3-e333-4d91-94a9-bcab47b04063)
 
@@ -232,6 +339,8 @@ Estos **KPIs** nos permitirán analizar y mejorar continuamente el desempeño de
 
 [⬆️ Volver al índice](#índice)
 # Flujo de Trabajo
+![flujodetrabajo](https://github.com/user-attachments/assets/4ac8390b-e59e-4262-88f3-15c2adef7525)
+
 # 🚀Pipeline 
 
 ![Imagen de WhatsApp 2024-12-16 a las 00 10 42_c2174330](https://github.com/user-attachments/assets/d193f302-c148-41db-a7ef-e711f56f9faa)
