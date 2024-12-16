@@ -1,3 +1,6 @@
+![portada1](https://github.com/user-attachments/assets/f587c76e-ae57-41ea-8a08-d16770a91945)
+
+
 ### <p align="center">  ☕Proyecto: </p>
 # <p align="center"> 📊 Análisis de Inversión </p>
 ## <p align="center"> 🥐 Coffee & Brunch Bussiness </p>
@@ -32,7 +35,7 @@
 
 # 🚀Equipo de Trabajo:
 # ¿Quienes Somos? 
-
+![portada1](https://github.com/user-attachments/assets/f587c76e-ae57-41ea-8a08-d16770a91945)
 "Buenos días. Somos Datanova, un equipo especializado en transformar datos en soluciones estratégicas. Hoy queremos presentar nuestra propuesta para apoyar la expansión de su empresa, un negocio consolidado en el rubro de 'Coffee & Brunch Business'. Sabemos que desea abrir nuevos locales y confiamos en que este proyecto será clave para identificar las mejores oportunidades, minimizando riesgos y maximizando el retorno de su inversión.
 Nuestro objetivo es simple: utilizar datos para transformar su visión en una estrategia ganadora."
 
@@ -49,7 +52,8 @@ Presentación de Nuestro Equipo de Ciencia de Datos
 
 *** 
 
-![image](https://github.com/user-attachments/assets/90ce882b-4b85-495b-b972-8d3883f69bfa)
+![Proyecto](https://github.com/user-attachments/assets/93d73cca-802b-4e67-bbb2-eb918fc40a0b)
+
 ¨
 # 🔍📊Entendimiento de la situación actual
 _"El mercado de cafeterías boutique y brunch está en pleno auge. La creciente demanda por experiencias gastronómicas únicas y la búsqueda de ambientes acogedores lo convierten en un sector atractivo, pero también competitivo.
@@ -66,7 +70,7 @@ A partir de estos puntos clave, hemos diseñado un análisis que responde direct
 [⬆️ Volver al índice](#índice)
 
 # 🎯✨Objetivos 
-![image](https://github.com/user-attachments/assets/75522d77-760b-42c1-ac4b-d091ab9dc7af)
+![objetivo](https://github.com/user-attachments/assets/b6f1e6bf-0da2-437a-82f3-c795e756a2d1)
 
 ###### Objetivo Específicos:
 1. **Realizar un Análisis Exploratorio de los Datos disponibles en Yelp y Google maps (incluir
@@ -84,9 +88,8 @@ basadas en los KPIs definidos.**
 
 
 # 📏🌍Alcance
-![image](https://github.com/user-attachments/assets/77078868-bc06-43e7-8441-68e18f3bb3ef)
+![Alcance](https://github.com/user-attachments/assets/d8d2240c-31a6-4825-bafa-00d62111ada7)
 
- 
 Este proyecto se centra en realizar un análisis integral del mercado para apoyar la expansión estratégica del negocio 'Coffee & Brunch Business'. Consideramos los siguientes puntos clave dentro del alcance:
 1. **Recopilación y procesamiento de datos provenientes de Yelp, Google Maps y otras fuentes relevantes.**
 2. **Diseño e implementación de un ETL para integrar y estructurar los datos en un formato unificado.**
@@ -100,7 +103,7 @@ Este proyecto no incluye la Integración en tiempo real con las plataformas Yelp
 
 [⬆️ Volver al índice](#índice)
 ***
-![image](https://github.com/user-attachments/assets/ffc4470f-6ecf-4bfc-93a7-85bf48843901)
+![EDA](https://github.com/user-attachments/assets/43d31db9-18b7-4a81-b84e-ba1980002b48)
 
 # 📈🔎EDA
 # Análisis Exploratorio de Datos
@@ -317,7 +320,7 @@ El pipeline utiliza un **stack de herramientas escalable** y eficiente:
 ---
 
 ## 📝🧩 Metodología de trabajo
-![image](https://github.com/user-attachments/assets/06a7dbf2-a68d-4d93-9506-f11b931324e6)
+![metodologia](https://github.com/user-attachments/assets/4d93aefb-f479-44cf-ae86-00d417c53cdc)
 
 Para **organizar nuestro trabajo** y **dirigir nuestros esfuerzos** hacia nuestras metas, hemos elegido trabajar con **metodologías ágiles** bajo el marco de trabajo **SCRUM** 🚀.
 
