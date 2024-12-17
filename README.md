@@ -382,15 +382,15 @@ Este enfoque, sustentado en **tecnología avanzada**, asegura una gestión **est
  
 
 ![kpi1](https://github.com/user-attachments/assets/8c79eaa8-553e-400d-9008-ec2b9709c575)
-### 📌 **KPI 1: Sentimiento** 
-
+### 📌 **KPI 1: Sentimiento  --> Meta trimestral = 5%** 
+S (Crecimiento de comentarios positivos)
 - **Descripción**:  
    Monitorea el **sentimiento de los comentarios** para conocer la **opinión del consumidor**. Se calcula como el **porcentaje de comentarios positivos** respecto al total de comentarios del periodo.  
 - **Fórmula**:  
-   \[
-   \text{Porcentaje de crecimiento de comentarios positivos} = \frac{\text{(Total comentarios positivos periodo actual - Total comentarios positivos periodo anterior)}}{\text{Total comentarios positivos periodo anterior}} \times 100
-   \]  
-- **Meta**: ✅ **75%**  
+  
+Fórmula: % de crecimiento de comentarios positivos = [(Total comentarios positivos periodo actual - Total comentarios positivos periodo anterior) / Total de comentarios positivos periodo anterior] * 100
+
+- **Meta**: ✅ **5%**  
 
 ---
 
@@ -400,9 +400,9 @@ Este enfoque, sustentado en **tecnología avanzada**, asegura una gestión **est
 - **Descripción**:  
    Mide el **promedio de las calificaciones** dejadas por los usuarios durante un periodo, reflejando la **satisfacción del cliente** de manera cuantitativa.  
 - **Fórmula**:  
-   \[
+   
    \text{Puntaje promedio} = \frac{\text{Sumatoria total de puntajes del periodo}}{\text{Total de usuarios que dejaron calificación}}
-   \]  
+   
 - **Meta**: ✅ **3.8**  
 
 ---
