@@ -1,5 +1,9 @@
 ![portada1](https://github.com/user-attachments/assets/f587c76e-ae57-41ea-8a08-d16770a91945)
 
+| **Sprint 1**             | **Sprint 2**             | **Sprint 3**             |
+|-------------------------------------------|--------------------------------------------------------------|-------------------------------------|
+| [Ir a Sprint 1](#sprint-1) | [Ir a Sprint 2](#sprint-2) | [Ir a Sprint 3](#sprint-3) |
+
 
 ### <p align="center">  ☕Proyecto: </p>
 # <p align="center"> 📊 Análisis de Inversión </p>
