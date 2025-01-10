@@ -767,6 +767,24 @@ Detalles sobre la automatización del pipeline ETL...
 
 #### Diseño del Modelo ER
 Diagrama detallado con tablas, PK, FK y tipos de datos...
+"Modelo Entidad Relación ER"
+
+"En la imagen que vemos aquí, tenemos un modelo ER que representa un sistema de análisis de datos para negocios, usuarios y reseñas, relacionadas. Vamos a desglosarlo brevemente:
+Entidad central: business
+Representa los negocios registrados. Contiene información como el nombre, dirección, ciudad, estado, coordenadas, categorías y atributos específicos del negocio.
+Está relacionada con varias entidades secundarias.
+Entidades relacionadas:
+reviews: Almacena reseñas hechas por usuarios, asociadas tanto a negocios como a usuarios específicos. Incluye el texto, calificaciones y otros detalles como utilidad y humor.
+user: Representa a los usuarios del sistema, con atributos como su nombre, número de reseñas, y promedio de estrellas.
+checkin: Registra las visitas realizadas a los negocios, con fechas específicas.
+tip: Incluye consejos o comentarios breves hechos por usuarios, vinculados a negocios.
+sales: Contiene información de ventas por trimestre y año, relacionada con los negocios.
+google_misc: Agrega información complementaria proveniente de Google, asociada a cada negocio.
+population_per_state: Proporciona datos de población por estado y año, útil para análisis demográficos.
+"El tipo de modelo que vemos aquí es un modelo de copo de nieve. Este enfoque organiza los datos de manera que las entidades están normalizadas, lo que significa que se separan en tablas más pequeñas y específicas, reduciendo redundancias.
+
+ La estructura de datos que diseñamos no solo organiza la información, sino que también optimiza la velocidad y precisión del análisis. 
+
 
 #### Pipelines para alimentar el DW
 Cómo se alimenta el Data Warehouse...
@@ -796,10 +814,27 @@ Tecnologías usadas y su flujo de trabajo...
 Ejemplo de análisis de datos realizado...
 
 #### MVP/ Proof of Concept de producto de ML
-Prototipo del modelo de Machine Learning...
+"Hemos estado desarrollando un modelo de Machine Learning para predecir el crecimiento económico de negocios de café en función de datos clave como las reseñas de los clientes, las ventas mensuales, y la ubicación de los negocios. El modelo se entrena utilizando datos históricos de ventas y valoraciones, con el objetivo de estimar el porcentaje de crecimiento de las ventas en los próximos meses. Para ello, se utilizó un RandomForestRegressor, que identifica patrones entre las características de cada negocio y su desempeño.
+Además, hemos creado una interfaz interactiva utilizando Streamlit, que permite a los usuarios visualizar los resultados de las predicciones de manera clara y accesible. A través de un mapa interactivo, los usuarios pueden explorar negocios de café filtrados por ubicación, reseñas, ventas y otras variables relevantes. La interfaz permite ingresar una dirección y obtener una lista de negocios cercanos, junto con su predicción de crecimiento. Además, se incluyen filtros personalizables para ajustar la predicción a diferentes necesidades.
+Este sistema no solo realiza predicciones, sino que también proporciona información práctica para ayudar a los usuarios a tomar decisiones informadas sobre la ubicación de sus negocios y su potencial de crecimiento. Con la integración de BigQuery y el uso de un modelo entrenado previamente, hemos optimizado el proceso para ofrecer resultados rápidos y precisos, con un diseño intuitivo que facilita la interpretación de los datos.
 
 #### MVP/ Proof of Concept de Dashboard
-Prototipo del Dashboard interactivo...
+Podemos visualizar aspectos claves como:
+El comportamiento de los Kpis definidos y su cumplimiento en un panel interactivo.
+Se identifica facilmente con un código de color rojo o verde el cumpliemiento del indicador, además en este panel podemos observar la tendencia de los resultados a través de los años.
+Aquí podemos observar los resultados del nuevo KPI de Incremento en Ventas (+4%).
+Podemos hacer filtros por años y también por alguna ubicación geográfica deseada.
+Al aplicar filtros,  podemos ver información importante, como cantidad de negocios, ciudades y la ciudad con más negocios.
+
+Al ir a cada sección por temática podemos identificar datos representativos.
+En reseñas veremos una evolución de la cantidad de reseñas y los resultados del KPI de reseñas en su detalle trimestral a nivel histórico, lo que nos permite observar fácilmente el comportamiento de esta variable. Podemos ver el ranking de ciudades con más reseñas, información que es muy importante y está asociada con nuestro KPI, ya que nos indica aquellas ciudades donde podemos hacer más gestión de nuestra marca, al haber más reseñas del tipo de negocios coffee shops and breakfast  podemos obtener más clientes interesados, así mismo podemos ver una distribución geográfica de las reseñas, permitiéndonos ver muy visualmente esos estados y ciudades  donde se concentran las reseñas.
+En puntaje podemos ver la evolución de los puntajes promedio, observaremos la distribución de las estrellas en las ciudad con más negocios de tipo coffee shop and breakfast, así estaremos identificando esas ubicaciones geográficas que son propensas a recibir más puntuaciones, y por lo tanto, más clientes.
+Podemos hacer filtros para validar por año y por estado, también interactuando con los graficos podemos hacer filtros en los datos utilizando las opciones interactivas de Power BI
+Finalmente en la página de ubicaciones podemos ver la concentración de estrellas de los negocios coffee shop and breakfast en el mapa de Estados Unidos, podemos hacer filtros si queremos conocer esas ubicaciones donde estos negocios reciben menos estrellas y donde reciben más.
+Estas interacciones nos permiten correlacionar variables para realizar análisis más profundos.
+Por ejemplo Si vemos Chicago es la ciudad con mejor puntuación promedio con un 4,3 pero es la última en top de ciudad con más negocios, esta tiene 492 negocios objetivo en total, mientras que New York, la ciudad con más negocios, 1.810 en total, tienen un puntaje promedio de 4,16; solo 1,3 puntos porcentuales por debajo de Chicago; esto sugiere que tener una gran cantidad de negocios no garantiza automáticamente una alta puntuación y muy probablemente otros factores deben estar influyendo en la puntuación promedio de cada ciudad, puede que en Chicago ofrecen un nivel de servicio o producto superior, lo que se traduce en una mejor percepción por parte de los clientes o ciudades más grandes como Nueva York pueden tener una mayor diversidad de negocios y, por lo tanto, una mayor variabilidad en la calidad. Esto nos invita a realizar análisis más profundos.
+Este dashboard es un prototipo totalmente funcional, que ya se encuentra conectado directamente con el esquema en Bigquery, lo que nos permite consultar la información de forma actualizada e interactiva.
+
 
 ### Sprint 3
 ![S3 ent](https://github.com/user-attachments/assets/f0cf9987-0614-4451-97a3-158565f614e1)
