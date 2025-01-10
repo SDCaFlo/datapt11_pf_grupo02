@@ -4,7 +4,7 @@ from google.cloud import bigquery
 import functions_framework
 import json
 
-API_KEY = "AIzaSyCB3vmEcBfzXgwg-Gsliz6itF5UWnx2T1w"
+API_KEY = "insert-ur-api-key"
 url = "https://places.googleapis.com/v1/places:searchNearby"
 
 
