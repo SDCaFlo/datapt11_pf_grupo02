@@ -1,14 +1,14 @@
 ![portada1](https://github.com/user-attachments/assets/f587c76e-ae57-41ea-8a08-d16770a91945)
 
-| **Sprint 1**             | **Sprint 2**             | **Sprint 3**             |
-|-------------------------------------------|--------------------------------------------------------------|-------------------------------------|
+| ![Sprint 1](https://github.com/user-attachments/assets/de7d6dae-06c1-42f1-a803-f947998a8da2) | ![Sprint 2](https://github.com/user-attachments/assets/a128a8b2-a1ff-432f-9a46-5897514b977f) | ![Sprint 3](https://github.com/user-attachments/assets/90db1e5f-6c2f-426e-800a-fc6ec490c0e9) |
+|:---:|:---:|:---:|
 | [Ir a Sprint 1](#sprint-1) | [Ir a Sprint 2](#sprint-2) | [Ir a Sprint 3](#sprint-3) |
 
 
 ### <p align="center">  ☕Proyecto: </p>
 # <p align="center"> 📊 Análisis de Inversión </p>
 ## <p align="center"> 🥐 Coffee & Brunch Bussiness </p>
-
+#sprint-1
 ## 📚Índice
  
 | Sección                         | Enlace                           |
