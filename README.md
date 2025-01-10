@@ -727,3 +727,6 @@ Github: https://github.com/PerlaMarGreta
 LinkedIn:
 
 [⬆️ Volver al índice](#índice)
+### Sprint 2 
+![S2 ent](https://github.com/user-attachments/assets/52f02cc6-e0f2-46a8-9abb-ee04b9a36671)
+
