@@ -8,7 +8,9 @@
 ### <p align="center">  ☕Proyecto: </p>
 # <p align="center"> 📊 Análisis de Inversión </p>
 ## <p align="center"> 🥐 Coffee & Brunch Bussiness </p>
-# Sprint 1
+
+![S1 ent](https://github.com/user-attachments/assets/de5a4e28-613b-48a0-b75a-97f1d74d2177)
+### Sprint 1
 ## 📚Índice del SPRINT 1
  
 | Sección                         | Enlace                           |
