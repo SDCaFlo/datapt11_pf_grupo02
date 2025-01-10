@@ -731,109 +731,178 @@ LinkedIn:
 ![S2 ent](https://github.com/user-attachments/assets/52f02cc6-e0f2-46a8-9abb-ee04b9a36671)
 
 ## 📚Índice del SPRINT 2
+# Proyecto: 🌟 Predicción de Crecimiento Económico para Negocios de ☕ Coffee & 🥐 Brunch
 
-##### 📚Índice2
-| Sección                                 | Enlace                                      |
+## 📚 Índice
+| 🗂️ Sección                                | 🔗 Enlace                                     |
 |-----------------------------------------|---------------------------------------------|
-| **Elementos del ETL**                   | [ETL completo](#etl-completo)               |
-|                                         | [Estructura de datos implementada](#estructura-de-datos-implementada) |
-|                                         | [Pipeline ETL automatizado](#pipeline-etl-automatizado) |
-|                                         | [Diseño del Modelo ER](#diseño-del-modelo-er) |
-|                                         | [Pipelines para alimentar el DW](#pipelines-para-alimentar-el-dw) |
-|                                         | [Data Warehouse](#data-warehouse)          |
-|                                         | [Automatización](#automatización)          |
-|                                         | [Validación de datos](#validación-de-datos) |
-|                                         | [Documentación](#documentación)            |
-|                                         | [Diagrama ER detallado](#diagrama-er-detallado) |
-|                                         | [Diccionario de datos](#diccionario-de-datos) |
-|                                         | [Workflow detallando tecnologías](#workflow-detallando-tecnologías) |
-|                                         | [Análisis de datos de muestra](#análisis-de-datos-de-muestra) |
-| **Prototipos y Productos**              |                                             |
-|                                         | [MVP/ Proof of Concept de producto de ML](#mvp-proof-of-concept-de-producto-de-ml) |
-|                                         | [MVP/ Proof of Concept de Dashboard](#mvp-proof-of-concept-de-dashboard) |
+| **🛠️ Elementos del ETL**                | [ETL completo](#etl-completo)               |
+|                                         | [📊 Estructura de datos implementada](#estructura-de-datos-implementada) |
+|                                         | [🚀 Pipeline ETL automatizado](#pipeline-etl-automatizado) |
+|                                         | [📐 Diseño del Modelo ER](#diseño-del-modelo-er) |
+|                                         | [🔄 Pipelines para alimentar el DW](#pipelines-para-alimentar-el-dw) |
+|                                         | [🏢 Data Warehouse](#data-warehouse)         |
+|                                         | [🤖 Automatización](#automatización)         |
+|                                         | [✔️ Validación de datos](#validación-de-datos) |
+|                                         | [📜 Documentación](#documentación)           |
+|                                         | [📈 Diagrama ER detallado](#diagrama-er-detallado) |
+|                                         | [📚 Diccionario de datos](#diccionario-de-datos) |
+|                                         | [🔧 Workflow detallando tecnologías](#workflow-detallando-tecnologías) |
+|                                         | [🔍 Análisis de datos de muestra](#análisis-de-datos-de-muestra) |
+| **💡 Prototipos y Productos**           |                                             |
+|                                         | [🤖 MVP/ Proof of Concept de producto de ML](#mvp-proof-of-concept-de-producto-de-ml) |
+|                                         | [📊 MVP/ Proof of Concept de Dashboard](#mvp-proof-of-concept-de-dashboard) |
 
 ---
 
-### 📝 Contenidos
+## 🔍 **🛠️ Elementos del ETL**
 
-#### ETL completo
-Descripción del proceso ETL...
+### 🌐 ETL completo
+El proceso de **ETL** incluye:
+- 📥 **Extracción** de datos desde fuentes como 🗺️ Yelp, 🗺️ Google Maps y Census.
+- 🔄 **Transformación** y limpieza de datos para garantizar calidad y uniformidad.
+- 🚀 **Carga** en un **📊 Data Warehouse** centralizado en BigQuery.
 
-#### Estructura de datos implementada
-Descripción de la estructura de datos, incluyendo DW, DL, etc...
+### 📊 Estructura de datos implementada
+La estructura sigue un modelo optimizado para consultas analíticas:
+- 🗂️ Tablas principales: Negocios, reseñas, ventas, usuarios y datos demográficos.
+- 📈 Cada tabla está diseñada para consultas rápidas y modelado predictivo.
 
-#### Pipeline ETL automatizado
-Detalles sobre la automatización del pipeline ETL...
+### 🚀 Pipeline ETL automatizado
+El pipeline incluye:
+- 🤖 Automatización para extracción, transformación y carga.
+- ✔️ Validación de datos para garantizar integridad y consistencia.
+- 🕒 Ejecución programada semanalmente para mantener actualizados los datos.
 
-#### Diseño del Modelo ER
-Diagrama detallado con tablas, PK, FK y tipos de datos...
-"Modelo Entidad Relación ER"
+### 📐 Diseño del Modelo ER
+El modelo incluye:
+- 🔗 Relaciones entre negocios, usuarios y ventas, destacando interacciones clave.
+- 🗺️ Tablas auxiliares para datos geográficos y demográficos.
 
-"En la imagen que vemos aquí, tenemos un modelo ER que representa un sistema de análisis de datos para negocios, usuarios y reseñas, relacionadas. Vamos a desglosarlo brevemente:
-Entidad central: business
-Representa los negocios registrados. Contiene información como el nombre, dirección, ciudad, estado, coordenadas, categorías y atributos específicos del negocio.
-Está relacionada con varias entidades secundarias.
-Entidades relacionadas:
-reviews: Almacena reseñas hechas por usuarios, asociadas tanto a negocios como a usuarios específicos. Incluye el texto, calificaciones y otros detalles como utilidad y humor.
-user: Representa a los usuarios del sistema, con atributos como su nombre, número de reseñas, y promedio de estrellas.
-checkin: Registra las visitas realizadas a los negocios, con fechas específicas.
-tip: Incluye consejos o comentarios breves hechos por usuarios, vinculados a negocios.
-sales: Contiene información de ventas por trimestre y año, relacionada con los negocios.
-google_misc: Agrega información complementaria proveniente de Google, asociada a cada negocio.
-population_per_state: Proporciona datos de población por estado y año, útil para análisis demográficos.
-"El tipo de modelo que vemos aquí es un modelo de copo de nieve. Este enfoque organiza los datos de manera que las entidades están normalizadas, lo que significa que se separan en tablas más pequeñas y específicas, reduciendo redundancias.
+### 🔄 Pipelines para alimentar el DW
+Los pipelines automatizados alimentan el **📊 Data Warehouse** con:
+- 📅 Datos actualizados de Yelp, Google Maps y Census.
+- 🆕 Nuevas reseñas y ventas trimestrales, asegurando datos recientes.
 
- La estructura de datos que diseñamos no solo organiza la información, sino que también optimiza la velocidad y precisión del análisis. 
+### 🏢 Data Warehouse
+El **Data Warehouse** centraliza y organiza datos para análisis y modelos predictivos:
+- ⚡ Optimizado para consultas analíticas y reportes.
+- 📈 Configuración escalable para soportar crecimiento de datos.
+
+### 🤖 Automatización
+Todo el proceso es automatizado con:
+- 🕒 Workflows programados que ejecutan tareas críticas.
+- ☁️ Cloud Functions y herramientas de GCP para orquestar operaciones.
+Link del video para ver el proceso:
+[Link del video](https://drive.google.com/file/d/1keAXoYo-qoZnxgP-6pQOmW9OrGWwkflr/view?usp=sharing)
 
 
-#### Pipelines para alimentar el DW
-Cómo se alimenta el Data Warehouse...
+### ✔️ Validación de datos
+El pipeline incluye pasos de validación para:
+- 🗑️ Eliminar duplicados y detectar inconsistencias.
+- 📊 Garantizar que los datos cumplen estándares de calidad esperados.
 
-#### Data Warehouse
-Descripción del DW implementado...
+### 📜 Documentación
+La documentación incluye:
+- 📋 Detalles técnicos del proceso ETL y su implementación.
+- 🛠️ Instrucciones claras para ejecución y mantenimiento.
+- 🖊️ Manuales para incorporar nuevas fuentes de datos.
 
-#### Automatización
-Descripción de los procesos automatizados...
+### 📈 Diagrama ER detallado
+El diagrama **ER** detalla:
+- 🗂️ Tablas principales, auxiliares y sus relaciones.
+- 🔑 Claves primarias y foráneas, destacando conexiones de datos.
 
-#### Validación de datos
-Cómo se validaron los datos...
+### 📚 Diccionario de datos
+El diccionario describe:
+- 🏷️ Estructura de las tablas: nombres, tipos de datos y relaciones.
+- 🖊️ Definición clara de cada campo y su propósito dentro del modelo.
 
-#### Documentación
-Documentación técnica sobre el proceso...
+### 🔧 Workflow detallando tecnologías
+El workflow utiliza:
+- 📊 **BigQuery** para almacenamiento y análisis de grandes volúmenes.
+- ☁️ **Cloud Functions** para integración y tareas automatizadas.
+- 🔗 APIs externas como Yelp y Census para extracción de datos críticos.
 
-#### Diagrama ER detallado
-Detalles del diagrama ER...
+### 🔍 Análisis de datos de muestra
+El análisis de muestra incluye:
+- 🔎 Exploración de datos históricos para identificar tendencias relevantes.
+- 📊 Segmentación de negocios por ubicación, reseñas y ventas.
 
-#### Diccionario de datos
-Diccionario con descripción de las tablas, campos y datos...
+---
 
-#### Workflow detallando tecnologías
-Tecnologías usadas y su flujo de trabajo...
+## 🚀 **💡 Prototipos y Productos**
 
-#### Análisis de datos de muestra
-Ejemplo de análisis de datos realizado...
+## 🤖 MVP/ Proof of Concept de producto de ML
+Modelo inicial para predecir crecimiento basado en:
+- 💰 Ventas, ⭐ reseñas y 📍 ubicación.
+- 🧠 Algoritmos supervisados como 🌲 Random Forest y 📈 XGBoost.
+- 📊 Variables clave: promedio de reseñas, densidad de negocios y datos demográficos.
+Aquí tienes un resumen estructurado para la sección MVP de ML de tu README en GitHub, con algunos emojis para hacerlo más visual y amigable:
 
-#### MVP/ Proof of Concept de producto de ML
-"Hemos estado desarrollando un modelo de Machine Learning para predecir el crecimiento económico de negocios de café en función de datos clave como las reseñas de los clientes, las ventas mensuales, y la ubicación de los negocios. El modelo se entrena utilizando datos históricos de ventas y valoraciones, con el objetivo de estimar el porcentaje de crecimiento de las ventas en los próximos meses. Para ello, se utilizó un RandomForestRegressor, que identifica patrones entre las características de cada negocio y su desempeño.
-Además, hemos creado una interfaz interactiva utilizando Streamlit, que permite a los usuarios visualizar los resultados de las predicciones de manera clara y accesible. A través de un mapa interactivo, los usuarios pueden explorar negocios de café filtrados por ubicación, reseñas, ventas y otras variables relevantes. La interfaz permite ingresar una dirección y obtener una lista de negocios cercanos, junto con su predicción de crecimiento. Además, se incluyen filtros personalizables para ajustar la predicción a diferentes necesidades.
-Este sistema no solo realiza predicciones, sino que también proporciona información práctica para ayudar a los usuarios a tomar decisiones informadas sobre la ubicación de sus negocios y su potencial de crecimiento. Con la integración de BigQuery y el uso de un modelo entrenado previamente, hemos optimizado el proceso para ofrecer resultados rápidos y precisos, con un diseño intuitivo que facilita la interpretación de los datos.
+---
 
-#### MVP/ Proof of Concept de Dashboard
-Podemos visualizar aspectos claves como:
-El comportamiento de los Kpis definidos y su cumplimiento en un panel interactivo.
-Se identifica facilmente con un código de color rojo o verde el cumpliemiento del indicador, además en este panel podemos observar la tendencia de los resultados a través de los años.
-Aquí podemos observar los resultados del nuevo KPI de Incremento en Ventas (+4%).
-Podemos hacer filtros por años y también por alguna ubicación geográfica deseada.
-Al aplicar filtros,  podemos ver información importante, como cantidad de negocios, ciudades y la ciudad con más negocios.
+## 🚀 MVP de Machine Learning
 
-Al ir a cada sección por temática podemos identificar datos representativos.
-En reseñas veremos una evolución de la cantidad de reseñas y los resultados del KPI de reseñas en su detalle trimestral a nivel histórico, lo que nos permite observar fácilmente el comportamiento de esta variable. Podemos ver el ranking de ciudades con más reseñas, información que es muy importante y está asociada con nuestro KPI, ya que nos indica aquellas ciudades donde podemos hacer más gestión de nuestra marca, al haber más reseñas del tipo de negocios coffee shops and breakfast  podemos obtener más clientes interesados, así mismo podemos ver una distribución geográfica de las reseñas, permitiéndonos ver muy visualmente esos estados y ciudades  donde se concentran las reseñas.
-En puntaje podemos ver la evolución de los puntajes promedio, observaremos la distribución de las estrellas en las ciudad con más negocios de tipo coffee shop and breakfast, así estaremos identificando esas ubicaciones geográficas que son propensas a recibir más puntuaciones, y por lo tanto, más clientes.
-Podemos hacer filtros para validar por año y por estado, también interactuando con los graficos podemos hacer filtros en los datos utilizando las opciones interactivas de Power BI
-Finalmente en la página de ubicaciones podemos ver la concentración de estrellas de los negocios coffee shop and breakfast en el mapa de Estados Unidos, podemos hacer filtros si queremos conocer esas ubicaciones donde estos negocios reciben menos estrellas y donde reciben más.
-Estas interacciones nos permiten correlacionar variables para realizar análisis más profundos.
-Por ejemplo Si vemos Chicago es la ciudad con mejor puntuación promedio con un 4,3 pero es la última en top de ciudad con más negocios, esta tiene 492 negocios objetivo en total, mientras que New York, la ciudad con más negocios, 1.810 en total, tienen un puntaje promedio de 4,16; solo 1,3 puntos porcentuales por debajo de Chicago; esto sugiere que tener una gran cantidad de negocios no garantiza automáticamente una alta puntuación y muy probablemente otros factores deben estar influyendo en la puntuación promedio de cada ciudad, puede que en Chicago ofrecen un nivel de servicio o producto superior, lo que se traduce en una mejor percepción por parte de los clientes o ciudades más grandes como Nueva York pueden tener una mayor diversidad de negocios y, por lo tanto, una mayor variabilidad en la calidad. Esto nos invita a realizar análisis más profundos.
-Este dashboard es un prototipo totalmente funcional, que ya se encuentra conectado directamente con el esquema en Bigquery, lo que nos permite consultar la información de forma actualizada e interactiva.
+En este proyecto, hemos desarrollado un modelo de **Machine Learning** para predecir el **crecimiento económico de negocios de café** utilizando datos clave como:
+
+- 📊 **Reseñas de clientes**
+- 💰 **Ventas mensuales**
+- 📍 **Ubicación de los negocios**
+
+### 🔍 Modelo de Predicción
+
+El modelo se entrena con **datos históricos de ventas** y **valoraciones** para estimar el **porcentaje de crecimiento de las ventas** en los próximos meses. Utilizamos un **RandomForestRegressor** para identificar patrones entre las características de cada negocio y su desempeño.
+
+### 🌟 Interfaz Interactiva
+
+Creamos una **interfaz interactiva** con **Streamlit** que permite a los usuarios:
+
+- 🗺️ **Explorar negocios de café** mediante un **mapa interactivo** filtrado por ubicación, reseñas, ventas y otras variables.
+- 🔍 **Visualizar predicciones de crecimiento** con filtros personalizables.
+- 🏢 **Ingresar direcciones** y obtener una lista de negocios cercanos con su predicción de crecimiento.
+
+### ⚡ Optimización y Resultados
+
+- 🏃‍♂️ **Optimización del proceso** con **BigQuery** para ofrecer resultados rápidos y precisos.
+- 📈 **Modelo entrenado previamente**, lo que garantiza la eficiencia en las predicciones.
+- 📊 **Diseño intuitivo** que facilita la interpretación de los datos y toma de decisiones informadas.
+
+---
+
+Este formato destaca los puntos clave de forma clara y visual, usando emojis para hacerlo más atractivo.
+### 📊 MVP/ Proof of Concept de Dashboard
+Dashboard interactivo para visualizar:
+- 📈 Predicciones del modelo con gráficos claros e intuitivos.
+- 🔎 Datos clave: ventas, puntuaciones y tendencias trimestrales.
+- 🎛️ Filtros por ubicación, período y características específicas.
+
+**🔍 Insights accionables con nuestro Dashboard interactivo:**
+
+1️⃣ **Secciones Temáticas**: El dashboard está dividido en áreas específicas para visualizar datos clave.  
+2️⃣ **📊 KPIs y Tendencias**: Paneles con KPIs (✅ verde = cumplido, ❌ rojo = no cumplido) y análisis de tendencias. Ejemplo: **Incremento en Ventas (+4%)**.  
+3️⃣ **🎛️ Filtros**: Aplica filtros por 🗓️ años o 📍 ubicaciones para explorar:  
+   - Cantidad de negocios.  
+   - Ciudades con más negocios.  
+
+**🔎 Análisis Temático:**
+
+- **💬 Reseñas**: Tendencia trimestral de reseñas, ranking de ciudades con más reseñas 🌟, y un mapa de distribución geográfica.  
+- **⭐ Puntajes**: Evolución del puntaje promedio por ciudad 📍, identificando áreas con más interacciones.  
+- **📍 Ubicaciones**: Mapa interactivo de ⭐ estrellas por negocios, con filtros para observar zonas con menos o más calificaciones.  
+
+**📈 Análisis Avanzado:**
+Ejemplo:  
+- Chicago: ⭐ 4.3 promedio, 492 negocios.  
+- New York: ⭐ 4.16 promedio, 1,810 negocios.  
+Esto muestra que cantidad ≠ calidad, indicando posibles factores como servicio superior en Chicago.
+
+**⚙️ Funcionalidad:**  
+Conectado a **BigQuery** para consultas actualizadas e interactivas en tiempo real. 🎯
+
+✨ Este dashboard es una herramienta poderosa para decisiones estratégicas, optimizando el crecimiento de negocios Coffee & Brunch. ☕🥐
+---
+
 
 
 ### Sprint 3
