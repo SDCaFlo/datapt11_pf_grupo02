@@ -13,7 +13,7 @@
 ![S1 ent](https://github.com/user-attachments/assets/de5a4e28-613b-48a0-b75a-97f1d74d2177)
 
 ## 📚Índice del SPRINT 1
- 
+##### 📚Índice
 | Sección                         | Enlace                           |
 |--------------------------------|----------------------------------|
 | **Items que tiene que tener la propuesta**          | [Equipo de trabajo](#equipo-de-trabajo) |
