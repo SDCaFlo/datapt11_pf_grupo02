@@ -730,3 +730,75 @@ LinkedIn:
 ### Sprint 2 
 ![S2 ent](https://github.com/user-attachments/assets/52f02cc6-e0f2-46a8-9abb-ee04b9a36671)
 
+## 📚Índice del SPRINT 2
+
+##### 📚Índice2
+| Sección                                 | Enlace                                      |
+|-----------------------------------------|---------------------------------------------|
+| **Elementos del ETL**                   | [ETL completo](#etl-completo)               |
+|                                         | [Estructura de datos implementada](#estructura-de-datos-implementada) |
+|                                         | [Pipeline ETL automatizado](#pipeline-etl-automatizado) |
+|                                         | [Diseño del Modelo ER](#diseño-del-modelo-er) |
+|                                         | [Pipelines para alimentar el DW](#pipelines-para-alimentar-el-dw) |
+|                                         | [Data Warehouse](#data-warehouse)          |
+|                                         | [Automatización](#automatización)          |
+|                                         | [Validación de datos](#validación-de-datos) |
+|                                         | [Documentación](#documentación)            |
+|                                         | [Diagrama ER detallado](#diagrama-er-detallado) |
+|                                         | [Diccionario de datos](#diccionario-de-datos) |
+|                                         | [Workflow detallando tecnologías](#workflow-detallando-tecnologías) |
+|                                         | [Análisis de datos de muestra](#análisis-de-datos-de-muestra) |
+| **Prototipos y Productos**              |                                             |
+|                                         | [MVP/ Proof of Concept de producto de ML](#mvp-proof-of-concept-de-producto-de-ml) |
+|                                         | [MVP/ Proof of Concept de Dashboard](#mvp-proof-of-concept-de-dashboard) |
+
+---
+
+### 📝 Contenidos
+
+#### ETL completo
+Descripción del proceso ETL...
+
+#### Estructura de datos implementada
+Descripción de la estructura de datos, incluyendo DW, DL, etc...
+
+#### Pipeline ETL automatizado
+Detalles sobre la automatización del pipeline ETL...
+
+#### Diseño del Modelo ER
+Diagrama detallado con tablas, PK, FK y tipos de datos...
+
+#### Pipelines para alimentar el DW
+Cómo se alimenta el Data Warehouse...
+
+#### Data Warehouse
+Descripción del DW implementado...
+
+#### Automatización
+Descripción de los procesos automatizados...
+
+#### Validación de datos
+Cómo se validaron los datos...
+
+#### Documentación
+Documentación técnica sobre el proceso...
+
+#### Diagrama ER detallado
+Detalles del diagrama ER...
+
+#### Diccionario de datos
+Diccionario con descripción de las tablas, campos y datos...
+
+#### Workflow detallando tecnologías
+Tecnologías usadas y su flujo de trabajo...
+
+#### Análisis de datos de muestra
+Ejemplo de análisis de datos realizado...
+
+#### MVP/ Proof of Concept de producto de ML
+Prototipo del modelo de Machine Learning...
+
+#### MVP/ Proof of Concept de Dashboard
+Prototipo del Dashboard interactivo...
+
+
