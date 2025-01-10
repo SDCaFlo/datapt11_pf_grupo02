@@ -801,4 +801,7 @@ Prototipo del modelo de Machine Learning...
 #### MVP/ Proof of Concept de Dashboard
 Prototipo del Dashboard interactivo...
 
+### Sprint 3
+![S3 ent](https://github.com/user-attachments/assets/f0cf9987-0614-4451-97a3-158565f614e1)
+# Próximo Sprint
 
