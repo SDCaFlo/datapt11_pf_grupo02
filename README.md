@@ -749,12 +749,15 @@ LinkedIn:
 |                                         | [📚 Diccionario de datos](#diccionario-de-datos) |
 |                                         | [🔧 Workflow detallando tecnologías](#workflow-detallando-tecnologías) |
 |                                         | [🔍 Análisis de datos de muestra](#análisis-de-datos-de-muestra) |
+| **📅 Ciclo de vida del dato**           | [🔄 Ciclo de vida del dato](#ciclo-de-vida-del-dato) |
 | **💡 Prototipos y Productos**           |                                             |
 |                                         | [🤖 MVP/ Proof of Concept de producto de ML](#mvp-proof-of-concept-de-producto-de-ml) |
 |                                         | [📊 MVP/ Proof of Concept de Dashboard](#mvp-proof-of-concept-de-dashboard) |
 
+
 ---
 
+Así, el **ciclo de vida del dato** se encuentra antes de los productos y prototipos, proporcionando una visión clara sobre cómo se gestionan y procesan los datos antes de ser utilizados en la creación de modelos y dashboards.
 ## 🔍 **🛠️ Elementos del ETL**
 
 ### 🌐 ETL completo
@@ -778,6 +781,27 @@ El pipeline incluye:
 El modelo incluye:
 - 🔗 Relaciones entre negocios, usuarios y ventas, destacando interacciones clave.
 - 🗺️ Tablas auxiliares para datos geográficos y demográficos.
+- Claro, aquí tienes los textos bien estructurados con emojis para que puedas agregarlos a tu GitHub:
+
+El **diseño del modelo ER** para el sistema de análisis de datos de negocios incluye una estructura conceptual y global de las entidades y sus relaciones. A continuación, se destacan los elementos clave:
+
+- 🏢 **Entidad central: `business`**  
+  Representa los negocios registrados, con información relevante como nombre, dirección, ciudad, estado, coordenadas, categorías y atributos específicos del negocio. Esta entidad está relacionada con varias otras entidades secundarias.
+
+- 🔗 **Entidades relacionadas:**
+  - 📝 `reviews`: Almacena reseñas realizadas por usuarios, asociadas a negocios y usuarios, con detalles como texto, calificación y utilidad.
+  - 👤 `user`: Representa a los usuarios del sistema, incluyendo atributos como nombre, número de reseñas y promedio de estrellas.
+  - 📅 `checkin`: Registra las visitas a los negocios en fechas específicas.
+  - 💬 `tip`: Contiene consejos o comentarios breves hechos por los usuarios, vinculados a los negocios.
+  - 💵 `sales`: Registra información sobre ventas por trimestre y año, asociada con los negocios.
+  - 🌍 `google_misc`: Información complementaria de Google vinculada a cada negocio.
+  - 🌎 `population_per_state`: Proporciona datos demográficos por estado y año, útil para análisis en modelos de **machine learning**.
+
+El modelo **ER** es de tipo **copo de nieve**, lo que significa que las entidades están **normalizadas** en tablas pequeñas y específicas, lo que ayuda a reducir redundancias y optimizar el análisis.
+
+Este diseño conceptual establece las bases para la estructura de la base de datos y organiza la información de forma clara y eficiente, optimizando la velocidad y precisión del análisis.
+
+---
 
 ### 🔄 Pipelines para alimentar el DW
 Los pipelines automatizados alimentan el **📊 Data Warehouse** con:
@@ -813,10 +837,57 @@ El diagrama **ER** detalla:
 - 🗂️ Tablas principales, auxiliares y sus relaciones.
 - 🔑 Claves primarias y foráneas, destacando conexiones de datos.
 
-### 📚 Diccionario de datos
+El **diagrama ER detallado** es la representación visual precisa y técnica del diseño de la base de datos. En este diagrama se muestra:
+
+- 🔠 **Entidades**: Las tablas principales y sus atributos específicos.
+- 🔗 **Relaciones**: Las conexiones entre las entidades, indicando cómo se vinculan y la cardinalidad de las relaciones.
+- 🔑 **Llaves primarias (PK) y foráneas (FK)**: Se especifican las claves que identifican de manera única cada registro y las relaciones entre las tablas.
+- ⚖️ **Restricciones y tipos de datos**: Información detallada sobre las restricciones aplicadas a los campos (por ejemplo, campos no nulos) y los tipos de datos asociados a cada atributo.
+
+A continuación, se presenta un **diagrama ER detallado** de la estructura de la base de datos, donde se incluyen las **tablas** y sus **relaciones**:
+
+![Diagrama ER](ruta/a/tu/imagen.png)  
+*(Imagen representando la estructura detallada de las tablas y sus relaciones)*
+
+Este diagrama ofrece una visión completa y técnica de la estructura, permitiendo una implementación precisa de la base de datos en el sistema. Los detalles como **tipos de datos**, **llaves primarias y foráneas**, y las relaciones entre las entidades son fundamentales para garantizar la integridad y el rendimiento del sistema.
+
+---
+
+En resumen:
+- El **Diseño del Modelo ER** proporciona una visión **conceptual** del sistema, estructurando las entidades y sus relaciones de manera global.
+- El **Diagrama ER Detallado** se enfoca en los aspectos **técnicos**, presentando la estructura precisa de las tablas, relaciones y claves.
+
+La **imagen con las tablas y sus relaciones** debe ir en la sección del **Diagrama ER Detallado**, donde se visualizan todos los detalles técnicos.
+
+
+## 📚 Diccionario de datos
+![diccionario de datos](https://github.com/user-attachments/assets/b2f3002f-061b-401b-b2b7-7e00a3b19a3b)
+
 El diccionario describe:
 - 🏷️ Estructura de las tablas: nombres, tipos de datos y relaciones.
 - 🖊️ Definición clara de cada campo y su propósito dentro del modelo.
+- Aquí tienes el texto estructurado y con emojis para agregarlo a tu GitHub:
+
+---
+
+## 📚 Diccionario de Datos
+
+En este repositorio podrán encontrar un **diccionario de datos** que ofrece una descripción detallada y precisa de cada uno de los elementos que conforman el modelo. Este documento incluye información clave como:
+
+- 🏛️ **Entidades y tablas**: Las tablas que estructuran los datos.
+- 🧩 **Atributos de cada entidad**: Detalles específicos de cada campo o columna dentro de las tablas.
+- 🔢 **Tipos de datos**: Los tipos de datos asociados a cada campo.
+- 🔑 **Llaves primarias (PK)**: Identificadores únicos para cada registro.
+- 🔗 **Llaves foráneas (FK)**: Definen las relaciones entre las tablas.
+- ⚖️ **Restricciones o reglas aplicadas**: Reglas que garantizan la integridad de los datos.
+
+La imagen que presentamos corresponde a una sección del **diccionario de datos** y muestra la estructura de una de las tablas de la base de datos. En ella podemos observar:
+
+- 📝 Los **atributos** que forman parte de la tabla.
+- 🔠 Los **tipos de datos** asociados a cada campo.
+- 📋 La **descripción detallada** de cada atributo.
+- 🔑 La **clave primaria**, que permite identificar de manera única a cada registro.
+
 
 ### 🔧 Workflow detallando tecnologías
 El workflow utiliza:
@@ -832,6 +903,7 @@ El análisis de muestra incluye:
 ---
 
 ## 🚀 **💡 Prototipos y Productos**
+![MVPML](https://github.com/user-attachments/assets/2db39555-2eee-49f1-9eba-bdeafe7336b8)
 
 ## 🤖 MVP/ Proof of Concept de producto de ML
 Modelo inicial para predecir crecimiento basado en:
@@ -872,6 +944,8 @@ Creamos una **interfaz interactiva** con **Streamlit** que permite a los usuario
 
 Este formato destaca los puntos clave de forma clara y visual, usando emojis para hacerlo más atractivo.
 ### 📊 MVP/ Proof of Concept de Dashboard
+![MVPDASH](https://github.com/user-attachments/assets/80fdab82-9687-406c-b948-031f44fb841f)
+
 Dashboard interactivo para visualizar:
 - 📈 Predicciones del modelo con gráficos claros e intuitivos.
 - 🔎 Datos clave: ventas, puntuaciones y tendencias trimestrales.
