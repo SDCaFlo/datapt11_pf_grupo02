@@ -982,5 +982,76 @@ Conectado a **BigQuery** para consultas actualizadas e interactivas en tiempo re
 
 ### Sprint 3
 ![S3 ent](https://github.com/user-attachments/assets/f0cf9987-0614-4451-97a3-158565f614e1)
-# Próximo Sprint
+
+## 📚Índice del Proyecto
+
+##### 📚Índice del Sprint 3
+| **Sección**                        | **Enlace**                            |
+|-----------------------------------|---------------------------------------|
+| **Hitos**                         |                                       |
+|                                   | [Diseño de Reportes/Dashboards](#diseño-de-reportesdashboards) |
+|                                   | [KPIs](#kpis)                        |
+|                                   | [Modelos de ML](#modelos-de-ml)       |
+|                                   | [Modelo de ML en Producción](#modelo-de-ml-en-producción) |
+|                                   | [Documentación](#documentación)       |
+|                                   | [Selección del Modelo y Feature Engineering](#selección-del-modelo-y-feature-engineering) |
+|                                   | [Informe de Análisis](#informe-de-análisis) |
+| **Rúbrica**                       |                                       |
+|                                   | [Objetivos Tech](#objetivos-tech)     |
+|                                   | [Diseño del Dashboard](#diseño-del-dashboard) |
+|                                   | [Funcionalidad y Usabilidad](#funcionalidad-y-usabilidad) |
+|                                   | [KPIs (Rúbrica)](#kpis-rubrica)       |
+|                                   | [EDA / Feature Selection](#eda--feature-selection) |
+|                                   | [Modelo Machine Learning](#modelo-machine-learning) |
+|                                   | [Modelo ML en Producción (Rúbrica)](#modelo-ml-en-producción-rubrica) |
+
+---
+
+# Hitos
+
+## Diseño de Reportes/Dashboards
+Aquí puedes agregar información sobre el diseño de reportes y dashboards.
+
+## KPIs
+Escribe los detalles sobre los KPIs utilizados en el proyecto.
+
+## Modelos de ML
+Describe los modelos de machine learning que has desarrollado.
+
+## Modelo de ML en Producción
+Incluye información sobre cómo pusiste el modelo en producción.
+
+## Documentación
+Añade detalles sobre la documentación creada para el proyecto.
+
+## Selección del Modelo y Feature Engineering
+Detalla el proceso de selección del modelo y las técnicas de feature engineering utilizadas.
+
+## Informe de Análisis
+Describe los hallazgos principales del análisis realizado.
+
+---
+
+# Rúbrica
+
+## Objetivos Tech
+Documenta los objetivos tecnológicos del proyecto.
+
+## Diseño del Dashboard
+Explica el diseño del dashboard, incluyendo su estructura y estética.
+
+## Funcionalidad y Usabilidad
+Detalla cómo se garantizaron la funcionalidad y la usabilidad en el proyecto.
+
+## KPIs (Rúbrica)
+Describe los KPIs evaluados para la rúbrica.
+
+## EDA / Feature Selection
+Explica cómo realizaste el análisis exploratorio de datos y la selección de características.
+
+## Modelo Machine Learning
+Documenta los aspectos técnicos del modelo de machine learning.
+
+## Modelo ML en Producción (Rúbrica)
+Describe los pasos finales y la implementación del modelo en producción.
 
