@@ -387,8 +387,8 @@ Este enfoque, sustentado en **tecnología avanzada**, asegura una gestión **est
 ## ✨ **KPIs Definidos**  
 
  
+![kpi1](https://github.com/user-attachments/assets/c8b6eb47-25c4-4440-9274-d6c68e502d87)
 
-![kpi1](https://github.com/user-attachments/assets/8c79eaa8-553e-400d-9008-ec2b9709c575)
 ### 📌 **KPI 1: Sentimiento  --> Meta trimestral = 5%** 
 S (Crecimiento de comentarios positivos)
 - **Descripción**:  
@@ -415,7 +415,8 @@ Fórmula: % de crecimiento de comentarios positivos = [(Total comentarios positi
 ---
  
 **KPI3**
-![kpi3](https://github.com/user-attachments/assets/8aff3c10-9e5f-4ffb-a9bd-1734c2339acc)
+![kpi3](https://github.com/user-attachments/assets/8b5408d9-84e3-4ca2-9c2b-1f9574f5b726)
+
 
 ### 🚀 **KPI 3: Tasa de Crecimiento de las Calificaciones**  
 - **Descripción**:  
