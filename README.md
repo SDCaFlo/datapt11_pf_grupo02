@@ -1010,24 +1010,39 @@ Conectado a **BigQuery** para consultas actualizadas e interactivas en tiempo re
 # Hitos
 
 ## Diseño de Reportes/Dashboards
+![1](https://github.com/user-attachments/assets/44620292-609f-4ea5-8a10-993c086d112d)
+
 Aquí puedes agregar información sobre el diseño de reportes y dashboards.
 
 ## KPIs
+![2](https://github.com/user-attachments/assets/b65da720-522e-4a78-9613-66433bd88944)
+
 Escribe los detalles sobre los KPIs utilizados en el proyecto.
 
 ## Modelos de ML
+![3](https://github.com/user-attachments/assets/70450c8c-aec7-4233-be37-42ec506aebcb)
+
 Describe los modelos de machine learning que has desarrollado.
 
 ## Modelo de ML en Producción
+![4](https://github.com/user-attachments/assets/16e04548-5991-4c97-af55-c366317605f7)
+
 Incluye información sobre cómo pusiste el modelo en producción.
 
 ## Documentación
+![5](https://github.com/user-attachments/assets/7e02c074-f3bf-467a-9609-d556822683f1)
+
+
 Añade detalles sobre la documentación creada para el proyecto.
 
 ## Selección del Modelo y Feature Engineering
+![6](https://github.com/user-attachments/assets/c006c331-8fc3-4ce5-addf-6c31a1503a0c)
+
 Detalla el proceso de selección del modelo y las técnicas de feature engineering utilizadas.
 
 ## Informe de Análisis
+![7](https://github.com/user-attachments/assets/e219ff7d-45db-44a5-a7d1-8c7158a40854)
+
 Describe los hallazgos principales del análisis realizado.
 
 ---
@@ -1035,23 +1050,38 @@ Describe los hallazgos principales del análisis realizado.
 # Rúbrica
 
 ## Objetivos Tech
+![8](https://github.com/user-attachments/assets/b4a7cc93-fcc7-43ab-b08c-96ce85b4a28e)
+
+
 Documenta los objetivos tecnológicos del proyecto.
 
 ## Diseño del Dashboard
+![9](https://github.com/user-attachments/assets/8dc859b2-c46c-4047-95aa-fc40fc70f1d4)
+
 Explica el diseño del dashboard, incluyendo su estructura y estética.
 
 ## Funcionalidad y Usabilidad
+![10](https://github.com/user-attachments/assets/8cd7d84d-aee6-478b-9a98-d7ea77185f7f)
+
 Detalla cómo se garantizaron la funcionalidad y la usabilidad en el proyecto.
 
 ## KPIs (Rúbrica)
+![2](https://github.com/user-attachments/assets/4e6b9a8e-10ea-45b8-ae0e-4fb1cf61a735)
+
 Describe los KPIs evaluados para la rúbrica.
 
 ## EDA / Feature Selection
+![11](https://github.com/user-attachments/assets/7cad574e-92ef-4be5-9d8d-4ed91eff4577)
+
 Explica cómo realizaste el análisis exploratorio de datos y la selección de características.
 
 ## Modelo Machine Learning
+![12](https://github.com/user-attachments/assets/7953670a-e3e5-4124-acc8-10c23c7af850)
+
 Documenta los aspectos técnicos del modelo de machine learning.
 
 ## Modelo ML en Producción (Rúbrica)
+![4](https://github.com/user-attachments/assets/fdcd7ec0-1a85-42e0-bc12-b2fc0b7908ec)
+
 Describe los pasos finales y la implementación del modelo en producción.
 
