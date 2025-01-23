@@ -1012,28 +1012,35 @@ Conectado a **BigQuery** para consultas actualizadas e interactivas en tiempo re
 ## Diseño de Reportes/Dashboards
 ![1](https://github.com/user-attachments/assets/44620292-609f-4ea5-8a10-993c086d112d)
 
-Aquí puedes agregar información sobre el diseño de reportes y dashboards.
+El dashboard interactivo diseñado tiene un Panel de Navegación intuitivo y se organiza en diferentes pestañas, cada una con un enfoque específico.
+Las pestañas incluyen Reseñas, Valoraciones, Ventas, Ubicaciones, Puntajes, y Conclusiones. Cada pestaña está enfocada en proporcionar información relevante para la expansión del negocio, con visualizaciones y KPIs.
+Estructura y estética: El diseño incluye filtros y gráficos interactivos (como el de ventas y puntajes) que facilitan el análisis.
 
 ## KPIs
 ![2](https://github.com/user-attachments/assets/b65da720-522e-4a78-9613-66433bd88944)
 
-Escribe los detalles sobre los KPIs utilizados en el proyecto.
+Los KPIs definidos son:
+Crecimiento de la puntuación promedio (meta 2%)
+Crecimiento de las ventas (meta 4%)
+Crecimiento en la cantidad de reseñas (meta 2%)
+Crecimiento de los comentarios positivos (meta 2%)
+Cada KPI se visualiza en el dashboard para permitir un análisis fácil y rápido.
 
 ## Modelos de ML
 ![3](https://github.com/user-attachments/assets/70450c8c-aec7-4233-be37-42ec506aebcb)
 
-Describe los modelos de machine learning que has desarrollado.
+Se han desarrollado dos modelos de machine learning:
+Análisis de Sentimientos: Para medir el nivel de satisfacción del consumidor a partir de los comentarios de los clientes.
+Prediccion de Exito: Para predecir el potencial económico de nuevas ubicaciones.
+Ambos modelos están diseñados para facilitar la toma de decisiones estratégicas basadas en datos.
 
-## Modelo de ML en Producción
-![4](https://github.com/user-attachments/assets/16e04548-5991-4c97-af55-c366317605f7)
-
-Incluye información sobre cómo pusiste el modelo en producción.
 
 ## Documentación
 ![5](https://github.com/user-attachments/assets/7e02c074-f3bf-467a-9609-d556822683f1)
 
+Se ha documentado todo el proceso: desde la limpieza de datos y recolección hasta el desarrollo de modelos y el diseño del dashboard.
+Además, la presentación final incluye los hallazgos clave y el análisis detallado de los KPIs.
 
-Añade detalles sobre la documentación creada para el proyecto.
 
 ## Selección del Modelo y Feature Engineering
 ![6](https://github.com/user-attachments/assets/c006c331-8fc3-4ce5-addf-6c31a1503a0c)
@@ -1043,10 +1050,7 @@ Detalla el proceso de selección del modelo y las técnicas de feature engineeri
 ## Informe de Análisis
 ![7](https://github.com/user-attachments/assets/e219ff7d-45db-44a5-a7d1-8c7158a40854)
 
-Describe los hallazgos principales del análisis realizado.
-
----
-
+El análisis de los datos de reseñas, valoraciones y ventas se presenta a través de gráficos interactivos que muestran tendencias y patrones, lo que facilita la interpretación para tomar decisiones estratégicas
 # Rúbrica
 
 ## Objetivos Tech
@@ -1058,12 +1062,13 @@ Documenta los objetivos tecnológicos del proyecto.
 ## Diseño del Dashboard
 ![9](https://github.com/user-attachments/assets/8dc859b2-c46c-4047-95aa-fc40fc70f1d4)
 
-Explica el diseño del dashboard, incluyendo su estructura y estética.
+El análisis de los datos de reseñas, valoraciones y ventas se presenta a través de gráficos interactivos que muestran tendencias y patrones, lo que facilita la interpretación para tomar decisiones estratégicas
 
 ## Funcionalidad y Usabilidad
 ![10](https://github.com/user-attachments/assets/8cd7d84d-aee6-478b-9a98-d7ea77185f7f)
 
-Detalla cómo se garantizaron la funcionalidad y la usabilidad en el proyecto.
+El dashboard es completamente interactivo, lo que garantiza una funcionalidad y usabilidad óptimas para los usuarios.
+Las visualizaciones son claras, y los usuarios pueden filtrar y explorar los datos fácilmente.
 
 ## KPIs (Rúbrica)
 ![2](https://github.com/user-attachments/assets/4e6b9a8e-10ea-45b8-ae0e-4fb1cf61a735)
@@ -1078,10 +1083,77 @@ Explica cómo realizaste el análisis exploratorio de datos y la selección de c
 ## Modelo Machine Learning
 ![12](https://github.com/user-attachments/assets/7953670a-e3e5-4124-acc8-10c23c7af850)
 
-Documenta los aspectos técnicos del modelo de machine learning.
+Los modelos de ML se enfocan en el análisis de sentimientos y la estimación del impacto económico de las ubicaciones. Estos están en producción y operativos en la nube.
 
-## Modelo ML en Producción (Rúbrica)
+## Modelo ML en Producción 
 ![4](https://github.com/user-attachments/assets/fdcd7ec0-1a85-42e0-bc12-b2fc0b7908ec)
+# Implementación del Modelo de Predicción de Crecimiento Económico de Negocios de Café
 
-Describe los pasos finales y la implementación del modelo en producción.
+Este modelo de **Machine Learning** se centra en predecir el **porcentaje de crecimiento económico** de los negocios, como las cafeterías, en base a diversos factores, tales como las **valoraciones de los clientes**, el **sentimiento en las reseñas**, las **ventas mensuales**, y las **coordenadas geográficas** de cada negocio. La implementación de este modelo sigue un proceso detallado y estructurado que garantiza su efectividad y precisión en la predicción del crecimiento.
+
+## 1. Obtención de Datos (BigQuery) 📊
+
+El primer paso del proceso es la **extracción de datos relevantes** desde **BigQuery**, donde se almacenan diversas tablas relacionadas con los negocios de café, las reseñas de clientes, las ventas mensuales y los puntajes de sentimiento. La consulta selecciona datos clave, tales como:
+
+- **Promedio de estrellas** en las reseñas (puntuaciones de los clientes) ⭐
+- **Puntajes de sentimiento** (positivo, neutro, negativo) derivados de las reseñas 💬
+- **Ventas mensuales** de los negocios 💰
+- **Coordenadas geográficas** de cada negocio (latitud y longitud) 📍
+
+## 2. Cálculo del Crecimiento 📈
+
+Con los datos obtenidos, el siguiente paso es calcular el **porcentaje de crecimiento** en las ventas de cada negocio mes a mes. Esto se realiza comparando las ventas actuales con las ventas del mes anterior, utilizando la fórmula del cálculo de crecimiento porcentual:
+
+\[
+\text{Crecimiento porcentual} = \frac{\text{Ventas actuales} - \text{Ventas mes anterior}}{\text{Ventas mes anterior}} \times 100
+\]
+
+## 3. Entrenamiento del Modelo 🤖
+
+Para predecir el porcentaje de crecimiento económico, el modelo se entrena utilizando el **algoritmo de Random Forest Regressor**. Este algoritmo es adecuado para abordar problemas de regresión y permite hacer predicciones sobre variables continuas, como el porcentaje de crecimiento de ventas. Las características utilizadas para entrenar el modelo son:
+
+- **StarsReviews**: Promedio de estrellas de las reseñas 🌟
+- **SentimientoScore**: Puntaje de sentimiento derivado de las reseñas 😊😐😞
+- **latitude y longitude**: Ubicación geográfica del negocio 📍
+- **monthly_sales**: Ventas mensuales del negocio 💸
+
+El conjunto de datos se divide en un **80%** para entrenamiento y un **20%** para prueba, lo que permite evaluar el desempeño del modelo utilizando métricas como el **RMSE** (Root Mean Squared Error) y el **R²** (Coeficiente de determinación), indicadores clave de cuán bien se ajusta el modelo a los datos reales.
+
+## 4. Ajuste de Hiperparámetros con GridSearchCV ⚙️
+
+Para optimizar la precisión del modelo, se utiliza **GridSearchCV** para realizar una búsqueda exhaustiva de los mejores **hiperparámetros** del **RandomForestRegressor**. Este proceso permite encontrar la combinación ideal de parámetros, como el número de árboles (**n_estimators**) y la profundidad máxima de los árboles (**max_depth**), entre otros. El ajuste de estos parámetros mejora significativamente el rendimiento del modelo y, por lo tanto, la exactitud de las predicciones.
+
+## 5. Guardado y Carga del Modelo 💾
+
+Una vez entrenado, el modelo se guarda en un archivo `.pkl` utilizando la librería `joblib`. Esto facilita su carga en el futuro sin necesidad de reentrenar el modelo desde cero. En caso de que el modelo ya exista, se carga directamente desde el archivo para realizar las predicciones sin pérdida de tiempo.
+
+## 6. Predicción de Crecimiento 🚀
+
+Al realizar una predicción, se ingresan datos relevantes, como:
+
+- **StarsReviews** (Ej. 4.5 estrellas) 🌟
+- **SentimientoScore** (Ej. 1, lo que representa un sentimiento positivo) 😊
+- **Latitud y longitud** del negocio 📍
+- **Ventas mensuales** del negocio 💸
+
+Con estos datos, el modelo predice el **porcentaje de crecimiento** para el próximo trimestre. Posteriormente, se calcula la **ganancia esperada** aplicando el porcentaje de crecimiento al valor actual de las ventas, ofreciendo así una proyección del desempeño económico a futuro.
+
+## 7. Flujo de Trabajo 🔄
+
+El flujo de trabajo del modelo sigue un proceso claro:
+
+- Si el modelo **no existe**, se entrena desde cero.
+- Si el modelo **ya existe**, se carga y se utiliza para hacer predicciones.
+- Los resultados proporcionan información valiosa que permite tomar **decisiones estratégicas** en torno a la expansión o mejora de los negocios.
+
+## 8. Producción del Modelo 🌐
+
+Este modelo está diseñado para ser desplegado en un entorno de **producción en la nube**, facilitando su acceso mediante una **interfaz gráfica interactiva** conectada a un **dashboard**. Esto permite que los responsables de tomar decisiones en el negocio puedan visualizar las predicciones en **tiempo real** y utilizar los resultados para planificar estrategias de expansión o ajuste.
+
+## Aplicaciones para Negocios como Corner Bakery Café 🥐
+
+El enfoque del modelo en la **predicción de crecimiento económico** es particularmente útil para negocios como **Corner Bakery Café**. Con los resultados proporcionados por el modelo, es posible **identificar áreas con alto potencial de crecimiento** y planificar la **expansión** en mercados con mayor demanda, basándose en datos históricos y predicciones precisas.
+
+Este modelo no solo optimiza la toma de decisiones estratégicas, sino que también ayuda a maximizar las oportunidades de **expansión** y mejora continua, lo que resulta en un enfoque más eficiente y rentable para los negocios de café en expansión.
+
 
