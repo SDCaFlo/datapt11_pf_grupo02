@@ -1011,20 +1011,161 @@ Conectado a **BigQuery** para consultas actualizadas e interactivas en tiempo re
 
 ## Diseño de Reportes/Dashboardss3
 ![1](https://github.com/user-attachments/assets/44620292-609f-4ea5-8a10-993c086d112d)
+# 🌟 **Dashboard de Análisis de Negocios Coffee Shops and Breakfast**  
 
-El dashboard interactivo diseñado tiene un Panel de Navegación intuitivo y se organiza en diferentes pestañas, cada una con un enfoque específico.
-Las pestañas incluyen Reseñas, Valoraciones, Ventas, Ubicaciones, Puntajes, y Conclusiones. Cada pestaña está enfocada en proporcionar información relevante para la expansión del negocio, con visualizaciones y KPIs.
-Estructura y estética: El diseño incluye filtros y gráficos interactivos (como el de ventas y puntajes) que facilitan el análisis.
+Este dashboard está diseñado para analizar la evolución y desempeño de los negocios de **Coffee Shops and Breakfast** en diferentes aspectos clave. A continuación, detallo cómo cumple con los criterios de evaluación:
+
+---
+
+## 🎨 **1. Colores, gráficos y elementos visuales:**  
+### **Uso del color:**  
+- 🔴 **Indicadores negativos** (en rojo): Destacan problemas como el decrecimiento en ventas o puntuaciones.  
+- 🟢 **Indicadores positivos** (en verde): Resaltan logros como el crecimiento de reseñas, facilitando identificar áreas de mejora o éxito.  
+- 🔵 **Azul y púrpura**: Usados para gráficos y mapas, brindan un contraste visual que mantiene un diseño profesional y claro.  
+
+### **Gráficos acordes al tipo de datos:**  
+- 📈 **Líneas temporales:** Muestran tendencias de crecimiento o decrecimiento (puntajes, ventas, etc.).  
+- 🗺️ **Mapas interactivos:** Para la distribución geográfica de los negocios.  
+- 📊 **Barras apiladas y distribuciones:** Clasificaciones y rankings.  
+
+### **Jerarquía visual:**  
+- ⭐ **KPIs clave:** Colocados en la **parte superior izquierda**, donde la atención tiende a comenzar.  
+- 📂 **Segmentación:** Se evita la saturación al dividir la información en pestañas específicas como "Ventas" o "Valoraciones".  
+
+---
+
+## 🖱️ **2. Interactividad y exploración intuitiva:**  
+### **Filtros estratégicos:**  
+- 🗓️ Selección por **año**, **estado**, y **fuente** (Google, Yelp) para personalizar los datos según necesidades específicas.  
+- 🧹 Botón de **"Borrar Filtros"**: Facilita volver al estado inicial sin confusión.  
+
+### **Gráficos y mapas interactivos:**  
+- 🖱️ **Hover:** Al pasar el cursor, se muestra información detallada para mejorar la exploración de datos.  
+- 🗺️ **Mapas:** Visualizan la ubicación de negocios junto a su puntaje promedio.  
+
+### **Acciones claras:**  
+- 🔍 **Botones "Más información"**: Invitan al usuario a profundizar en métricas clave.  
+
+---
+
+## 📊 **3. KPIs bien formulados y visualizados:**  
+Este dashboard incluye **más de 3 KPIs clave** directamente relacionados con el foco del negocio:  
+1. 📈 **Crecimiento de las ventas anuales:** Representado en gráficos de línea con objetivos claros.  
+2. 📋 **Crecimiento de reseñas anuales:** Mide el nivel de **engagement** de los clientes.  
+3. 🗨️ **Crecimiento de comentarios positivos:** Indica la percepción de los clientes.  
+4. ⭐ **Puntaje promedio anual:** Refleja la calidad percibida del servicio o producto.  
+
+🟢 **Cada KPI** se presenta junto a objetivos definidos, usando colores para comunicar claramente su estado (**cumplido o no**).  
+
+---
+
+## 🛠️ **4. Uso estratégico del diseño:**  
+### **Distribución adecuada:**  
+- 📂 **Segmentación:** Cada pestaña tiene un propósito claro, evitando la sobrecarga de información en una sola pantalla.  
+
+### **Técnicas de diseño:**  
+- 🔠 **Tamaños:** Los elementos importantes, como KPIs y gráficos principales, son más grandes.  
+- 📍 **Posición:** Los indicadores clave se colocan en la **parte superior izquierda** de cada pestaña.  
+- 🎨 **Color:** Las tendencias negativas y positivas se resaltan inmediatamente, guiando la atención.  
+
+---
+
+## 🧩 **5. Evaluación de cada pestaña:**  
+### **📂 Panel de Navegación:**  
+- Presenta un diseño limpio con acceso rápido a las secciones clave, facilitando la exploración.  
+
+### **📊 Indicadores Claves:**  
+- Resume los KPIs principales, ideal para un **overview** rápido del negocio.  
+
+### **📈 Evolución de Puntajes Promedio:**  
+- Destaca cómo han cambiado las valoraciones promedio, permitiendo analizar la percepción a largo plazo.  
+
+### **🗨️ Evolución de las Reseñas:**  
+- Conecta el **engagement** de clientes con el crecimiento general del negocio.  
+
+### **💵 Evolución de Ventas:**  
+- Enfocado en la **rentabilidad** y desempeño financiero.  
+
+### **🗺️ Ubicaciones de Negocios:**  
+- Proporciona un análisis **geográfico**, útil para estrategias de expansión.  
+
+---
+
+✨ **En resumen**, este dashboard combina un diseño atractivo con interactividad, jerarquía visual y métricas clave, permitiendo un análisis claro y efectivo del desempeño de los negocios. 🚀  
+
 ## Diseño del Dashboard
 ![9](https://github.com/user-attachments/assets/8dc859b2-c46c-4047-95aa-fc40fc70f1d4)
 
-El análisis de los datos de reseñas, valoraciones y ventas se presenta a través de gráficos interactivos que muestran tendencias y patrones, lo que facilita la interpretación para tomar decisiones estratégicas
+# 🌟 **Diseño y Funcionalidad del Dashboard**
+
+Este dashboard fue diseñado para **analizar datos clave** y proporcionar una experiencia visual y funcional que facilite la toma de decisiones. A continuación, se explican los aspectos de diseño y la usabilidad del dashboard:
+
+---
+
+## 🎨 **Diseño del Dashboard**
+
+### **Colores y Jerarquía Visual**
+- 🔴 **Indicadores negativos**: En rojo, destacan problemas como el decrecimiento en ventas o puntuaciones.  
+- 🟢 **Indicadores positivos**: En verde, resaltan logros como el crecimiento de reseñas, facilitando la identificación rápida de éxitos.  
+- 🔵 **Azul y púrpura**: Usados para gráficos y mapas, aseguran un contraste visual efectivo y profesional.  
+
+### **Gráficos Acordes al Tipo de Datos**
+- 📈 **Líneas temporales**: Ideales para visualizar tendencias (crecimiento o decrecimiento en ventas, puntuaciones, etc.).  
+- 🗺️ **Mapas interactivos**: Muestran la distribución geográfica de los negocios, ayudando a detectar patrones espaciales.  
+- 📊 **Gráficos de barras**: Presentan rankings y clasificaciones de forma clara y ordenada.  
+
+### **Distribución y Segmentación de la Información**
+- 📂 **Segmentación por pestañas**: La información se organiza en categorías específicas como **Ventas**, **Reseñas**, **Puntajes** y **Ubicaciones**, evitando la saturación en una sola pantalla.  
+- ⭐ **KPIs clave**: Colocados en la **parte superior izquierda**, donde la atención del usuario tiende a centrarse primero.
+
+### **Técnicas de Diseño**
+- 🔠 **Tamaños prominentes**: Los elementos importantes (KPIs y gráficos principales) son más grandes para destacarse visualmente.  
+- 📍 **Posición estratégica**: Los indicadores clave están organizados lógicamente para guiar la exploración.  
+- 🎨 **Uso de colores**: Comunican claramente información crítica, como el estado de cumplimiento de objetivos.  
+
+---
 
 ## Funcionalidad y Usabilidad
 ![10](https://github.com/user-attachments/assets/8cd7d84d-aee6-478b-9a98-d7ea77185f7f)
+### **Interactividad**
+- 🗓️ **Filtros Estratégicos**:  
+  - Personalización por **año**, **estado**, o **fuente de datos** (Google, Yelp).  
+  - Un botón de **"Borrar Filtros"** permite volver rápidamente al estado inicial.  
 
-El dashboard es completamente interactivo, lo que garantiza una funcionalidad y usabilidad óptimas para los usuarios.
-Las visualizaciones son claras, y los usuarios pueden filtrar y explorar los datos fácilmente.
+- 🖱️ **Gráficos y Mapas Interactivos**:  
+  - **Hover:** Muestra detalles adicionales al pasar el cursor sobre los elementos de los gráficos.  
+  - **Mapas interactivos:** Visualizan la ubicación de los negocios y su puntaje promedio, permitiendo análisis geográficos detallados.  
+
+- 🔍 **Acciones Claras**:  
+  - Botones como **"Más información"** permiten al usuario profundizar en métricas específicas sin sobrecargar la pantalla principal.  
+
+### **Funcionalidad**
+- 📂 **Organización Modular**:  
+  - Cada pestaña está diseñada para analizar un área específica del negocio (ventas, reseñas, puntajes, etc.), mejorando la claridad del análisis.  
+
+- 🎯 **Conexión con Objetivos del Usuario**:  
+  - Los **KPIs** están alineados con las necesidades estratégicas, ayudando a identificar áreas de mejora o zonas con potencial de expansión.  
+
+- 🧭 **Exploración Intuitiva**:  
+  - La navegación entre pestañas es sencilla y natural, adecuada tanto para usuarios novatos como avanzados.  
+
+### **Ejemplo de Uso Práctico**
+1. 📊 **Análisis de Ventas**:  
+   Un usuario puede filtrar los datos por **año** y **estado**, identificar caídas en ventas y usar los mapas para localizar áreas problemáticas.  
+
+2. 🗨️ **Percepción del Cliente**:  
+   Usando la pestaña de **Reseñas**, un analista puede comparar el crecimiento de comentarios positivos con las valoraciones promedio para identificar patrones.  
+
+---
+
+## 🚀 **Conclusión**
+El diseño y funcionalidad de este dashboard trabajan en conjunto para garantizar:  
+1. 🌟 Una experiencia visual clara y profesional.  
+2. 🛠️ Una **interactividad intuitiva** que mejora la exploración y el análisis de datos.  
+3. 🎯 Información clave organizada y accesible para tomar decisiones estratégicas.  
+
+Este dashboard logra combinar **estética, funcionalidad y análisis efectivo**, siendo una herramienta poderosa para el análisis de negocios.  
+
 ###### KPIs3
 
 ## KPIs
