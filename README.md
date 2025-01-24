@@ -1171,13 +1171,66 @@ Este dashboard logra combinar **estética, funcionalidad y análisis efectivo**,
 
 ## KPIs
 ![2](https://github.com/user-attachments/assets/b65da720-522e-4a78-9613-66433bd88944)
+## 🌟 **KPIs del Dashboard**
 
-Los KPIs definidos son:
-Crecimiento de la puntuación promedio (meta 2%)
-Crecimiento de las ventas (meta 4%)
-Crecimiento en la cantidad de reseñas (meta 2%)
-Crecimiento de los comentarios positivos (meta 2%)
-Cada KPI se visualiza en el dashboard para permitir un análisis fácil y rápido.
+El dashboard incluye **4 KPIs clave**, cuidadosamente seleccionados y formulados para alinearse con el foco del negocio: **Coffee Shops and Breakfast**. Estos indicadores permiten analizar áreas estratégicas como el crecimiento financiero, la percepción del cliente y el nivel de interacción en las plataformas de reseñas.
+
+---
+
+### 📊 **KPIs Presentes en el Dashboard**
+
+1. **📈 Crecimiento de las Ventas Anuales**  
+   - **📝 Descripción:**  
+     Mide el cambio porcentual en las ventas anuales de los negocios, proporcionando una evaluación del desempeño financiero a largo plazo.  
+   - **📊 Visualización:**  
+     Representado mediante un gráfico de líneas que muestra tendencias anuales, con objetivos definidos para facilitar la interpretación.  
+   - **🎯 Meta:** **5%**
+
+2. **⭐ Crecimiento de las Calificaciones Promedio**  
+   - **📝 Descripción:**  
+     Monitorea el cambio en las calificaciones promedio, reflejando la percepción del cliente sobre la calidad del servicio.  
+   - **📊 Visualización:**  
+     Gráfico de líneas que muestra tendencias trimestrales, segmentadas por ciudad para un análisis detallado.  
+   - **🎯 Meta:** **2%**
+
+3. **🗨️ Crecimiento de Comentarios Positivos**  
+   - **📝 Descripción:**  
+     Evalúa el porcentaje de crecimiento de las reseñas positivas, ayudando a medir el nivel de satisfacción del cliente y la percepción general del negocio.  
+   - **📊 Visualización:**  
+     Incluye una tabla comparativa y un gráfico que destacan las tendencias entre períodos consecutivos, resaltando oportunidades y logros.  
+   - **🎯 Meta:** **5%**
+
+4. **🌟 Crecimiento de Reseñas Anuales**  
+   - **📝 Descripción:**  
+     Este KPI mide el nivel de interacción y participación de los clientes en las plataformas de reseñas, evaluando la visibilidad del negocio.  
+   - **📊 Visualización:**  
+     Gráfico de líneas que muestra la evolución de las reseñas anuales, con segmentación por ciudad para identificar patrones clave.  
+   - **🎯 Meta:** **5%**
+
+---
+
+### 📈 **Representación Visual y Foco de Negocio**
+
+- **🎨 Diseño adecuado:**  
+  Los KPIs están representados mediante visualizaciones claras y efectivas, como gráficos de líneas, tablas y métricas clave destacadas con colores que indican su estado:  
+  - 🟢 **Verde**: Objetivos cumplidos.  
+  - 🔴 **Rojo**: Áreas de oportunidad.  
+
+- **📍 Distribución estratégica:**  
+  Los KPIs están posicionados en la parte superior de las pestañas correspondientes, asegurando una jerarquía visual que facilita su interpretación.
+
+- **🎯 Relevancia:**  
+  Estos indicadores están directamente alineados con los objetivos del negocio, como:  
+  - Mejorar el desempeño financiero.  
+  - Incrementar la satisfacción del cliente.  
+  - Aumentar la visibilidad e interacción en plataformas digitales.
+
+---
+
+### ✅ **Conclusión**
+
+El dashboard integra **4 KPIs bien formulados**, representados de manera visual e intuitiva, lo que permite a los usuarios identificar rápidamente áreas de mejora y oportunidades de crecimiento. Este diseño estratégico asegura un análisis claro y accionable, alineado con los objetivos del proyecto. 🚀
+
 
 ## Selección del Modelo y Feature Engineering
 ![6](https://github.com/user-attachments/assets/c006c331-8fc3-4ce5-addf-6c31a1503a0c)
