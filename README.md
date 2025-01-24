@@ -989,8 +989,8 @@ Conectado a **BigQuery** para consultas actualizadas e interactivas en tiempo re
 | **Sección**                        | **Enlace**                            |
 |-----------------------------------|---------------------------------------|
 | **Hitos**                         |                                       |
-|                                   | [Diseño de Reportes/Dashboards](#diseño-de-reportesdashboards) |
-|                                   | [KPIs](#kpis)                        |
+|                                   | [Diseño de Reportes/Dashboards](#diseño-de-reportesdashboardss3) |
+|                                   | [KPIs](#kpiss3)                        |
 |                                   | [Modelos de ML](#modelos-de-ml)       |
 |                                   | [Modelo de ML en Producción](#modelo-de-ml-en-producción) |
 |                                   | [Documentación](#documentación)       |
@@ -1009,13 +1009,23 @@ Conectado a **BigQuery** para consultas actualizadas e interactivas en tiempo re
 
 # Hitos
 
-## Diseño de Reportes/Dashboards
+## Diseño de Reportes/Dashboardss3
 ![1](https://github.com/user-attachments/assets/44620292-609f-4ea5-8a10-993c086d112d)
 
 El dashboard interactivo diseñado tiene un Panel de Navegación intuitivo y se organiza en diferentes pestañas, cada una con un enfoque específico.
 Las pestañas incluyen Reseñas, Valoraciones, Ventas, Ubicaciones, Puntajes, y Conclusiones. Cada pestaña está enfocada en proporcionar información relevante para la expansión del negocio, con visualizaciones y KPIs.
 Estructura y estética: El diseño incluye filtros y gráficos interactivos (como el de ventas y puntajes) que facilitan el análisis.
+## Diseño del Dashboard
+![9](https://github.com/user-attachments/assets/8dc859b2-c46c-4047-95aa-fc40fc70f1d4)
 
+El análisis de los datos de reseñas, valoraciones y ventas se presenta a través de gráficos interactivos que muestran tendencias y patrones, lo que facilita la interpretación para tomar decisiones estratégicas
+
+## Funcionalidad y Usabilidad
+![10](https://github.com/user-attachments/assets/8cd7d84d-aee6-478b-9a98-d7ea77185f7f)
+
+El dashboard es completamente interactivo, lo que garantiza una funcionalidad y usabilidad óptimas para los usuarios.
+Las visualizaciones son claras, y los usuarios pueden filtrar y explorar los datos fácilmente.
+###### KPIs3
 ## KPIs
 ![2](https://github.com/user-attachments/assets/b65da720-522e-4a78-9613-66433bd88944)
 
@@ -1050,21 +1060,7 @@ El análisis de los datos de reseñas, valoraciones y ventas se presenta a trav�
 
 Documenta los objetivos tecnológicos del proyecto.
 
-## Diseño del Dashboard
-![9](https://github.com/user-attachments/assets/8dc859b2-c46c-4047-95aa-fc40fc70f1d4)
 
-El análisis de los datos de reseñas, valoraciones y ventas se presenta a través de gráficos interactivos que muestran tendencias y patrones, lo que facilita la interpretación para tomar decisiones estratégicas
-
-## Funcionalidad y Usabilidad
-![10](https://github.com/user-attachments/assets/8cd7d84d-aee6-478b-9a98-d7ea77185f7f)
-
-El dashboard es completamente interactivo, lo que garantiza una funcionalidad y usabilidad óptimas para los usuarios.
-Las visualizaciones son claras, y los usuarios pueden filtrar y explorar los datos fácilmente.
-
-## KPIs (Rúbrica)
-![2](https://github.com/user-attachments/assets/4e6b9a8e-10ea-45b8-ae0e-4fb1cf61a735)
-
-Describe los KPIs evaluados para la rúbrica.
 
 ## EDA / Feature Selection
 ![11](https://github.com/user-attachments/assets/7cad574e-92ef-4be5-9d8d-4ed91eff4577)
