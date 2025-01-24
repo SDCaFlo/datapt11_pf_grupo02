@@ -418,15 +418,18 @@ Fórmula: % de crecimiento de comentarios positivos = [(Total comentarios positi
 ![kpi3](https://github.com/user-attachments/assets/8b5408d9-84e3-4ca2-9c2b-1f9574f5b726)
 
 
-### 🚀 **KPI 3: Tasa de Crecimiento de las Calificaciones**  
-- **Descripción**:  
-   Monitorea el **crecimiento de la visibilidad** del negocio basado en el **número de reseñas** recibidas en el periodo.  
-- **Fórmula**:  
+### 🚀 **KPI 3: Tasa de Crecimiento de las Calificaciones**
+
+- **📖 Descripción**:  
+   Este KPI mide el **crecimiento en la visibilidad del negocio**, basado en el incremento del **número de reseñas** recibidas en un periodo específico. Un aumento constante en las calificaciones indica mayor interés y participación de los clientes.
+
+- **📐 Fórmula**:  
    \[
-   \text{Porcentaje de crecimiento de calificaciones} = \frac{\text{(Total comentarios periodo actual - Total comentarios periodo anterior)}}{\text{Total comentarios periodo anterior}} \times 100
-   \]  
-- **Meta**: ✅ **2%**
-- ---
+   \text{Porcentaje de Crecimiento de Calificaciones} = \frac{\text{Total comentarios periodo actual} - \text{Total comentarios periodo anterior}}{\text{Total comentarios periodo anterior}} \times 100
+   \]
+
+- **🎯 Meta**:  
+   ✅ **2%**
 
 ---
 
@@ -993,7 +996,6 @@ Conectado a **BigQuery** para consultas actualizadas e interactivas en tiempo re
 |                                   | [KPIs](#kpis3)                        |
 |                                   | [Modelos de ML](#modelos-de-ml)       |
 |                                   | [Modelo de ML en Producción](#modelo-de-ml-en-producción) |
-|                                   | [Documentación](#documentación)       |
 |                                   | [Selección del Modelo y Feature Engineering](#selección-del-modelo-y-feature-engineering) |
 |                                   | [Informe de Análisis](#informe-de-análisis) |
 | **Rúbrica**                       |                                       |
@@ -1176,13 +1178,6 @@ Crecimiento de las ventas (meta 4%)
 Crecimiento en la cantidad de reseñas (meta 2%)
 Crecimiento de los comentarios positivos (meta 2%)
 Cada KPI se visualiza en el dashboard para permitir un análisis fácil y rápido.
-
-## Documentación
-![5](https://github.com/user-attachments/assets/7e02c074-f3bf-467a-9609-d556822683f1)
-
-Se ha documentado todo el proceso: desde la limpieza de datos y recolección hasta el desarrollo de modelos y el diseño del dashboard.
-Además, la presentación final incluye los hallazgos clave y el análisis detallado de los KPIs.
-
 
 ## Selección del Modelo y Feature Engineering
 ![6](https://github.com/user-attachments/assets/c006c331-8fc3-4ce5-addf-6c31a1503a0c)
