@@ -990,7 +990,7 @@ Conectado a **BigQuery** para consultas actualizadas e interactivas en tiempo re
 |-----------------------------------|---------------------------------------|
 | **Hitos**                         |                                       |
 |                                   | [Diseño de Reportes/Dashboards](#diseño-de-reportesdashboardss3) |
-|                                   | [KPIs](#kpiss3)                        |
+|                                   | [KPIs](#kpis3)                        |
 |                                   | [Modelos de ML](#modelos-de-ml)       |
 |                                   | [Modelo de ML en Producción](#modelo-de-ml-en-producción) |
 |                                   | [Documentación](#documentación)       |
@@ -1026,6 +1026,7 @@ El análisis de los datos de reseñas, valoraciones y ventas se presenta a trav�
 El dashboard es completamente interactivo, lo que garantiza una funcionalidad y usabilidad óptimas para los usuarios.
 Las visualizaciones son claras, y los usuarios pueden filtrar y explorar los datos fácilmente.
 ###### KPIs3
+
 ## KPIs
 ![2](https://github.com/user-attachments/assets/b65da720-522e-4a78-9613-66433bd88944)
 
