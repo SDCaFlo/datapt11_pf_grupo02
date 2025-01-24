@@ -408,7 +408,8 @@ Fórmula: % de crecimiento de comentarios positivos = [(Total comentarios positi
    Mide el **promedio de las calificaciones** dejadas por los usuarios durante un periodo, reflejando la **satisfacción del cliente** de manera cuantitativa.  
 - **Fórmula**:  
    
-   \text{Puntaje promedio} = \frac{\text{Sumatoria total de puntajes del periodo}}{\text{Total de usuarios que dejaron calificación}}
+  Puntaje promedio = (Sumatoria total de puntajes del periodo) / (Total de usuarios que dejaron calificación)
+
    
 - **Meta**: ✅ **3.8**  
 
@@ -424,9 +425,7 @@ Fórmula: % de crecimiento de comentarios positivos = [(Total comentarios positi
    Este KPI mide el **crecimiento en la visibilidad del negocio**, basado en el incremento del **número de reseñas** recibidas en un periodo específico. Un aumento constante en las calificaciones indica mayor interés y participación de los clientes.
 
 - **📐 Fórmula**:  
-   \[
-   \text{Porcentaje de Crecimiento de Calificaciones} = \frac{\text{Total comentarios periodo actual} - \text{Total comentarios periodo anterior}}{\text{Total comentarios periodo anterior}} \times 100
-   \]
+Tasa de Crecimiento (%) = ((Total comentarios periodo actual - Total comentarios periodo anterior) / Total comentarios periodo anterior) * 100
 
 - **🎯 Meta**:  
    ✅ **2%**
