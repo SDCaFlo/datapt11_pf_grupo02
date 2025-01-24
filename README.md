@@ -393,9 +393,10 @@ Este enfoque, sustentado en **tecnología avanzada**, asegura una gestión **est
 S (Crecimiento de comentarios positivos)
 - **Descripción**:  
    Monitorea el **sentimiento de los comentarios** para conocer la **opinión del consumidor**. Se calcula como el **porcentaje de comentarios positivos** respecto al total de comentarios del periodo.  
-- **Fórmula**:  
-  
-Fórmula: % de crecimiento de comentarios positivos = [(Total comentarios positivos periodo actual - Total comentarios positivos periodo anterior) / Total de comentarios positivos periodo anterior] * 100
+- **Fórmula**:
+-   
+% de crecimiento de comentarios positivos =  
+((Total comentarios positivos periodo actual - Total comentarios positivos periodo anterior) / Total comentarios positivos periodo anterior) * 100
 
 - **Meta**: ✅ **5%**  
 
