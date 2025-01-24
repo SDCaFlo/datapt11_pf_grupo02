@@ -1186,6 +1186,77 @@ Además, la presentación final incluye los hallazgos clave y el análisis detal
 
 ## Selección del Modelo y Feature Engineering
 ![6](https://github.com/user-attachments/assets/c006c331-8fc3-4ce5-addf-6c31a1503a0c)
+## 🔍 **Proceso de Selección del Modelo y Técnicas de Feature Engineering**
+
+### 📈 **1. Proceso de Selección del Modelo**
+
+El objetivo principal era desarrollar un modelo capaz de predecir el **crecimiento porcentual trimestral de las ventas** de negocios de Coffee Shops. Para lograrlo, se siguió un proceso estructurado:
+
+#### **Paso 1: Análisis del Problema**
+- Se definió como variable objetivo (**target**) el porcentaje de crecimiento de las ventas mensuales, calculado a partir de los datos históricos.
+- El problema se identificó como una tarea de **regresión**, ya que requería predecir un valor continuo (crecimiento porcentual).
+
+#### **Paso 2: Evaluación de Modelos**
+- Inicialmente se consideraron varios modelos de regresión, incluyendo:
+  - **Linear Regression**: Descartado por su incapacidad para capturar relaciones no lineales entre las variables.
+  - **Gradient Boosting**: Evaluado como alternativa, pero más costoso computacionalmente.
+  - **Random Forest Regressor**: Seleccionado por su robustez y capacidad de manejar datos no lineales y correlaciones entre variables.
+
+#### **Paso 3: Selección Final**
+El modelo **Random Forest Regressor** fue elegido debido a:
+- 🌲 **Manejo de relaciones complejas**: Captura interacciones no lineales entre features como ubicación geográfica, calificaciones y ventas.
+- 🛠️ **Robustez ante outliers**: Es menos sensible a datos atípicos en comparación con modelos lineales.
+- 📊 **Importancia de las variables**: Permite identificar qué features tienen mayor impacto en la predicción, facilitando la interpretación.
+
+---
+
+### 🧩 **2. Técnicas de Feature Engineering**
+
+El éxito del modelo depende de la calidad de las variables seleccionadas y procesadas. A partir del EDA realizado, se implementaron las siguientes técnicas de **feature engineering**:
+
+#### **Feature Engineering Realizado**
+1. **Creación de la Variable Objetivo (Crecimiento Porcentual)**
+   - Se calculó el porcentaje de crecimiento de las ventas mensuales utilizando la fórmula:
+     \[
+     \text{growth_percentage} = \frac{\text{ventas\_actuales} - \text{ventas\_anteriores}}{\text{ventas\_anteriores}} \times 100
+     \]
+   - **Motivación**: Esta métrica refleja directamente el desempeño económico del negocio.
+
+2. **Transformación de Variables Categóricas**
+   - **Sentimiento de las Reseñas**:
+     - Se categorizó en tres valores:
+       - **1**: Positivo.
+       - **0**: Neutro.
+       - **-1**: Negativo.
+     - Luego, se calculó el promedio de los valores sentimentales por negocio para obtener una métrica cuantitativa.
+   - **Motivación**: Capturar la percepción subjetiva del cliente para mejorar la precisión del modelo.
+
+3. **Normalización de Ventas Mensuales**
+   - Se usaron los valores de ventas mensuales para normalizar el rango de datos y evitar que las variables con valores mayores dominen el modelo.
+   - **Motivación**: Facilitar el aprendizaje del modelo y evitar problemas de escala.
+
+4. **Ubicación Geográfica**
+   - Las columnas **latitude** y **longitude** se incluyeron directamente como features.
+   - **Motivación**: Permitir al modelo identificar patrones geográficos como densidad de competencia o proximidad a la población objetivo.
+
+5. **Filtro por Calificaciones**
+   - Se incluyeron únicamente negocios con calificaciones promedio mayores o iguales a **4 estrellas**.
+   - **Motivación**: Asegurar que el modelo se enfoque en negocios que ya cuentan con un nivel de desempeño satisfactorio.
+
+---
+
+### 🎯 **Impacto del Feature Engineering en el Modelo**
+- Las técnicas de feature engineering permitieron al modelo capturar patrones importantes como:
+  - Relación entre **calificaciones y desempeño**.
+  - Impacto de la **ubicación geográfica** en las ventas.
+  - Influencia del **sentimiento del cliente** en el crecimiento.
+- Estos ajustes mejoraron tanto el **R²** como el **RMSE**, asegurando un mejor desempeño en las predicciones.
+
+---
+
+### 🚀 **Conclusión**
+El proceso de selección del modelo y las técnicas de feature engineering se diseñaron cuidadosamente para garantizar que el modelo fuera robusto, interpretable y alineado con los objetivos del negocio. Esto asegura que las predicciones sean confiables y accionables para la toma de decisiones estratégicas.
+
 
 Detalla el proceso de selección del modelo y las técnicas de feature engineering utilizadas.
 
