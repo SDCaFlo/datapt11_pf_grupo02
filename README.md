@@ -997,7 +997,6 @@ Conectado a **BigQuery** para consultas actualizadas e interactivas en tiempo re
 |                                   | [Selección del Modelo y Feature Engineering](#selección-del-modelo-y-feature-engineering) |
 |                                   | [Informe de Análisis](#informe-de-análisis) |
 | **Rúbrica**                       |                                       |
-|                                   | [Objetivos Tech](#objetivos-tech)     |
 |                                   | [Diseño del Dashboard](#diseño-del-dashboard) |
 |                                   | [Funcionalidad y Usabilidad](#funcionalidad-y-usabilidad) |
 |                                   | [KPIs (Rúbrica)](#kpis-rubrica)       |
@@ -1194,20 +1193,82 @@ Detalla el proceso de selección del modelo y las técnicas de feature engineeri
 ![7](https://github.com/user-attachments/assets/e219ff7d-45db-44a5-a7d1-8c7158a40854)
 
 El análisis de los datos de reseñas, valoraciones y ventas se presenta a través de gráficos interactivos que muestran tendencias y patrones, lo que facilita la interpretación para tomar decisiones estratégicas
-# Rúbrica
-
-## Objetivos Tech
-![8](https://github.com/user-attachments/assets/b4a7cc93-fcc7-43ab-b08c-96ce85b4a28e)
-
-
-Documenta los objetivos tecnológicos del proyecto.
-
-
 
 ## EDA / Feature Selection
 ![11](https://github.com/user-attachments/assets/7cad574e-92ef-4be5-9d8d-4ed91eff4577)
 
-Explica cómo realizaste el análisis exploratorio de datos y la selección de características.
+# 🧠 **EDA y Selección de Features**
+
+El modelo desarrollado para predecir el **crecimiento económico de los negocios de Coffee Shops** está fundamentado en un **EDA profundo**. Este análisis permitió identificar relaciones clave en los datos y guiar la selección de las **features** utilizadas. A continuación, explicamos la conexión entre el EDA y el modelo, así como la fundamentación de las decisiones tomadas.
+
+---
+
+## 📊 **Insights del EDA y Conexión con las Features Seleccionadas**
+
+### ⭐ **1. StarsReviews (Promedio de Calificaciones)**
+- **Relación con el EDA**:  
+  El análisis reveló que los negocios exitosos tienden a tener calificaciones promedio altas en plataformas como Yelp y Google. Philadelphia, por ejemplo, destacó por su alta concentración de reseñas positivas, lo que refuerza la relación entre calificaciones y desempeño.
+- **Motivación para incluirlo**:  
+  La puntuación promedio refleja la **satisfacción del cliente** y es un indicador directo de la calidad percibida del negocio, un factor crítico para el crecimiento futuro.
+
+---
+
+### 😊 **2. SentimientoScore (Análisis de Sentimientos)**
+- **Relación con el EDA**:  
+  El EDA destacó la importancia de la **percepción del cliente**, medida a través de los sentimientos en las reseñas. Los negocios con mayor porcentaje de comentarios positivos tienen mejor desempeño y mayor potencial de crecimiento.
+- **Motivación para incluirlo**:  
+  Este feature complementa las calificaciones al proporcionar una visión **subjetiva del cliente**, ayudando a capturar la percepción más profunda sobre el negocio.
+
+---
+
+### 📍 **3. Latitude y Longitude (Ubicación Geográfica)**
+- **Relación con el EDA**:  
+  Los análisis geográficos mostraron una correlación entre la densidad poblacional y la presencia de negocios. Además, zonas estratégicas como **Philadelphia** y **Tampa** tienen una mayor concentración de negocios exitosos.
+- **Motivación para incluirlo**:  
+  Las coordenadas permiten al modelo capturar **patrones geográficos** y regionales que influyen en el crecimiento, como la competencia o la accesibilidad del negocio.
+
+---
+
+### 💵 **4. Monthly_Sales (Ventas Mensuales)**
+- **Relación con el EDA**:  
+  El análisis de tendencias trimestrales en ventas reveló un crecimiento sostenido en el sector, interrumpido temporalmente durante la pandemia. Las ventas pasadas demostraron ser un **predictor confiable del desempeño futuro**.
+- **Motivación para incluirlo**:  
+  Este feature refleja el desempeño financiero y ofrece una base sólida para calcular tasas de crecimiento, siendo clave para predecir tendencias económicas.
+
+---
+
+## 📈 **Fundamentación del Modelo: Random Forest Regressor**
+
+### 🤖 **Elección del Modelo**
+El modelo seleccionado fue un **Random Forest Regressor**, ideal para este caso debido a:  
+1. 🌲 **Capacidad para manejar datos no lineales**: Permite capturar relaciones complejas entre las variables, como el impacto geográfico o del sentimiento.
+2. 🛠️ **Robustez ante datos correlacionados**: Maneja eficientemente features como latitude/longitude y ventas mensuales, que pueden estar parcialmente relacionadas.
+3. 📊 **Medición de importancia de variables**: Facilita la interpretación de cómo cada feature contribuye al modelo, conectando los resultados con decisiones estratégicas.
+
+---
+
+## 🧩 **Fundamentación de los Criterios de Desarrollo**
+
+### **1. Creación de la Variable de Crecimiento**
+- El crecimiento económico se mide como el **porcentaje de incremento en las ventas mensuales respecto al mes anterior**.
+- **Motivación**: Este cálculo refleja directamente el desempeño económico del negocio, alineándose con los objetivos del proyecto.
+
+---
+
+## 🎯 **Conexión entre Features y Objetivo del Modelo**
+
+El objetivo del modelo es predecir el **crecimiento porcentual trimestral de las ventas**. Cada feature seleccionado aporta información esencial para lograr este objetivo:
+
+1. ⭐ **StarsReviews**: Relaciona la calidad percibida con el desempeño futuro.
+2. 😊 **SentimientoScore**: Mide la percepción subjetiva del cliente, clave en el crecimiento.
+3. 📍 **Latitude y Longitude**: Capta patrones geográficos y regionales.
+4. 💵 **Monthly_Sales**: Proporciona un historial financiero para predecir tendencias.
+
+---
+
+## 📝 **Conclusión**
+
+El modelo conecta de manera sólida los insights obtenidos en el EDA con las decisiones de selección de features. Cada variable seleccionada está fundamentada en un hallazgo clave del análisis, asegurando que el modelo sea tanto preciso como estratégico. 🚀
 
 ## Modelo Machine Learning
 ![12](https://github.com/user-attachments/assets/7953670a-e3e5-4124-acc8-10c23c7af850)
