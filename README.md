@@ -1026,15 +1026,6 @@ Crecimiento en la cantidad de reseñas (meta 2%)
 Crecimiento de los comentarios positivos (meta 2%)
 Cada KPI se visualiza en el dashboard para permitir un análisis fácil y rápido.
 
-## Modelos de ML
-![3](https://github.com/user-attachments/assets/70450c8c-aec7-4233-be37-42ec506aebcb)
-
-Se han desarrollado dos modelos de machine learning:
-Análisis de Sentimientos: Para medir el nivel de satisfacción del consumidor a partir de los comentarios de los clientes.
-Prediccion de Exito: Para predecir el potencial económico de nuevas ubicaciones.
-Ambos modelos están diseñados para facilitar la toma de decisiones estratégicas basadas en datos.
-
-
 ## Documentación
 ![5](https://github.com/user-attachments/assets/7e02c074-f3bf-467a-9609-d556822683f1)
 
@@ -1082,8 +1073,55 @@ Explica cómo realizaste el análisis exploratorio de datos y la selección de c
 
 ## Modelo Machine Learning
 ![12](https://github.com/user-attachments/assets/7953670a-e3e5-4124-acc8-10c23c7af850)
-
+Se han desarrollado dos modelos de machine learning:
+Análisis de Sentimientos: Para medir el nivel de satisfacción del consumidor a partir de los comentarios de los clientes.
+Prediccion de Exito: Para predecir el potencial económico de nuevas ubicaciones.
+Ambos modelos están diseñados para facilitar la toma de decisiones estratégicas basadas en datos.
 Los modelos de ML se enfocan en el análisis de sentimientos y la estimación del impacto económico de las ubicaciones. Estos están en producción y operativos en la nube.
+Explicacion del Modelo de Analisis de sentimientos:
+
+# **Modelo de Sentimientos** 🧠💬
+
+Para el análisis de sentimientos de las **reseñas de los clientes**, utilizamos técnicas de procesamiento de lenguaje natural (**NLP**) y un modelo preentrenado llamado **RoBERTa** 🚀. Este modelo es una variante optimizada de **BERT** y fue utilizado para clasificar las reseñas en tres categorías: 
+
+- **Negativo** ❌
+- **Neutro** 😐
+- **Positivo** ✅
+
+## **Procedimiento Inicial** 🏁
+En un primer intento, aplicamos el modelo preentrenado estándar proporcionado por la librería, utilizando una porción de los datos. Sin embargo, descubrimos que el modelo no clasificaba correctamente las reseñas para nuestra tarea específica.
+
+📉 **Ejemplo:** Un comentario que mencionaba:  
+> "La atención es buena, la comida mejor, pero el aseo deja mucho que desear, por lo que no volvería".  
+Este comentario fue clasificado erróneamente como **Neutro** o **Positivo**. Para nosotros, este debería haber sido **Negativo**. 😕
+
+## **Entrenamiento Personalizado** 🔧
+Para mejorar el modelo, decidimos **entrenarlo con un conjunto de datos clasificados manualmente** por cada uno de los miembros del equipo. Definimos más detalladamente qué comentarios se consideraban **positivos**, **neutros** o **negativos**. 
+
+Tras este ajuste, el modelo mostró **mejoras significativas** en la clasificación, corrigiendo los errores anteriores. 📈
+
+## **Resultados Iniciales** 🔍
+En la **evaluación inicial**, el modelo mostró una **exactitud del 58%**, con una tendencia a sobrestimar los comentarios como **positivos**. Este resultado no fue adecuado para nuestra aplicación.
+
+## **Mejoras Post-Entrenamiento** 📊
+Después de realizar el entrenamiento personalizado, el modelo fue reejecutado y evaluado nuevamente, logrando **mejorar considerablemente la precisión** y **corrigiendo la sobreestimación** de los comentarios positivos.
+
+## **Detalles Técnicos** 🔬
+
+**RoBERTa** es un modelo **descendiente de BERT** optimizado y preentrenado con una mayor cantidad de datos. 
+
+✅ **Características destacadas de RoBERTa:**
+- **Tokenización dinámica** para un manejo más eficiente de las secuencias.
+- Capacidad de manejar **textos más largos** con mayor eficiencia.
+
+### **Métricas utilizadas** ⚙️:
+- **Precisión (Precision)**: Mide la proporción de predicciones correctas para una clase entre todas las predicciones realizadas para esa clase.
+- **Recall**: Mide la proporción de instancias de una clase correctamente identificadas por el modelo.
+- **F1 Score**: Es la **media armónica** entre la precisión y el recall, proporcionando un balance entre ambos.
+
+---
+
+Este modelo nos permitió mejorar significativamente la clasificación de los **sentimientos** en las reseñas y ajustarlo específicamente a las necesidades de nuestro negocio. 💡📈
 
 ## Modelo ML en Producción 
 ![4](https://github.com/user-attachments/assets/fdcd7ec0-1a85-42e0-bc12-b2fc0b7908ec)
