@@ -692,7 +692,7 @@ Census
 "Estamos convencidos de que este proyecto será el punto de partida para la expansión exitosa de su negocio. Nuestro trabajo no solo busca identificar ubicaciones rentables, sino también brindarle herramientas que faciliten decisiones basadas en datos sólidos y confiables.
 Hoy le presentamos los primeros resultados de este proceso. A medida que avancemos, le mostraremos más hallazgos, siempre con la misión de maximizar su éxito en este sector tan competitivo."
 
-### Contacto:
+### Contacto: 
 #### Claudia Jara Yañez:
 Rol: Data Analyst
 
